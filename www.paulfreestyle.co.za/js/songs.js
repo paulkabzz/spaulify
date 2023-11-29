@@ -204,7 +204,7 @@ const musicArray = [
     Bit by bit, torn apart
     We never win, but the battle wages on
     For toy soldiers`,
-    artistImg: 'Eminem.jpeg',
+    artistImg: 'eminem.jpeg',
     img: 'encore.jpeg',
     source: 'toysoldiers.mp3',
     ft: ''
@@ -272,7 +272,7 @@ const musicArray = [
     I surrender
     I wanna know You more
     I wanna know You more`,
-    artistImg: 'Hillsong.jpeg',
+    artistImg: 'hillsong.jpeg',
     img: 'I_Surrender.jpeg',
     source: 'surrender.mp3',
     ft: ''
@@ -395,7 +395,7 @@ const musicArray = [
     I wanna be the only one you need
     I wanna be the only one you need
     I wanna be the only one, only one`,
-    artistImg: 'binki.jpg'
+    artistImg: 'Binki.jpg'
 
 }, 
 {
