@@ -17,7 +17,7 @@ const musicArray = [
             Unavailable`,
             artistImg: 'ludovico.jpeg',
             img: '1.jpeg',
-            source: '',
+            source: 'experience.mp3',
             ft: ''
         
     },
@@ -273,7 +273,7 @@ const musicArray = [
     I wanna know You more
     I wanna know You more`,
     artistImg: 'hillsong.jpeg',
-    img: 'i_surrender.jpeg',
+    img: 'I_Surrender.jpeg',
     source: 'surrender.mp3',
     ft: ''
 },
@@ -504,6 +504,87 @@ const musicArray = [
     source: 'zoom-remix.mp3',
     artistImg: 'thugger.jpeg',
     lyrics: `[ Sorry, lyrics unavailable :( ]`
+},
+{
+    name: "Little Talks",
+    artist: "Of Monsters and Men",
+    img: 'littletalks.jpeg',
+    ft: ``,
+    source: 'littletalks.mp3',
+    artistImg: 'omam.jpg',
+    lyrics: `I don't like walking around this old and empty house
+    So hold my hand, I'll walk with you my dear
+    The stairs creak as you sleep
+    It's keeping me awake
+    It's the house telling you to close your eyes
+    And some days I can't even dress myself
+    It's killing me to see you this way
+    'Cause though the truth may vary
+    This ship will carry our bodies safe to shore
+    There's an old voice in my head
+    That's holding me back
+    Well, tell her that I miss our little talks
+    Soon it will be over and buried with our past
+    We used to play outside when we were young
+    And full of life and full of love
+    Some days I don't know if I am wrong or right
+    Your mind is playing tricks on you, my dear
+    'Cause though the truth may vary
+    This ship will carry our bodies safe to shore
+    Don't listen to a word I say
+    (Hey)
+    The screams all sound the same
+    (Hey)
+    And though the truth may vary
+    This ship will carry our bodies safe to shore
+    You're gone, gone, gone away
+    I watched you disappear
+    All that's left is a ghost of you
+    Now we're torn, torn, torn apart
+    There's nothing we can do
+    Just let me go, we'll meet again soon
+    Now wait, wait, wait for me, please hang around
+    I'll see you when I fall asleep
+    Don't listen to a word I say
+    (Hey)
+    The screams all sound the same
+    (Hey)
+    Though the truth may vary
+    This ship will carry our bodies safe to shore
+    Don't listen to a word I say
+    (Hey)
+    The screams all sound the same
+    (Hey)
+    Though the truth may vary
+    This ship will carry our bodies safe to shore
+    Though the truth may vary
+    This ship will carry our bodies safe to shore
+    Though the truth may vary
+    This ship will carry our bodies safe to shore`
+},
+{
+    name: "Spiral Stairs",
+    artist: "Yot Club",
+    img: 'spiral.jpeg',
+    ft: ``,
+    source: 'spiral-stairs.mp3',
+    artistImg: 'yot-club.jpg',
+    lyrics: `They sent things that we all love
+    All is said, all it's good to know
+    Some things are spilling there a step above
+    Stock the stairs with the spiral
+    But it's already been done before
+    So, what's the point? Let's just have fun with it
+    Yeah, it's already been done before
+    So, what's the point? Let's just have fun
+    You keep that feeling that you've all won
+    Play it down, make it seem fun
+    Oh, you're so humble, you've already won
+    But how should I make it seem fun?
+    Yeah, 'cause it's already been done before
+    So, what's the point? Let's just have fun with it
+    Yeah, it's already been done before
+    So, what's the point? Let's just have fun`
 },
 {
     name: "The Night Begins To Shine",
@@ -1128,7 +1209,7 @@ const musicArray = [
     artist: 'Eminem',
     ft: '',
     img: 'mmlp.jpeg',
-    source: 'Kim.mp3',
+    source: 'kim.mp3',
     lyrics: `Aww, look at daddy's baby girl
     That's daddy's baby, little sleepy head
     Yesterday I changed your diaper, wiped you and powdered you
@@ -2498,6 +2579,64 @@ const musicArray = [
     artistImg: 'eminem.jpeg'
 
 },
+{
+        name: 'Can I Call You Tonight?',
+        artist: 'Dayglow',
+        lyrics: `
+        I feel close
+        Well, maybe I'm not, heaven knows
+        It's a spotlight stuck on the ceiling
+        Why are these the things that I'm feeling?
+        There's so much time
+        For me to speak up, but I keep quiet
+        I'll complicate the most of the mantra
+        The power is out and I can't turn the fan on
+        So can I call you tonight?
+        I'm trying to make up my mind
+        Just how I feel
+        Could you tell me what's real?
+        I hear your voice on the phone
+        Now I'm no longer alone
+        Just how I feel
+        Could you tell me what's real anymore?
+        'Cause I wouldn't know
+        Voice so low
+        Sneaking around, so it goes
+        I always try my best to listen
+        Picking up things that I can fidget
+        Circle speed, pacing around, watching my feet
+        Batteries drain, I get the memo
+        I think that I might have to let you go
+        So can I call you tonight?
+        I'm trying to make up my mind
+        Just how I feel
+        Could you tell me what's real?
+        I hear your voice on the phone
+        Now I'm no longer alone
+        Just how I feel
+        Could you tell me what's real anymore?
+        'Cause I wouldn't know
+        Don't go, don't go so easy
+        Don't go, don't go and leave me
+        Don't go, don't go so easy
+        Don't go, don't go and leave me
+        Don't go, don't go so easy
+        Don't go, don't go and leave me
+        Don't go, don't go so easy
+        Don't go, go
+        So can I call you tonight?
+        I'm trying to make up my mind
+        Just how I feel
+        Could you tell me what's real?
+        I hear your voice on the phone
+        Now I'm no longer alone
+        Just how I feel
+        Could you tell me what's real anymore?
+        'Cause I wouldn't know`,
+        artistImg: 'dayglow.jpg',
+        img: 'cicyt.jpeg',
+        source: 'cicyt.mp3'
+    },
 // {
 //     name: 'Frag Out',
 //     artist: 'DJ Assass1n',
