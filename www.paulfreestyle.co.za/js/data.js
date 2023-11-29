@@ -1,11 +1,11 @@
 const dataArray = [
-    {
-        name: "",
-        artist: '',
-        img: '',
-        source: ''
+    // {
+    //     name: "",
+    //     artist: '',
+    //     img: '',
+    //     source: ''
 
-    },
+    // },
    {
         name: "Landline",
         artist: 'Bikini',
@@ -16,28 +16,28 @@ const dataArray = [
     {
         name: "Beautiful",
         artist: 'Eminem',
-        img: 'relapse.jpg',
+        img: 'relapse.jpeg',
         source: 'beautiful.mp3'
 
     },
     {
         name: "Hot",
         artist: 'Young Thug',
-        img: 'smf-d.jpg',
+        img: 'smf.jpeg',
         source: 'hot.mp3'
 
     },
     {
         name: "Jusfayu",
         artist: 'Kamauu',
-        img: 'jusfayu.jpg',
+        img: 'jusfayu.jpeg',
         source: 'jusfayu.mp3'
 
     },
     {
         name: "Drop The World",
         artist: 'Lil Wayne',
-        img: 'wayne.jpeg',
+        img: 'droptheworld.jpeg',
         source: 'dtw.mp3'
 
     },
@@ -59,20 +59,20 @@ const dataArray = [
         name: "Kim",
         artist: 'Eminem',
         img: 'mmlp.jpeg',
-        source: 'Kim.mp3'
+        source: 'kim.mp3'
 
     },
     {
         name: "Harambe",
         artist: 'Young Thug',
-        img: 'jeffery.jpg',
+        img: 'jeffery.jpeg',
         source: 'harambe.mp3'
 
     },
     {
         name: "Holocaust",
         artist: 'CEZA',
-        img: 'ceza.jpg',
+        img: 'ceza.jpeg',
         source: 'holocaust.mp3'
 
     },
@@ -84,23 +84,44 @@ const dataArray = [
 
     },
     {
+        name: "Experience",
+        artist: 'Ludovico Einaudi',
+        img: '1.jpeg',
+        source: 'experience.mp3'
+
+    },
+    {
+        name: "Spiral Stairs",
+        artist: 'Yot Club',
+        img: 'spiral.jpeg',
+        source: 'spiral-stairs.mp3'
+
+    },
+    {
+        name: "Litlle Talks",
+        artist: 'Of Monsters and Men',
+        img: 'littletalks.jpeg',
+        source: 'littletalks.mp3'
+
+    },
+    {
         name: "Hold On",
         artist: 'Gareth Dunlop',
-        img: 'hold-on.jpeg',
+        img: 'hold-on.jpg',
         source: 'hold-on.mp3'
 
     },
     {
         name: "Wyclef Jean",
         artist: 'Young Thug',
-        img: 'jeffery.jpg',
+        img: 'jeffery.jpeg',
         source: 'wyclef.mp3'
 
     },
     {
         name: "Stepdad",
         artist: 'Eminem',
-        img: 'em.jpg',
+        img: 'em.jpeg',
         source: 'stepdad.mp3'
 
     },
@@ -114,7 +135,7 @@ const dataArray = [
     {
         name: "Kuzola",
         artist: 'Pongo',
-        img: 'pongo.jpeg',
+        img: 'kuzola.jpeg',
         source: 'kuzola.mp3'
 
     },
@@ -126,7 +147,7 @@ const dataArray = [
     {
         name: "Not Afraid",
         artist: 'Eminem',
-        img: 'recovery.jpg',
+        img: 'recovery.jpeg',
         source: 'not-afraid.mp3'
 
     },
@@ -140,7 +161,7 @@ const dataArray = [
     {
         name: "Vibe Hai",
         artist: 'Divine',
-        img: 'vibe.jpg',
+        img: 'vibe.jpeg',
         source: 'vibe.mp3'
 
     },
@@ -170,31 +191,36 @@ const dataArray = [
         artist: "Chief Keef",
         img: 'finallyrich.jpeg',
      },
-     {
-        name: 'Frag Out',
-        artist: 'DJ Assass1n',
-        img: 'fragout.jpeg'
-     },
+    //  {
+    //     name: 'Frag Out',
+    //     artist: 'DJ Assass1n',
+    //     img: 'fragout.jpeg'
+    //  },
      {
         name: "Beggin'",
         artist: "Madcon",
-        img: 'beggin.jpeg',
+        img: 'begin.jpeg',
      },
      {
         name: "Zoom (Remix)",
         artist: "Young Thug",
         img: 'thugger.jpg',
+     },
+     {
+        name: 'Can I Call You Tonight?',
+        artist: 'Dayglow',
+        img: 'cicyt.jpeg'
      }, 
      {
         name: 'Kids',
         artist: 'MGMT',
         img: 'kids.jpeg'
      },
-     {
-        name: 'Fearless',
-        artist: 'Lost Sky',
-        img: 'fearless.jpeg'
-     }, 
+    //  {
+    //     name: 'Fearless',
+    //     artist: 'Lost Sky',
+    //     img: 'fearless.jpeg'
+    //  }, 
      {
         name: `Hold on, We're going home`,
         artist: 'Drake',
@@ -203,7 +229,7 @@ const dataArray = [
      {
         name: `I Surrender`,
         artist: 'Hillsong Worship',
-        img: 'I_Surrender.jpeg'
+        img: 'i_surrender.jpeg'
      },
      {
         name: `Like Toy Soldiers`,
