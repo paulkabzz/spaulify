@@ -1,20 +1,33 @@
 const musicArray = [
+    // {
+    //     name: 'Chad',
+    //     artist: 'Giga Chad',
+    //     lyrics: `
+    //     Unavailable`,
+    //     artistImg: 'chad.jpg',
+    //     img: 'chad.jpg',
+    //     source: '',
+    //     ft: ''
+    // },'=
+
     {
-        name: 'Chad',
-        artist: 'Giga Chad',
-        lyrics: `
-        Unavailable`,
-        artistImg: 'chad.jpg',
-        img: 'chad.jpg',
-        source: '',
-        ft: ''
-    },{
+            name: 'Experience',
+            artist: 'Ludovico Einaudi',
+            lyrics: `
+            Unavailable`,
+            artistImg: 'ludovico.jpeg',
+            img: '1.jpeg',
+            source: '',
+            ft: ''
+        
+    },
+    {
     name: "Beggin'",
     artist: "Madcon",
-    img: 'beggin.jpeg',
+    img: 'begin.jpeg',
     ft: ``,
     source: 'beggin.mp3',
-    artistImg: 'madcon.jpg',
+    artistImg: 'madcon.jpeg',
     lyrics: `Oh
     Put your loving hand out, baby
     I'm beggin'
@@ -82,25 +95,25 @@ const musicArray = [
     Beggin', beggin' you
     Put your loving hand out, darling`
 },
-{
-    name: 'Fearless',
-    artist: 'Lost Sky',
-    lyrics: `
-    We all know that it's not fear
-    It's not fear
-    It's so fearless
-    We all know that it's not fear
-    It's not fear
-    It's so fearless
-    We all know that it's not fear
-    It's not fear
-    It's so fearless
-    It's so fearless`,
-    artistImg: 'Lost_Sky.webp',
-    img: 'fearless.jpeg',
-    source: 'fearless.mp3',
-    ft: ''
-},
+// {
+//     name: 'Fearless',
+//     artist: 'Lost Sky',
+//     lyrics: `
+//     We all know that it's not fear
+//     It's not fear
+//     It's so fearless
+//     We all know that it's not fear
+//     It's not fear
+//     It's so fearless
+//     We all know that it's not fear
+//     It's not fear
+//     It's so fearless
+//     It's so fearless`,
+//     artistImg: 'Lost_Sky.jpg',
+//     img: 'fearless.jpeg',
+//     source: 'fearless.mp3',
+//     ft: ''
+// },
 {
     name: 'Like Toy Soldiers',
     artist: 'Eminem',
@@ -259,7 +272,7 @@ const musicArray = [
     I surrender
     I wanna know You more
     I wanna know You more`,
-    artistImg: 'Hillsong.webp',
+    artistImg: 'Hillsong.jpeg',
     img: 'I_Surrender.jpeg',
     source: 'surrender.mp3',
     ft: ''
@@ -330,7 +343,7 @@ const musicArray = [
 {
     
     name: "Landline",
-    artist: 'Bikini',
+    artist: 'Binki',
     img: 'landline.png',
     ft: '',
     source: 'landline.mp3',
@@ -382,7 +395,7 @@ const musicArray = [
     I wanna be the only one you need
     I wanna be the only one you need
     I wanna be the only one, only one`,
-    artistImg: 'bikini.jpg'
+    artistImg: 'binki.jpg'
 
 }, 
 {
@@ -391,7 +404,7 @@ const musicArray = [
     img: 'finallyrich.jpeg',
     ft: ` ft. 50 Cent & Wiz Khalifa`,
     source: 'sober.mp3',
-    artistImg: 'chiefkeef.webp',
+    artistImg: 'chiefkeef.jpg',
     lyrics: `Young Chop on the beat
     I can't spell sober
     I'm a smoker, Fredo a drinker
@@ -489,7 +502,7 @@ const musicArray = [
     img: 'thugger.jpg',
     ft: ` ft. Lil Uzi Vert`,
     source: 'zoom-remix.mp3',
-    artistImg: 'youngthug.jpeg',
+    artistImg: 'thugger.jpeg',
     lyrics: `[ Sorry, lyrics unavailable :( ]`
 },
 {
@@ -556,7 +569,7 @@ const musicArray = [
     name: "Beautiful",
     artist: 'Eminem',
     ft: '',
-    img: 'relapse.jpg',
+    img: 'relapse.jpeg',
     source: 'beautiful.mp3',
     artistImg: "eminem.jpeg",
     lyrics: `Lately, I've been hard to reach
@@ -701,7 +714,7 @@ const musicArray = [
     name: "Hot",
     artist: 'Young Thug',
     ft: 'ft. Gunna',
-    img: 'smf-d.jpg',
+    img: 'smf.jpeg',
     source: 'hot.mp3',
     lyrics: `Hot, hot, hot, hot
     Hot, hot, hot, hot
@@ -772,14 +785,14 @@ const musicArray = [
     Hot, hot, hot, hot
     Hot, hot, hot, damn
     Hot, hot, hot, hot`,
-    artistImg: 'youngthug.jpeg'
+    artistImg: 'thugger.jpeg'
 
 },
 {
     name: "Jusfayu",
     artist: 'Kamauu',
     ft: 'ft. No Wyld',
-    img: 'jusfayu.jpg',
+    img: 'jusfayu.jpeg',
     source: 'jusfayu.mp3',
     lyrics: `Good Lord
     What you don't say, what you don't
@@ -872,14 +885,14 @@ const musicArray = [
     I did it just for you
     I did it just for you
     And you just don't care (did it just for you)`,
-    artistImg: 'kamauu.jpg'
+    artistImg: 'kamauu.jpeg'
 
 },
 {
     name: "Drop The World",
     artist: 'Lil Wayne',
     ft: 'ft. Eminem',
-    img: 'droptheworld.jpg',
+    img: 'droptheworld.jpeg',
     source: 'dtw.mp3',
     lyrics: `I got ice in my veins, blood in my eyes
     Hate in my heart, love in my mind
@@ -1107,7 +1120,7 @@ const musicArray = [
     Never gonna make you cry
     Never gonna say goodbye
     Never gonna tell a lie and hurt you`,
-    artistImg: 'rickastley.jpg'
+    artistImg: 'rickastley.jpeg'
 
 },
 {
@@ -1198,7 +1211,7 @@ const musicArray = [
 {
     name: "Harambe",
     artist: 'Young Thug',
-    img: 'jeffery.jpg',
+    img: 'jeffery.jpeg',
     ft: '',
     source: 'harambe.mp3',
     lyrics: `Mafia!
@@ -1276,13 +1289,13 @@ const musicArray = [
     Don't make your nigga act crazy over you, girl
     Ayy, 'cause you know I will
     And I'm on a perky pill`,
-    artistImg: 'youngthug.jpeg',
+    artistImg: 'thugger.jpeg',
 
 },
 {
     name: "Holocaust",
     artist: 'CEZA',
-    img: 'ceza.jpg',
+    img: 'ceza.jpeg',
     ft: '',
     source: 'holocaust.mp3',
     lyrics: `Koyduğum nokta belki son
@@ -1365,7 +1378,7 @@ const musicArray = [
     Ma ma ma ma ma ma ma ma ma ma ma microphone show
     Ma ma ma ma ma ma ma ma ma ma mi mi mi mi mi mi ma ma ma ma mi mi mi mi
     Microphone show, mikrofon show (ha)`,
-    artistImg: 'ceza.jpg'
+    artistImg: 'ceza.png'
 
 },
 {
@@ -1423,7 +1436,7 @@ const musicArray = [
 {
     name: "Hold On",
     artist: 'Gareth Dunlop',
-    img: 'hold-on.jpeg',
+    img: 'hold-on.jpg',
     ft: '& Shel',
     source: 'hold-on.mp3',
     lyrics: `I've been listenin' to the silence
@@ -1469,13 +1482,13 @@ const musicArray = [
     Hold just a little longer
     Hold on
     `,
-    artistImg: 'garethdunlop.jpg'
+    artistImg: 'garethdunlop.jpeg'
 
 },
 {
     name: "Wyclef Jean",
     artist: 'Young Thug',
-    img: 'jeffery.jpg',
+    img: 'jeffery.jpeg',
     ft: '',
     source: 'wyclef.mp3',
     lyrics: `Thugger
@@ -1561,13 +1574,13 @@ const musicArray = [
     I know some hoes with good head, fuck a tutor
     So many hundreds I done added, I'm going to lose 'em
     Put me in the Jaggy or the Wraith and now I'm coolin'`,
-    artistImg: 'youngthug.jpeg'
+    artistImg: 'thugger.jpeg'
 
 },
 {
     name: "Stepdad",
     artist: 'Eminem',
-    img: 'em.jpg',
+    img: 'em.jpeg',
     ft: '',
     source: 'stepdad.mp3',
     lyrics: `Ayo
@@ -1691,13 +1704,13 @@ const musicArray = [
     Can you see the dark?
     Can you fix the broken?
     Can you feel, can you feel my heart?`,
-    artistImg: 'bmth.jpeg'
+    artistImg: 'bmth.jpg'
 
 },
 {
     name: "Kuzola",
     artist: 'Pongo',
-    img: 'pongo.jpeg',
+    img: 'kuzola.jpeg',
     ft: '',
     source: 'kuzola.mp3',
     lyrics: `Yele-le-le-leee
@@ -1790,7 +1803,7 @@ const musicArray = [
     name: "Not Afraid",
     artist: 'Eminem',
     ft: '',
-    img: 'recovery.jpg',
+    img: 'recovery.jpeg',
     source: 'not-afraid.mp3',
     lyrics: `I'm not afraid (I'm not afraid)
     Yeah
@@ -1988,7 +2001,7 @@ const musicArray = [
     name: "Vibe Hai",
     artist: 'Divine',
     ft: "ft. Aavrutti, D’Evil, Shah Rule",
-    img: 'vibe.jpg',
+    img: 'vibe.jpeg',
     source: 'vibe.mp3',
     lyrics: `हाँ, vibe है, vibe है
     Gully Gang, boy
@@ -2098,7 +2111,7 @@ const musicArray = [
     छोकरे सब hard
     इसलिए तो hype है, hype है, hype है
     चलो, vibe खोटी नहीं करने का, चलो`,
-    artistImg: 'divine.jpg'
+    artistImg: 'divine.jpeg'
 
 },
 {
@@ -2485,16 +2498,16 @@ const musicArray = [
     artistImg: 'eminem.jpeg'
 
 },
-{
-    name: 'Frag Out',
-    artist: 'DJ Assass1n',
-    lyrics: `
-    [Instrumental]
-    Frag out!`,
-    artistImg: 'djass1n.jpg',
-    img: 'fragout.jpeg',
-    source: 'fo.mp3'
-},
+// {
+//     name: 'Frag Out',
+//     artist: 'DJ Assass1n',
+//     lyrics: `
+//     [Instrumental]
+//     Frag out!`,
+//     artistImg: 'djass1n.jpg',
+//     img: 'fragout.jpeg',
+//     source: 'fo.mp3'
+// },
 {
     name: 'Kids',
     artist: 'MGMT',
@@ -2542,8 +2555,8 @@ const musicArray = [
     Control yourself
     Take only what you need from it
     A family of trees`,
-    artistImg: 'mgmt.webp',
-    img: 'kids.jpeg',
+    artistImg: 'mgmt.jpg',
+    img: 'kids.jpg',
     source: 'kids.mp3'
 }
 ].sort((a, b) => a.name === b.name ? 0 : a.name < b.name ? -1 : 1);
