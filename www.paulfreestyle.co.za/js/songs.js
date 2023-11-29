@@ -273,7 +273,7 @@ const musicArray = [
     I wanna know You more
     I wanna know You more`,
     artistImg: 'hillsong.jpeg',
-    img: 'I_Surrender.jpeg',
+    img: 'i_surrender.jpeg',
     source: 'surrender.mp3',
     ft: ''
 },
