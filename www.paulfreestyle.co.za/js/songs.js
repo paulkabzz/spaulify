@@ -501,7 +501,7 @@ const musicArray = [
     artist: "Young Thug",
     img: 'thugger.jpg',
     ft: ` ft. Lil Uzi Vert`,
-    source: 'zoom-remix.mp3',
+    source: 'zoom.mp3',
     artistImg: 'thugger.jpeg',
     lyrics: `[ Sorry, lyrics unavailable :( ]`
 },
