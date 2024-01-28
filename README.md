@@ -49,9 +49,25 @@ Spaulify is the ultimate music player, designed to provide a seamless listening 
 
 4. **Music Controls**: Enjoy seamless music playback with intuitive controls such as play/pause, next/previous track, and volume adjustment.
 
+5. **Dynamic Backgrounds**: Experience dynamic background color changes based on the album image, adding visual appeal to your music listening experience.
+
+6. **Local Storage Integration**: Your last played song and its playback time are saved locally, allowing you to seamlessly resume your music sessions across sessions.
+
+7. **Volume and Music Controls**: Easily customize your music playback experience with intuitive volume and music controls, enhancing your listening pleasure.
+
 ## Contributing
 
-Contributions are welcome! If you'd like to contribute to Spaulify, feel free to submit pull requests or open issues on the GitHub repository.
+Contributions to Spaulify are welcomed! Whether you're a developer, designer, or music enthusiast, your input is valuable. Here's how you can contribute:
+
+- **Bug Fixes**: If you encounter any bugs or issues while using Spaulify, please report them by opening an issue on the GitHub repository.
+
+- **Feature Requests**: Have an idea for a new feature or improvement? Share your thoughts by opening a feature request issue on GitHub.
+
+- **Code Contributions**: If you're a developer, you can contribute directly to the codebase by forking the repository, making your changes, and submitting a pull request.
+
+- **Documentation**: Help improve the project's documentation by suggesting edits or additions to the README or inline code comments.
+
+- **Feedback**: Your feedback is valuable! Whether it's about usability, performance, or design, let us know how we can make Spaulify even better.
 
 ## License
 
