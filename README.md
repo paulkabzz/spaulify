@@ -4,10 +4,10 @@
 
 Spaulify is the ultimate music player, designed to provide a seamless listening experience for users. With a modern user interface and intuitive controls, Spaulify lets you discover new music and enjoy your favorite tracks hassle-free. 
 
-Check the site out **[here](https://paulkabzz.github.io/spaulify/www.paulfreestyle.co.za/)**
+Check the site out **[here](https://paulkabzz.github.io/spaulify/)**
 
 
-![The music player UI](https://paulkabzz.github.io/spaulify/www.paulfreestyle.co.za/assets/images/ui/hero3.png)
+![The music player UI](https://paulkabzz.github.io/spaulify/assets/images/ui/hero3.png)
 
 
 ## Features
