@@ -12,19 +12,6 @@ window.onscroll = () => {
 
 }
 
-//LS, ENG, AFR
-//CAT, PHYSC, MATH?, LO
-
-
-//All my assignments so far (5) < 75%
-
-//LS - 75% 6
-//LO - 80% 7
-//CAT - 80% 7
-//MATH - 70% 6
-//ENG - 70% 6
-//AFR - 65% 5
-//PHYSC - 70% 6
 
 searchIpnut2.addEventListener('focus', () => {
   document.querySelector('.overlay').style.opacity = 1;
