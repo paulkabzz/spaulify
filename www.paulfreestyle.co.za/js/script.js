@@ -51,13 +51,13 @@ bindEvents() {
  */
 loadMusic(index) {
     // Check if the music at the given index exists
-    if (!this.musicArray[index]) {
+    if (!musicArray[index]) {
         console.error(`There's no song at index: ${index}`);
         return;
     }
 
     // Get the music object at the given index
-    const song = this.musicArray[index];
+    const song = musicArray[index];
 
     // Update the document title with the song name and artist
     document.title = `${song.name} - ${song.artist}`;
@@ -233,7 +233,7 @@ pauseMusic() {
  */
 prevSong() {
     // Calculate the previous music index, wrapping around if necessary
-    this.musicIndex = (this.musicIndex - 1 + this.musicArray.length) % this.musicArray.length;
+    this.musicIndex = (this.musicIndex - 1 + musicArray.length) % musicArray.length;
 
     // Load the music at the new index
     this.loadMusic(this.musicIndex);
@@ -251,7 +251,7 @@ prevSong() {
  */
 nextSong() {
     // Calculate the next music index, wrapping around if necessary
-    this.musicIndex = (this.musicIndex + 1) % this.musicArray.length;
+    this.musicIndex = (this.musicIndex + 1) % musicArray.length;
 
     // Load the music at the new index
     this.loadMusic(this.musicIndex);
