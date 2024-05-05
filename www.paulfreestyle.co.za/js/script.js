@@ -16,6 +16,7 @@ class MusicPlayer {
     this.headerOverlay = document.querySelector(".header-overlay");
     this.headerBtn = document.querySelector(".header-btn");
     this.feature = document.querySelector(".feature");
+    this.artistImage = document.querySelectorAll('.artisimg');
 
     this.songsDir = "../assets/songs/";
     this.artistsDir = "../assets/images/artists/";
@@ -68,6 +69,7 @@ class MusicPlayer {
     this.musicName.forEach((name) => (name.textContent = song.name));
     this.artist.forEach((artist) => (artist.textContent = song.artist));
     this.musicImg.forEach((img) => (img.src = `${this.albumsDir}${song.img}`));
+    this.artistImage.forEach((img) => (img.src = `${this.albumsDir}${song.artistImg}`));
 
     // Update the featured artist text
     this.feature.textContent = song.ft;
