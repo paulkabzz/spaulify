@@ -26,7 +26,7 @@ class MusicPlayer {
 
     this.bindEvents();
     this.loadMusic(this.musicIndex);
-    this.loadSettings();
+    // this.loadSettings();
   }
 
   /**
@@ -69,7 +69,7 @@ class MusicPlayer {
     this.musicName.forEach((name) => (name.textContent = song.name));
     this.artist.forEach((artist) => (artist.textContent = song.artist));
     this.musicImg.forEach((img) => (img.src = `${this.albumsDir}${song.img}`));
-    this.artistImage.forEach((img) => (img.src = `${this.albumsDir}${song.artistImg}`));
+    this.artistImage.forEach((img) => (img.src = `${this.artistsDir}${song.artistImg}`));
 
     // Update the featured artist text
     this.feature.textContent = song.ft;
@@ -149,36 +149,51 @@ class MusicPlayer {
     };
   }
 
+  
   /**
-   * Event handler for the 'load' event of the window.
-   * This method retrieves the last played song's current time from local storage,
-   * sets the main audio's current time to the retrieved value,
-   * and updates the progress bar accordingly.
-   *
-   * @returns {void}
-   */
-  onWindowLoad() {
-    // Retrieve the last played song's current time from local storage
-    const currentTime = parseFloat(localStorage.getItem("currentTime")) || 0;
+ * Event handler for the window load event.
+ * It retrieves the last played song name from local storage, finds its index in the musicArray,
+ * and loads and plays the corresponding song.
+ *
+ * @returns {void}
+ */
+onWindowLoad() {
+    // Retrieve the last played song name from local storage
+    const lastPlayedSongName = localStorage.getItem("lastPlayedSongName");
 
-    // Set the main audio's current time to the retrieved value
-    this.mainAudio.currentTime = currentTime;
+    // Find the index of the last played song in the musicArray
+    const index = musicArray.findIndex(song => song.name.toLowerCase() === lastPlayedSongName);
 
-    // Update the progress bar with the current time
-    this.updateProgress({ target: this.mainAudio });
-  }
+    // Check if the last played song exists in the musicArray
+    if (index!== -1) {
+        // Set the music index to the index of the last played song
+        this.musicIndex = index;
 
-  /**
-   * Event handler for the 'unload' event of the window.
-   * This method stores the current time of the main audio in local storage.
-   * When the user revisits the page, the stored time will be retrieved and used to set the audio's current time.
-   *
-   * @returns {void}
-   */
-  onWindowUnload() {
+        // Load the last played song
+        this.loadMusic(this.musicIndex);
+
+        // Play the music
+        this.playMusic();
+    }
+}
+
+
+ /**
+ * Event handler for the window unload event.
+ * It stores the current time of the main audio and the current music index in local storage.
+ *
+ * @returns {void}
+ */
+onWindowUnload() {
     // Store the current time of the main audio in local storage
+    // This will be used to resume the music from the same position when the user revisits the page
     localStorage.setItem("currentTime", this.mainAudio.currentTime);
-  }
+
+    // Store the current music index in local storage
+    // This will be used to resume the music from the same song when the user revisits the page
+    localStorage.setItem("lastPlayedSongIndex", this.musicIndex);
+}
+
 
   /**
    * Toggles the play/pause state of the music player.
