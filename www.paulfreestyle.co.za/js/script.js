@@ -192,8 +192,6 @@ try {
     };
   });
 
-
-
   //Go to next song
   smallPlayButton.onclick = () => {
     const isMusicPlay = wrapper.classList.contains("paused");
