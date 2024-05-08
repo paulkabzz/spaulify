@@ -7,7 +7,7 @@ try {
     prev = document.querySelector("#prev"),
     next = document.querySelector("#next"),
     mainAudio = document.querySelector("#main-audio"),
-    progressArea = document.querySelector(".progress-area"),
+    progressArea = document.querySelector(".progress-area"), 
     progressBar = document.querySelector(".progress-bar"),
     searchresult = document.querySelectorAll(".searchresult"),
     artistImg = document.querySelectorAll(".artisimg"),
