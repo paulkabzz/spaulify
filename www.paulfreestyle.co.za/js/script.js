@@ -176,11 +176,6 @@ try {
     playMusic();
   };
 
-  // Grace: +27 63 873 7549
-  //Grace 2:  +27 78 531 0038
-  //Joesome:
-  //polp cf212079 polo silver
-
   const nextSong = () => {
     musicIndex++;
     musicIndex > musicArray.length - 1
@@ -197,12 +192,7 @@ try {
     };
   });
 
-  /**
-   *
-   *
-   *
-   *
-   */
+
 
   //Go to next song
   smallPlayButton.onclick = () => {
