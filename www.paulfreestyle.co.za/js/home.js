@@ -1,21 +1,17 @@
 const header = document.querySelector('.header'),
         logo = document.querySelector('.logo'),
-        searchIpnut2 = document.querySelector('.search-input')
+        searchIpnut2 = document.querySelector('.search-input');
 
 window.onscroll = () => {
-
     if (this.scrollY > 50) {
-        header.classList.add('active')
+        header.classList.add('active');
     } else {
-        header.classList.remove('active')
+        header.classList.remove('active');
     }
-
 }
-
 
 searchIpnut2.addEventListener('focus', () => {
   document.querySelector('.overlay').style.opacity = 1;
-  
 })
 
 searchIpnut2.addEventListener('focusout', () => {
@@ -50,8 +46,4 @@ let html = '';
 
 document.getElementById('container').innerHTML = html;
 
-  
-/**********************************************************************************************/
-/**********************************************************************************************/
-/**********************************************************************************************/
 
