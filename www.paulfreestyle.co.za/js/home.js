@@ -32,7 +32,7 @@ let html = '';
       result.push(person);
     }
   }
-  
+   
   for (const person of result) {
     html += `<div class="card">
                     <div class="card-upper">
