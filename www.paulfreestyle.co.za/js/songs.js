@@ -19,6 +19,450 @@ const musicArray = [
     ft: "& VØJ",
   },
   {
+    name: "Outta COntrol",
+    artist: "50 Cent",
+    lyrics: 
+    `
+    It's the Infamous Mobb, M-O-B-B (Ha, ha)
+We can't be touched nigga, can't you see (G-Unit)
+You do you, man, cause me, I'm 'gon do my thing, you know I do my thing
+I'ma get my drink on and party like it's ok
+
+Trust me man it's ok, bounce with me in slow mo
+When they hear the kid in the house they're like, "Oh no"
+50 got 'em locin again, they open again
+Got 'em sipping on that juice and gin
+You could find me in the background burning that Backwood
+Styling and stunting, doing my two step fronting
+Now I'ma tell you what Em told me, homie
+Just lose the parental discretion's advised, this is grown folk music
+Now blend in with me, as I proceed to break it down
+It's always off the chain man when I'm around
+I play the block bumping, it was all for the dough
+I get the club jumping, cause I'm sick with flow
+You know it's sold out, like wherever I go
+I jam packed the show man that's fo sho
+I got the info you already know
+Man, I get it popping in the club, everybody show me love, let's go
+
+You know I got what it takes to make the club go outta control
+Quit playing, turn the music up a little bit
+Bounce with me now, shorty, let's get into it
+You, know I got what it takes to make the club go outta control
+Quit playing, turn the music up a little bit
+Bounce with me now homie, let's get into it
+
+You wanna search me, then search me, but hurry up, 'cause I'm thirsty
+I need that, grind in my system P, on my side twisting
+In the club today for the chick to go both
+Ways, let me see that ID just for proof
+With the drink til the burn is gone
+Hit the dancefloor like a scene from soft porn
+Before it pop, make em sign a disclaimer
+Try to get me on some Pac shit these tricks'll frame ya (Word)
+But, in any event, keep fuckin' with 50 it makes sense
+Cents, into them dollars, the hoes wanna holla
+But you lookin at a nigga that done came from the squalor
+Now my buddy so gone I can pop your collar
+Now If I don’t say nothin, let me see you swallow
+In my crib got the co-ed back the new problem
+In the club, feed them liquor otherwise we starve 'em
+So much green gettin twisted like Botanical Garden, let's go
+
+You know I got what it takes to make the club go outta control
+Quit playing, turn the music up a little bit
+Bounce with me now, shorty, let's get into it
+You, know I got what it takes to make the club go outta control
+Quit playing, turn the music up a little bit
+Bounce with me now homie, let's get into it
+
+You already know how it go, I bang, I shine
+I play, I stay I'm going for mine
+I'm young, I'm black, I'm rich and yes
+I'm ghetto than the motherfucking project steps
+I'm cool, I'm calm you looking real stressed
+I'm strapped I'm armed kid, hold your head
+I'm known for gat popping, when I got problems
+I don't run, I just gun you all up
+But we ain't come here to start no drama
+We just looking for our future baby mamas
+With money with face with style and body
+I cook I clean I swear that mami
+Just as long as you don't go off and tell nobody
+I go down low, I'm lying I'm trying my best to let you know
+Sugar pop get at P
+The Doc beat make it easy to get 'em in the bed sheets
+
+You know I got what it takes to make the club go outta control
+Quit playing, turn the music up a little bit
+Bounce with me now, shorty, let's get into it
+You, know I got what it takes to make the club go outta control
+Quit playing, turn the music up a little bit
+Bounce with me now homie, let's get into it
+    `,
+    artistImg: "50cent.jpeg",
+    img: "the-massacre.jpeg",
+    source: "outta-control.mp3",
+    ft: "ft. Mobb Deep",
+  },
+  {
+    name: "The Greatest",
+    artist: "Sia",
+    lyrics: `Uh-oh, running out of breath, but I
+Oh, I, I got stamina
+Uh-oh, running now, I close my eyes
+Well, oh, I got stamina
+And uh-oh, I see another mountain to climb
+But I, I, I got stamina
+Uh-oh, I need another lover, be mine
+Cause I, I, I got stamina
+Don't give up, I won't give up
+Don't give up, no no no
+Don't give up, I won't give up
+Don't give up, no no no
+I'm free to be the greatest, I'm alive
+I'm free to be the greatest here tonight, the greatest
+The greatest, the greatest alive
+The greatest, the greatest alive
+Well, uh-oh, running out of breath, but I
+Oh, I, I got stamina
+Uh-oh, running now, I close my eyes
+But, oh oh, I got stamina
+And oh yeah, running through the waves of love
+But I, I got stamina
+And oh yeah, I'm running and I've just enough
+And uh-oh, I got stamina
+Don't give up, I won't give up
+Don't give up, no no no
+Don't give up, I won't give up
+Don't give up, no no no
+I'm free to be the greatest, I'm alive
+I'm free to be the greatest here tonight, the greatest
+The greatest, the greatest alive
+The greatest, the greatest alive (oh oh)
+Oh-oh, I got stamina (ooh hoo ooh)
+Oh-oh, I got stamina (ooh hoo ooh)
+Oh-oh, I got stamina (ooh hoo ooh)
+Oh-oh, I got stamina (ooh hoo)
+Ay, I am the truth
+Ay, I am the wisdom of the fallen, I'm the youth
+Ay, I am the greatest
+Ay, this is the proof
+Ay, I work hard, pray hard, pay dues, ay
+I transform with pressure, I'm hands-on with effort
+I fell twice before, my bounce back was special
+Letdowns'll get you, and the critics will test you
+But the strong'll survive, another scar may bless you, ah
+Don't give up (no no), I won't give up (no no)
+Don't give up, no no no (nah)
+Don't give up, I won't give up
+Don't give up, no no no
+I'm free to be the greatest, I'm alive
+I'm free to be the greatest here tonight, the greatest
+The greatest, the greatest alive (don't give up, don't give up, don't give up, no no no)
+The greatest, the greatest alive (don't give up, don't give up, don't give up, no no no)
+The greatest, the greatest alive (don't give up, don't give up, don't give up, no no no)
+The greatest, the greatest alive (don't give up, don't give up, don't give up, no no no)
+The greatest, the greatest alive (don't give up, don't give up, don't give up, no no no)
+The greatest, the greatest alive (I got stamina)
+The greatest, the greatest alive (I got stamina)
+The greatest, the greatest alive (I got stamina)
+`,
+    artistImg: "sia.jpeg",
+    img: "the-greatest.jpeg",
+    source: "the-greatest.mp3",
+    ft: "",
+  },
+  {
+    name: "In the Air Tonight",
+    artist: "Phil Collins",
+    lyrics: `I can feel it coming in the air tonight, oh, Lord
+And I've been waiting for this moment for all my life, oh Lord
+Can you feel it coming in the air tonight?
+Oh Lord, oh Lord
+Well, if you told me you were drowning, I would not lend a hand
+I've seen your face before, my friend
+But I don't know if you know who I am
+Well, I was there and I saw what you did
+I saw it with my own two eyes
+So you can wipe off that grin, I know where you've been
+It's all been a pack of lies
+And I can feel it coming in the air tonight, oh Lord
+Well, I've been waiting for this moment for all my life, oh Lord
+I can feel it coming in the air tonight, oh Lord
+And I've been waiting for this moment for all my life
+Oh Lord, oh Lord
+Well, I remember, I remember, don't worry
+How could I ever forget?
+It's the first time
+The last time we ever met
+But I know the reason why you keep your silence up
+No, you don't fool me
+Well, the hurt doesn't show, but the pain still grows
+It's no stranger to you and me
+And I can feel it coming in the air tonight, oh Lord
+Well, I've been waiting for this moment for all my life, oh Lord
+I can feel it in the air tonight
+Oh Lord, oh Lord
+Well, I've been waiting for this moment for all my life, oh Lord
+I can feel it coming in the air tonight, oh Lord
+Well, I've been waiting for this moment for all my life, oh Lord
+I can feel it in the air tonight, oh Lord, oh Lord, oh Lord
+Well, I've been waiting for this moment for all my life, oh Lord, oh Lord
+I can feel it in the air tonight, oh Lord, oh Lord, oh Lord, oh Lord
+Well, I've been waiting for this moment for all my life, oh Lord, oh Lord
+Oh Lord, oh Lord`,
+    artistImg: "phil-collins.jpeg",
+    img: "in-the-air-tonight.jpeg",
+    source: "in-the-air-tonight-2.mp3",
+    ft: "",
+  },
+  {
+    name: "Another Day in Paradise",
+    artist: "Phil Collins",
+    lyrics: `She calls out to the man on the street
+"Sir, can you help me?
+It's cold and I've nowhere to sleep
+Is there somewhere you can tell me?"
+He walks on, doesn't look back
+He pretends he can't hear her
+Starts to whistle as he crosses the street
+Seems embarrassed to be there
+
+Oh, think twice
+'Cause it's another day
+For you and me in paradise
+Oh, think twice
+'Cause it's another day for you
+You and me in paradise
+
+Think about it
+
+She calls out to the man on the street
+He can see she's been crying
+She's got blisters on the soles of her feet
+She can't walk, but she's trying
+
+Oh, think twice
+'Cause it's another day
+For you and me in paradise
+Oh, think twice
+It's just another day for you
+You and me in paradise
+
+Just think about it
+
+Oh, Lord
+Is there nothing more anybody can do?
+Oh, Lord
+There must be something you can say
+
+You can tell from the lines on her face
+You can see that she's been there
+Probably been moved on from every place
+'Cause she didn't fit in there
+
+Oh, think twice
+'Cause it's another day
+For you and me in paradise
+Oh, think twice
+It's just another day for you
+You and me in paradise
+
+Just think about it
+Mhm, think about it
+
+It's just another day
+For you and me in paradise
+It's just another day
+For you and me in paradise (Para—, paradise)
+Paradise (It's just another day for you and me)
+Uh, just think about it (In paradise)
+Paradise (It's just another day for you and me)
+Just think about it (In paradise, para—, paradise)
+It's just in paradise (It's just another day for you and me)
+Mhm, paradise (In paradise)
+Paradise, just another day (It's just another day for you and me)
+Think about it (In paradise, para—, paradise)
+`,
+    artistImg: "phil-collins.jpeg",
+    img: "another-day-paradise.jpeg",
+    source: "another-day-paradise.mp3",
+    ft: "",
+  },
+  {
+    name: "The Format",
+    artist: "AZ",
+    lyrics: `I'm ready
+You know the chronicles, the shit that if mama knew
+The stress the drama do, the TECs phenomenal
+Rapid fire, it pecks through the abdominal
+You bastard liars, it's me who's the honorable
+Bathed and clothed up, shaved and close cut
+Restraint from temptation was drained from both nuts
+Heh now the physical form, verbalize through the scriptures, I was Biblically born
+It's I'ah Jeremiah, concieved through the blunt fire
+On Kawasaki's can wheelie up on one tire
+Well respected, jail connected, got the method for the pretty females perfected
+For sure, very few flaws, heavy Chevy two-doors
+Candy paint, it'll give a nigga the blue balls
+Pause, this the life I chose
+Done did the 360, the cypher's closed, common
+The format is real sickening, contagious
+Here I come, AZ
+Still, I don't have to run no game, I've done those things
+Young and gifted, my tongue's prolific
+In the beached bungalow is how I brung in Christmas
+From the streets I'ma flow from the hungriest districts
+Swiss kicks, crisp when I come to them picnics
+Play it slow, paper chase, stack, and lay low
+Range Rove, tinted all black, the same old
+Psychic mind, righteous ryhmes
+Still turn the new leaf on my life of crime
+No concerns with new beef who's as nice as I'm
+It's confirmed, from few feet I'm still a sniper blind
+Built my fame, spilt my pain
+Politicking daily, still tryin' to milk the game
+It's obvious that I'm real rap skills remain
+I took some change and I'm still the same
+The format is real sickening, contagious
+Here I come, AZ
+Still, I don't have to run no game, I've done those things
+Learnt the system, burned some izm
+Jotted my jewels down like journalism
+How I maneuve now, it'll merge the wisdom
+A pilgrim, prophesize putting words to rhythm
+Relating, I Adam Clayton it, manifestation, patient
+Meditatin' with them animals waitin', pacin'
+Like an inmate that sealed his fate
+Let some years escape, but I'm still in shape
+I'm chilling, deeply rooted, a beast with music
+From Bed-Stuy to the East, I'm too at peace to lose it
+But love it, I still does it, breathing off a Trump budget
+Fresh out of Bloomies with the Louis luggage
+The format is real sickening, contagious
+Here I come, AZ
+Here you go, how we get down
+The format is real sickening, contagious
+Here I come, AZ
+Here you go, how we get down
+AZ
+Here I come, AZ
+Here I come, AZ
+Here I come, AZ
+Here I come, here we go
+How we get down
+Here I come, here you go
+Here I come, AZ
+Here I come
+Here I come`,
+    artistImg: "AZ.jpeg",
+    img: "the-format.jpeg",
+    source: "the-format.mp3",
+    ft: "& DJ Premier",
+  },
+  {
+    name: "Survival of the Fittest",
+    artist: "Mobb Deep",
+    lyrics: `Yeah, sendin' this one out
+To my man, Killer B
+No doubt indeed
+Where that weed?
+Knam'sayin'?
+That old real shit
+There's a war goin' on outside no man is safe from
+You could run, but you can't hide forever
+From these streets that we done took
+You walkin' with your head down, scared to look
+You shook, 'cause ain't no such things as halfway crooks
+They never around when the beef cooks in my part of town
+It's similar to Vietnam
+Now we all grown up and old, and beyond the cops' control
+They better have the riot gear ready
+Tryin' to bag me and get rocked steady
+By the MAC one-double, I touch you
+And leave you with not much to go home with
+My skin is thick, 'cause I be up in the mix of action
+If I'm not at home, puffin' lye, relaxin'
+New York got a nigga depressed
+So I wear a slug-proof underneath my Guess
+God bless my soul
+Before I put my foot down and begin to stroll
+Into the drama I built
+And all unfinished beef, you will soon be killed
+Put us together, it's like mixin' vodka and milk
+I'm goin out blastin', takin' my enemies with me
+And if not, they scarred, so they will never forget me
+Lord, forgive me
+The Hennessy got me not knowin' how to act
+I'm fallin' and I can't turn back
+Or maybe it's the words from my man Killa Black
+That I can't say so it's left a untold fact
+Until my death, my goal's to stay alive
+Survival of the fit, only the strong survive
+Yo, yo, we livin' this 'til the day that we die
+Survival of the fit, only the strong survive
+(We still livin' it)
+We livin' this 'til the day that we die
+Survival of the fit, only the strong survive
+(Thug life, we still livin' it)
+We livin' this 'til the day that we die
+Survival of the fit, only the strong survive
+(We still livin' it)
+We livin' this 'til the day that we die
+Survival of the fit, only the strong survive
+I'm trapped, in between two worlds, tryin' to get dough
+Y'know, when the dough get low the jewels go
+But never that, as long as fiends smoke crack
+I'll be on the block hustlin', countin' my stacks
+No doubt, watchin' my back and proceed with caution
+Five-oh lurkin', no time to get lost in the system
+Niggas usin' fake names to get out quick
+My brother did it and got bagged with two ounces
+I live a world where squads hit the block hard
+Ask my man Twin when he got bagged
+That fucked me up, God, but shit happens for a reason
+You find out who's your true peoples
+When you're upstate bleedin'
+You can't find a shorty to troop your bid with you
+Hit with a two to four is difficult
+Wild on the streets, I try to maintain
+Tight with my loot, 'cause hoes like to run game
+Some niggas like to trick, but I ain't with that trickin' shit
+I'm like a Jew, savin' dough so I can big whip
+Pushin' a Lex, now I'm set, ready to jet
+No matter how much loot I get
+I'm stayin' in the projects forever
+Jakes on the blocks we out-clever
+If beef, we never separate and pull together
+When worse comes to worst, my peoples come first
+Try to react and get them motherfuckin' feelings hurt
+My crew's all about loot, fuck lookin' cute!
+I'm strictly Timb boots and Army certified suits
+Puffin L's, laid back, enjoyin' the smell
+In the Bridge, gettin' down, it ain't hard to tell
+You better realize
+Yo, yo, we livin' this 'til the day that we die
+Survival of the fit, only the strong survive
+(We still livin' it)
+We livin' this 'til the day that we die
+Survival of the fit, only the strong survive
+(Thug life, we still livin' it)
+We livin' this 'til the day that we die
+Survival of the fit, only the strong survive
+(We still livin' it)
+We livin' this 'til the day that we die
+Survival of the fit, only the strong survive
+Open your eyes and get wise
+Look alive, in '95, word up
+Hypnotic thug life, get that ass paralyzed
+Knam'sayin'? Mobb Deep and all that`,
+    artistImg: "mobb-deep.jpeg",
+    img: "the-infamous.jpeg",
+    source: "survival-fittest.mp3",
+    ft: "",
+  },
+  {
     name: "Hurt",
     artist: "Johnny Cash",
     lyrics: `I hurt myself today
@@ -632,7 +1076,7 @@ For all my bitches that smoke hookah, yeah`,
   },
   {
     name: `Je M'appelle`,
-    artist: "Narvent",
+    artist: "Benzz",
     lyrics: `
         Got the gyaldem shake hips in the dance
 Je m'appelle, man's Benz
