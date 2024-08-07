@@ -1,33 +1,854 @@
 const musicArray = [
-    // {
-    //     name: 'Chad',
-    //     artist: 'Giga Chad',
-    //     lyrics: `
-    //     Unavailable`,
-    //     artistImg: 'chad.jpg',
-    //     img: 'chad.jpg',
-    //     source: '',
-    //     ft: ''
-    // },'=
+  // {
+  //     name: 'Chad',
+  //     artist: 'Giga Chad',
+  //     lyrics: `
+  //     Unavailable`,
+  //     artistImg: 'chad.jpg',
+  //     img: 'chad.jpg',
+  //     source: '',
+  //     ft: ''
+  // },'=
+  {
+    name: "Memory Reboot",
+    artist: "Narvent",
+    lyrics: `Unavailable`,
+    artistImg: "narvent.png",
+    img: "7.jpg",
+    source: "memory-reboot.mp3",
+    ft: "& VØJ",
+  },
+  {
+    name: "Hurt",
+    artist: "Johnny Cash",
+    lyrics: `I hurt myself today
+To see if I still feel
+I focus on the pain
+The only thing that's real
+The needle tears a hole
+The old familiar sting
+Try to kill it all away
+But I remember everything
+What have I become?
+My sweetest friend
+Everyone I know goes away
+In the end
+And you could have it all
+My empire of dirt
+I will let you down
+I will make you hurt
+I wear this crown of thorns
+Upon my liar's chair
+Full of broken thoughts
+I cannot repair
+Beneath the stains of time
+The feelings disappear
+You are someone else
+I'm still right here
+What have I become?
+My sweetest friend
+Everyone I know goes away
+In the end
+And you could have it all
+My empire of dirt
+I will let you down
+I will make you hurt
+If I could start again
+A million miles away
+I would keep myself
+I would find a way`,
+    artistImg: "johhny-cash.jpeg",
+    img: "hurt.jpeg",
+    source: "hurt.mp3",
+    ft: "",
+  },
+  {
+    name: "Rock Bottom",
+    artist: "Eminem",
+    lyrics: 
+`
+Ayo, this song is dedicated
+To all the happy people
+All the happy people who have real nice lives
+And have no idea what it's like to be broke as fuck
 
-    {
-            name: 'Experience',
-            artist: 'Ludovico Einaudi',
-            lyrics: `
+I feel like I'm walkin' a tight rope without a circus net
+Poppin' Percocet, I'm a nervous wreck
+I deserve respect but I work a sweat for this worthless check
+I'm 'bout to burst this TEC at somebody to reverse this debt
+Minimum wage got my adrenaline caged
+Full of venom and rage, 'specially when I'm engaged
+And my daughter's down to her last diaper, it's got my ass hyper
+I pray that God answers, maybe I'll ask nicer
+Watchin' ballers while they flossin' in they Pathfinders
+These overnight stars becomin' autograph-signers
+We all long to blow up and leave the past behind us
+Along with the small fries and average half-pinters
+But player-haters turnin' bitch like they have vaginas
+'Cause we see them dollar signs and let the cash blind us
+Money'll brainwash you and leave yo' ass mindless
+Them snakes slither in the grass, spineless
+
+That's rock bottom, when this life makes you mad enough to kill
+That's rock bottom, when you want somethin' bad enough to steal
+That's rock bottom, when you feel like you've had it up to here
+'Cause you mad enough to scream, but you sad enough to tear
+That's rock bottom, when this life makes you mad enough to kill
+That's rock bottom, when you want somethin' bad enough to steal
+That's rock bottom, when you feel like you've had it up to here
+'Cause you mad enough to scream, but you sad enough to tear
+
+My life is full of empty promises and broken dreams
+I'm hopin' things look up, but there ain't no job openings
+I feel discouraged, hungry and malnourished
+Livin' in this house with no furnace, unfurnished
+And I'm sick of workin' dead-end jobs with lame pay
+And I'm tired of bein' hired and fired the same day
+But fuck it, if you know the rules to the game, play
+'Cause when we die, we know we all goin' the same way
+'Cause it's cool to be the player, but it sucks to be the fan
+When all you need is bucks to be the man, plus a luxury sedan
+Or comfortable and roomy in a 6
+But they threw me in the mix with all these gloomy lunatics
+Who walk around depressed, and smoke a pound of cess a day
+And yesterday went by so quick, it seems like it was just today
+My daughter wants to throw the ball, but I'm too stressed to play
+Live half my life and throw the rest away
+
+That's rock bottom, when this life makes you mad enough to kill
+That's rock bottom, when you want somethin' bad enough to steal
+That's rock bottom, when you feel like you've had it up to here
+'Cause you mad enough to scream, but you sad enough to tear
+That's rock bottom, when this life makes you mad enough to kill
+That's rock bottom, when you want somethin' bad enough to steal
+That's rock bottom, when you feel like you've had it up to here
+'Cause you mad enough to scream, but you sad enough to tear
+
+There's people that love me and people that hate me (Yup)
+But it's the evil that made me
+This backstabbin', deceitful and shady (Mhm)
+I want the money, the women, the fortune and fame
+That means I end up burnin' in Hell, scorchin' in flame
+That means I'm stealin' your checkbook and forgin' your name
+This lifetime bliss for eternal torture and pain
+'Cause right now, I feel like I've just hit the rock bottom
+I've got problems, now everybody on my block's got 'em (Duh)
+I'm screamin' like them two cops when 2Pac shot 'em
+Holdin' two Glocks, hope your doors got new locks on 'em
+My daughter's feet ain't got no shoes or socks on 'em
+And them rings you wearin' look like they got a few rocks on 'em
+And while you flaunt 'em
+I could be takin' 'em to shops to pawn 'em
+I got a couple of rings and a brand-new watch, you want 'em?
+'Cause I ain't never went gold off one song
+I'm runnin' up on someone's lawn with guns drawn
+
+That's rock bottom, when this life makes you mad enough to kill
+That's rock bottom, when you want somethin' bad enough to steal
+That's rock bottom, when you feel like you've had it up to here
+'Cause you mad enough to scream, but you sad enough to tear
+That's rock bottom, when this life makes you mad enough to kill
+That's rock bottom, when you want somethin' bad enough to steal
+That's rock bottom, when you feel like you've had it up to here
+'Cause you mad enough to scream, but you sad enough to tear
+That's rock bottom`,
+    artistImg: "eminem.jpeg",
+    img: "sslp.jpeg",
+    source: "rock-bottom.mp3",
+    ft: "",
+  },
+  {
+    name: "Vegas - A Colors Show",
+    artist: "Shaboozey",
+    lyrics: `
+Road, down this old dirt road
+How far does it go?
+Should've brought my four-by-four
+Smoke, I stepped out for a smoke
+We've been at it all night long
+At each other's throat
+Lived a lot of life and my biggest mistake
+Is leavin' my town with a pretty lady
+Shreddin' my heart like a day-old paper
+Ran me wild and drove me crazy
+Old vibrations, familiar faces
+It's Hollywood of all the goddamn places
+Been so long, I need a long vacation
+Lived my life like it was one big Vegas, hmm
+Lived my life like it was one big Vegas, hmm
+I pour my shame inside my cup and drink myself to sleep
+If I make it through the night, then it's a sweet dream
+I got demons, devil's callin' me
+Came out the gutter, covered in dirt, got it all over me
+I'm sipping on whiskey, I'm feeling it now
+Tell momma I'm sorry for lettin' her down
+Was looking for commas, nowhere to be found
+Not deep in my gut, they're coming around
+My Chevy was stuck in the pound
+I didn't have money to go get it out
+Remember I needed favors, now I don't need a savior
+Lived a lot of life and my biggest mistake is leaving my town with a pretty lady
+Shreddin' my heart like a day-old paper
+Ran me wild and drove me crazy
+Old vibrations, familiar faces
+It's Hollywood of all the goddamn places
+Been so long, I need a long vacation
+Lived my life like it was one big Vegas, hmm
+Lived my life like it was one big Vegas, hmm
+Lived my life like it was one big Vegas, hmm
+Don't know how I'll make it home, hmm, mm-mm
+If I make it through the night, then it's a sweet dream
+Devil's callin' me`,
+    artistImg: "shaboozey.jpeg",
+    img: "vegas.jpeg",
+    source: "vegas.mp3",
+    ft: "",
+  },
+  {
+    name: "A-Okay",
+    artist: "Black Wave",
+    lyrics: `
+Yeah, yeah
+Novocaine all my days feeling numb
+Propane raps, Hank Hill with the thumb
+Slow days, on my own way to the grave
+I'ma cold case, no cocaine on the gum
+See me down under up down slam down with the thunder (yeah)
+Ice cold moves, booth hot like the summer
+Grind on a hunnid times two
+In the box locked up, go-ing up 'til we run it (yeah)
+It's me verse the universe, I run it
+And we done one hundred percent to gain damn near nothing
+But fuck it
+You can't stomach the work, you won't serve me a word, keep running
+Get a taste of the falls, hit the walls, on the daily
+Pacing phases, to my face, nothing faze me
+Besides the lot of things on my mind I need to say
+Bit afraid, so I guess they can wait just another day
+I think I might be a-okay
+If I wait just another day
+I got to tell ya
+Getting blinded by the lights
+I got to tell ya
+'Bout the chaos in my mind
+I got to tell ya
+All these nights we're not together
+Forgot to tell ya (yeah)
+Forgot to tell ya
+I got to tell you, I ain't tryna make no promise
+Not nothing that could weigh down conscious
+Pay the bills and the rest fill pockets
+Still sometimes you be obnoxious
+Just want it different when I'm having you around me
+All night, no sleep, we down here
+Whenever we here, no problems
+Losing track o' time, 'til it finds us (yeah)
+Down with ya 'til I make me a thousand
+White picket fences, pool house loungin'
+Sounding good to me if you round with it
+I kill the demons we hit the ground running
+My stress gon' need a vest round the chest
+Reshape my world in seven days or less
+On the chase like the days, chased ice cream trucks
+Got us moving fast but it's never enough
+Yeah, I know that the weather is rough
+But it won't stop us
+Yeah, shit is never enough
+I got to tell ya
+Getting blinded by the lights
+I got to tell ya
+'Bout the chaos in my mind
+I got to tell ya
+All these nights we're not together
+Forgot to tell ya
+Forgot to tell ya
+I got to tell ya
+Getting blinded by the lights
+I got to tell ya
+'Bout the chaos in my mind
+I got to tell ya
+All these nights we're not together
+Forgot to tell ya
+Forgot to tell ya
+I got to tell ya
+Getting blinded by the lights
+I got to tell ya
+'Bout the chaos in my mind
+I got to tell ya
+All these nights we're not together
+Forgot to tell ya
+Forgot to tell ya
+`,
+    artistImg: "blackwave.jpeg",
+    img: "a-okay.jpeg",
+    source: "a-okay.mp3",
+    ft: "ft. Abhi The Nomad",
+  },
+  {
+    name: "Fire Squad",
+    artist: "J. Cole",
+    lyrics: `
+Yeah, yeah, yeah (Yeah)
+Yeah, yeah, yeah, yeah
+Yeah, yeah, yeah (Yeah)
+Yeah, yeah, yeah, yeah (Yeah)
+Yeah, yeah, yeah, yeah, yeah
+Yeah, yeah, yeah
+Yeah, yeah, yeah, yeah
+
+Nigga, why you actin' like a ho?
+Know that I'ma ride for you, either way it go
+Tell me, girl, why you be stressin' me for time? (Time, time, time, time, time, time)
+When you tell me you love me, can't you see I'm tryna climb?
+Damn, my nigga, why you actin' like a bitch? (Bitch, bitch, bitch)
+If you scared to take a chance, how the fuck we gon' get rich?
+Come here, baby, why you always insecure? ('Cure, cure, cure, cure, cure, cure)
+Hold on tight to a nigga and be sure
+
+Yeah, ain't a way around it no more, I am the greatest
+A lotta niggas sat on the throne, I am the latest
+I am the bravest, go toe to toe with the giants
+I ain't afraid of you niggas, I'll end up fadin' you niggas
+'Fore it's all said and done, this nigga need medicine
+My Uzi, it weighed a ton, I need me a better gun
+In fact I just might need two, 'cause niggas say they the one
+And I got somethin' to prove
+Forgive me, Lord, here they come, blaow
+
+Nigga, why you actin' like a ho?
+Know that I'ma ride for you, either way it go
+Tell me, girl, why you be stressin' me for time? (Time, time, time, time, time, time)
+When you tell me you love me, can't you see I'm tryna climb?
+Damn, my nigga, why you actin' like a bitch? (Bitch, bitch, bitch)
+If you scared to take a chance, how the fuck we gon' get rich?
+Come here, baby, why you always insecure? ('Cure, cure, cure, cure, cure, cure)
+Hold on tight to a nigga and be sure
+
+My inhibition's fightin' my intuition
+Premature premonition, showin' me the demolition
+Of these phony niggas, so ahead of my time
+Even when I rhyme about the future I be reminiscin'
+You want the truth? Well, come and listen
+I'm like that time you bagged a dime and checked your phone and saw it was a number missin'
+As fate passes you by, half of you try
+The other half of you fried, too high to actually fly
+One day y'all have to decide, who you gon' be
+A scary nigga or a nigga that's gon' rule like me
+Keep it true like me, Cole, you might be
+Like the new Ice Cube, meets the new Ice-T
+Meets 2 Live Crew, meets the new Spike Lee
+Meets Bruce like Wayne, meets Bruce like Lee
+Meets '02 Lil Wayne, in a new white tee
+Meets KD, ain't no nigga that can shoot like me, blaow
+
+Nigga, why you actin' like a ho?
+Know that I'ma ride for you, either way it go
+Tell me, girl, why you be stressin' me for time? (Time, time, time, time, time, time)
+When you tell me you love me, can't you see I'm tryna climb?
+Damn, my nigga, why you actin' like a bitch? (Bitch, bitch, bitch)
+If you scared to take a chance, how the fuck we gon' get rich?
+Come here, baby, why you always insecure? ('Cure, cure, cure, cure, cure, cure)
+Hold on tight to a nigga and be sure
+
+(Who's the king?)
+Came from the bottom, nigga, with stains on my shirt
+What you expected from me, I came from the dirt (Who's the king?)
+Money my motivator, the songs that I sing
+Picture a peasant passin' from pawn to a king
+(Who's the king?)
+You tell me you still love me, if so then let me go
+Will I return or will I burn, never know (Who's the king?)
+Look in my eyes and see the future
+But don't sugar coat it (Yeah)
+
+Listen, history repeats itself and that's just how it goes
+Same way that these rappers always bite each other's flows
+Same thing that my nigga Elvis did with Rock 'n Roll
+Justin Timberlake, Eminem and then Macklemore
+While silly niggas argue over who gon' snatch the crown
+Look around, my nigga, white people have snatched the sound
+This year I'll prolly go to the awards dappered down
+Watch Iggy win a Grammy as I try to crack a smile
+I'm just playin', but all good jokes contain true shit
+Same rope you climb up on, they hang you with
+But not Jermaine, my aim too sick
+I bang, nigga, I came to bring the pain my brain too quick
+You see how I maneuver this game, I ain't stupid
+I recognize that life is a dream, and I dream lucid
+And break the chains and change minds
+One verse at a time, and claim 2-6
+And fuck it, if the shoe fits, who's the king?
+
+We all kings (We all kings, nigga)
+Kings of ourselves first and foremost
+(True)
+While the people debate who's the king of this rap game (Hehehaha)
+Here comes lil' ol' Jermaine
+With every ounce of strength in his veins
+To snatch the crown from whoever y'all think has it (True)
+But rather than place it on his head as soon as he grabs it
+Poof, boom, paow, it's like magic
+With a flash and a bang, the crown disintegrates
+And falls to the Earth from which it came
+It's done
+Ain't gon' be no more kings (Ain't gon' be no more kings)
+Be wary of any man that claims
+Because deep down he clings onto the need for power (Mm)
+In reality he's a coward (Mm)
+Ultimately he's scared to die
+And sometimes so am I
+But when I'm in tune with the most high
+I realize, the fear lies in my lack of awareness of the other side (The other side, ayy)
+Today I know that we are the same, are the same, you and I (Yessir)
+Different kind of skin, different set of eyes
+Two different minds, but only one God (It's only one God, nigga)
+It's for all the kings (Uh)
+'Cause I know deep down every poet just wanna be loved
+`,
+    artistImg: "jcole.jpeg",
+    img: "2014-forest-hills-drive.jpeg",
+    source: "fire-squad.mp3",
+    ft: "",
+  },
+  {
+    name: "Guwop",
+    artist: "Young Thug",
+    lyrics: `
+        I done put twenty up under the SIG
+You dig? You dig? You dig? (That boy Cassius)
+Ayy (Wheezy Beats)
+I done put twenty inside the SIG (You dig?)
+I pull up on you and I pop at your kid (You dig?)
+I pull up to your block and I pop at your bitch (You dig?)
+I hopped out the coupe and I'm fresh as a bitch (You dig? You dig? You dig?)
+Since I was a youngin, I been gettin' dough (You dig? You dig?)
+I count my backend and I turn up the show (You dig? You dig?)
+I want hella Xans, it gears me up (You dig? You dig?)
+I put the V neck on my team, yeah (You dig? You dig? You dig? You dig? Hey)
+I dig everything that you sayin'
+I dig everything that you doin' too
+I dig the way that you look at me
+You dig the way that I look at you
+I just wanna grab on your butt, butt
+The seat in the Benz, the Chanel Clutch
+The FN, it give him a haircut
+I roll up a seven of John Dutch
+That big booty bounce on the dick and it broke
+I don't gotta act like a gangster, she know
+Dope, my Backwood look like a pole (Yeah)
+My Backwood look like a pole
+I sit on clouds of the smoke
+I'ma blow clouds of the smoke
+Pardon me, pardon my soul
+I crack a smile for them folks, ayy
+Niggas, they eatin' in broad day
+In that ho mouth like a Colgate, yeah
+Keepin' that cold case, God, please give me that cold case
+Man, I don't want no new friends, forgive me for all of my sins
+I don’t wanna think about losin', all I wanna do is win, win (Hey)
+I done put twenty inside the SIG (You dig?)
+I pull up on you and I pop at your kid (You dig?)
+I pull up to your block and I pop at your bitch (You dig?)
+I hopped out the coupe and I'm fresh as a bitch (You dig? You dig? You dig?)
+Since I was a youngin, I been gettin' dough (You dig, you dig)
+I count my backend and I turn up the show (You dig? You dig?)
+I want hella Xans, it gears me up (You dig? You dig?)
+I put the V neck on my team, yeah (You dig? You dig? You dig? You dig? Hey)
+Without the radio, it's twenty a show and that's for sure (Count up)
+Get that backend, bitch, we buyin' dope, that's how it go (Count up)
+Black Amigos, 'bout the Freebandz (Yeah), that .44
+I could cook the dope with no stove (Whip), pot on the floor (Whip, yeah)
+Pull up in that coupe, shit (Skrrt)
+Nigga like, "Damn, where the roof went?" (Damn)
+In the streets, they call me JAY-Z (Yeah)
+Lil' bitch, I got the blueprint (Scooter)
+Lil' nigga, I don't want no old hundreds
+You know I want them blue strips (Count up)
+And I can't fuck you old hoes, I'm ballin' with my new bitch (Yeah)
+You dig that? (You dig?)
+Two hundred thousand worth of chain, and that's a fact
+Hear my name in this rap game, I was sellin' crack (Jugg, jugg)
+Rest in peace to OG Double D, you dig that? Slime
+[Chorus: Young Thug, Quavo]
+I done put twenty inside the SIG (You dig?)
+I pull up on you and I pop at your kid (You dig?)
+I pull up to your block and I pop at your bitch (You dig?)
+I hopped out the coupe and I'm fresh as a bitch (You dig? You dig? You dig?)
+Since I was a youngin, I been gettin' dough (You dig? You dig?)
+I count my backend and I turn up the show (You dig? You dig?)
+I want hella Xans, it gears me up (You dig? You dig?)
+I put the V neck on my team, yeah (Yeah, yeah, Quavo) (You dig? You dig? You dig? You dig? Hey)
+Shoot out the coupe (Pew-pew)
+Shoot out the roof (Shoot out the roof)
+Pull up and smash on her
+We don't got to put a bag on her
+I took your ho, you dig? (You dig?)
+I told her, "Hold the SIG" (SIG)
+Had big bales, midget (Big bales)
+Now you can't say I ain't got millions (Ayy)
+Swam with the sharks, water (Splash)
+You be law and order (12)
+I be gettin' money every mornin', Tom Joyner (Uh)
+Heard you gettin' money but you payin', them niggas extortin' ya (Dig)
+You pay for your fame and fortune (Huh)
+You pay for your fame and fortune (Fame)
+I am the plug, cordless (Brrt)
+Pull up with blazers, Portland (Brrt)
+I pay the neighbors (Cash)
+To pick up the dope on they porches (Dope, uh)
+I came from nickels, I came from nickels
+My niggas don't know you, we do not fuck with you
+I've been in the system, I've been in a pickle
+You dig me like shovels, I gotta fuck with you (Ayy)
+I done put twenty inside the SIG (You dig?)
+I pull up on you and I pop at your kid (You dig?)
+I pull up to your block and I pop at your bitch (You dig?)
+I hopped out the coupe and I'm fresh as a bitch (You dig? You dig? You dig?)
+Since I was a youngin, I been gettin' dough (You dig? You dig?)
+I count my backend and I turn up the show (You dig? You dig?)
+I want hella Xans, it gears me up (You dig? You dig? Hey)
+I put the V neck on my team, yeah (You dig? You dig? You dig? You dig? Hey) (Offset)
+Hop in the private (Private)
+This a Lambo', not a hybrid (Skrrt, hey)
+My wrist is a faucet (Water)
+Feed her Perkies, I'm the doctor (Doctor)
+Draco, hundred round chopper (Grrah)
+She got her eyes on me like binoculars (Watchin')
+Count up this money, it's marvellous (Count it up)
+Stall the bitch, I don't call the bitch (Stall her)
+You better dig what I'm sayin' (Dig what I'm-)
+I'ma kill you and your mans (I'ma kill)
+Beat down the block like an amp (Beat it)
+Goin' up like a skateboard on a ramp (Whoa, ayy)
+Go buy the Rollie and bust it (Bust it, bust it, hey)
+Talkin' that tough shit, but you know you not gon' bust shit (Huh, huh, huh, grrah)
+Look at my fashion, this is a Gucci rugby (Look at it, look at it)
+I'm trappin' and rappin', still got them babies in custody (Trappin' and rappin')
+My diamonds be dancin', live in a mansion, my life is lovely (My life is lovely, hey)
+Ain't no more loyalty (Nah)
+Knock your ass off, pay the lawyer fee (Baow, baow, baow)
+Shit can get ugly, hey
+I done put twenty inside the SIG (You dig?)
+I pull up on you and I pop at your kid (You dig?)
+I pull up to your block and I pop at your bitch (You dig?)
+I hopped out the coupe and I'm fresh as a bitch (You dig? You dig? You dig?)
+Since I was a youngin, I been gettin' dough (You dig? You dig?)
+I count my backend and I turn up the show (You dig? You dig)
+I want hella Xans, it gears me up (You dig? You dig?)
+I put the V neck on my team, yeah (You dig? You dig? You dig? You dig? Hey)`,
+    artistImg: "thugger.jpeg",
+    img: "jeffery.jpeg",
+    source: "guwop.mp3",
+    ft: "ft. Offset, Quavo, and Young Scooter",
+  },
+  {
+    name: "Hookah",
+    artist: "Tyga",
+    lyrics: `
+        Thug
+Baby, pass me the hookah (these niggas scrubs)
+Baby, pass me the hookah (I make love)
+Baby, pass me the hookah
+Ayy, baby, just pass me the hookah
+Tearin' up the place
+I'm a rich nigga, got Chanel on my waist
+Run up on me playin', I'ma aim it at ya face
+And that go for anybody, anyway
+Ayy, I'm a rich Blood, by the way
+And I'm havin' swag, Rollie old like a tape
+Fish scale, yeah, I got these bitches on the bait
+Don't wanna talk, man, they say, I need some space
+Woop, woop, woop, my new car geeked up
+I just paid a cop, now I'm runnin' out of court
+Panoramic top, I'ma put it on the rocks
+Crawl, walk and hop, got all of these bitches shocked
+Ayy, stone molly whiter than my socks
+I don't, I don't wanna talk if it ain't 'bout guap
+Clone, clone a young nigga and still flop
+I buy pints by the two, no Pac
+Baby, pass me the hookah
+Baby, pass me the hookah
+Baby, pass me the hookah
+Ayy, baby, just pass me the hookah
+Baby, pass me the hookah
+Ayy, baby, pass me the hookah
+Ayy, baby, pass me the hookah
+Pass me the hookah, pass the hookah, pass the hookah
+Ah, rubbin' on my chain, blowin' cloudmatic
+Smoke somethin' with a G and bend that ass backwards
+Lay back, relax and talk mathematics
+Later on, we test a little sex practice
+Write my name on the wall
+Money in the mattress, bet she wanna get involved
+She hopped on the blunt, say, "Where the hookah y'all?"
+I tell her pass back if the shit too strong, it's all set
+Mozart art on the block, so wet
+I got her where I want her and I ain't done yet
+Lookin' at your future, baby, put down the cigarette
+Come hop on this kush jet and take flight, yeah
+Tell them bitches, "Hmm, fuck that"
+You with Aladdin, bet I got a magic carpet for that ass, yes
+I'm also on one, got two Olsen's on me
+Big homie, Young Thugger Thugger, rollin'
+Rolls Royce so shorty
+Baby, pass me the hookah (ah, yeah)
+Baby, pass me the hookah
+Baby, pass me the hookah
+Ayy, baby, just pass me the hookah
+Baby, pass me the hookah
+Ayy, baby, pass me the hookah
+Ayy, baby, pass me the hookah
+Pass me the hookah, pass the hookah, pass the hookah
+Ah, Ben Frank baddies in the Benz Wagon
+You know she want a ride home, hop on the band wagon
+I got the chain saggy, you know that life lavish
+Lifestyles like this, gon' need Magnums
+Pass baby, welcome to rich class, baby
+You all Maybelline, with ya new Celine
+Audemars on lean, cars on sheen
+You white girl, but black girl ghetto fly thing
+It's verified, they ain't on your sea level
+Watered eyes, don't cry, inhale and breathe regular
+My baby on it, high in the crack of dawnin'
+Body shape, figure eight, like Picasso draw ya
+Oh, yes, I'm winnin', bling kingin', ring blingin'
+Like, like, for no reason, let's get closer, closed in
+Remove your clothes, we close friends
+Don't get choked smokin' OG Oakland, shout out Oakland
+Baby, pass me the hookah (ah, yeah)
+Baby, pass me the hookah (yeah)
+Baby, pass me the hookah
+Ayy, baby, just pass me the hookah
+Baby, pass me the hookah (yeah)
+Ayy, baby, pass me the hookah
+Ayy, baby, pass me the hookah
+Pass me the hookah, pass the hookah, pass the hookah
+Ah, yeah
+For all my bitches that smoke hookah, yeah`,
+    artistImg: "tyga.jpg",
+    img: "hookah.jpeg",
+    source: "hookah.mp3",
+    ft: "ft. Young Thug",
+  },
+  {
+    name: `Je M'appelle`,
+    artist: "Narvent",
+    lyrics: `
+        Got the gyaldem shake hips in the dance
+Je m'appelle, man's Benz
+Got gyal like ten from Paris, I can't come France
+(Ayy, Lucid, turn that shit up), ayy
+Got the gyaldem shake hips in the dance
+Je m'appelle, man's Benz
+Got gyal like ten from Paris, I can't come France
+He wan' talk badness on my darg
+Man a real cash man, I don't catch man's darg
+Flip that, scribble that on the route, man's off
+Grip that, fiddle that in the coupe, man's lost
+Yo, grab the wheel, man's lost
+Got the gyaldem shake hips in the dance
+Je m'appelle, man's Benz
+Got gyal like ten from Paris, I can't come France
+He wan' talk badness on my darg
+Man a real cash man, I don't catch man's darg
+Flip that, scribble that on the route, man's off
+Grip that, fiddle that in the coupe, man's lost
+Yo, all the beef, can't dead all that
+Double it, triple it, bubble it
+Ripple it, cuddle it, dribble it, uh, uh
+Seen a bad girl jugglin' it, trickle it
+'Nuff badman, so I'm comin' in, rippin' it
+Listenin', strugglin', killing it, cock it and Smithen' it
+Real blue man, man's tickin' it, tickin' it
+Verified ting, man's dick in it
+Can't compete when a Rapman's sizzlin'
+Di-di-dip-dip-dip like Kwengface
+Sku-du-du-du on a beat like Senseii
+This girl, large back, got a leng face
+Moves on pause, got a vid' like Pressplay
+Girl's "Tu es beau" like the French say
+Jump in a Benz, on the Benz like segway
+Can't fit in my screen, got a template
+King with my queen on the top, that's checkmate
+Got the gyaldem shake hips in the dance
+Je m'appelle, man's Benz
+Got gyal like ten from Paris, I can't come France
+He wan' talk badness on my darg
+Man a real cash man, I don't catch man's darg
+Flip that, scribble that on the route, man's off
+Grip that, fiddle that in the coupe, man's lost
+Yo, grab the wheel, man's lost
+If I come in a slide, man's tacklin'
+East baby from the White, man Chapel it
+Yo, the spark on this girl hella cracklin'
+Ice on my neck, finna freeze like mannequin
+Yo, I'm a real cash man, don't battle it
+Scar on my face from the fights man battled in (baow)
+Juggle it, saddle it, couple of tracks in it
+Bubble the backs in it, uh, uh
+Brr, they had me on an astro turf ('urf)
+Kickin' the ball to the cats them serve
+Man rap, can't cap when a man's been hurt
+Now, I jumped on a track when a stacks man learnt
+Man's tired of pounds, cash, Green Lantern
+Wear Moncs when I'm clear, or Goose with the fur
+Trapstar Mikey, can't snooze on a bird
+Too rich in the hood, havva call me "The First"
+Got the gyaldem shake hips in the dance
+Je m'a-Je m'appelle, man's Benz
+Got gyal like ten from Paris, I can't come France
+He wan' talk badness on my darg
+Man a real cash man, I don't catch man's darg
+Flip that, scribble that on the route, man's off
+Grip that, fiddle that in the coupe, man's lost
+Yo, grab the wheel, man's lost
+Got the gyal 'dem shake hips in the dance
+Je m'a-Je m'appelle, man's Benz (bow)
+Got gyal like ten from Paris, I can't come France
+He wan' talk badness on my darg
+Man a real cash man, I don't catch man's darg
+Flip that, scribble that on the route, man's off
+Grip that, fiddle that in the coupe, man's lost
+Yo, grab the wheel, man's lost`,
+    artistImg: "benzz.jpeg",
+    img: "benzz.jpeg",
+    source: "benzz.mp3",
+    ft: "",
+  },
+  {
+    name: "Clocks",
+    artist: "Coldplay",
+    lyrics: `
+    The lights go out, and I can't be saved
+Tides that I tried to swim against
+Have brought me down upon my knees
+Oh, I beg, I beg and plead, singing
+Come out of things unsaid
+Shoot an apple off my head, and a
+Trouble that can't be named
+A tiger's waiting to be tamed, singing
+You are
+You are
+Confusion never stops
+Closing walls and ticking clocks, gonna
+Come back and take you home
+I could not stop that you now know, singing
+Come out upon my seas
+Cursed missed opportunities
+Am I a part of the cure?
+Or am I part of the disease? Singing
+You are
+You are
+You are
+You are
+You are
+You are
+And nothing else compares
+Oh, nothing else compares
+And nothing else compares
+You are
+You are
+Home, home, where I wanted to go
+Home, home, where I wanted to go
+Home (you), home, where I wanted to go (are)
+Home (you), home, where I wanted to go (are)`,
+    artistImg: "coldplay.jpg",
+    img: "clocks.jpeg",
+    source: "clocks.mp3",
+    ft: "",
+  },
+  {
+    name: "Sugar Sugar",
+    artist: "Makhadzi",
+    lyrics: `
+    Sugar
+Sugar, sugar
+Sugar
+Sugar, sugar
+Hala ka mina a ku humeki
+Hala ka mina a ku humeki
+Hala ka mina a ku fambeki
+Hala ka mina a ku fambeki
+Hafha kha nne a hu tuwei
+Hafha kha nne a hu tuwei
+Hafha kha nne a hu tuwei
+Hafha kha nne a hu tuwei
+Huna mutoli (Sugar sugar sugar)
+Hafha hu na mutoli (Sugar sugar sugar)
+Huna chukela (Sugar sugar sugar)
+Huna chukela (Sugar sugar sugar)
+Hafha hu na mutoli (Sugar sugar sugar)
+Huna mutoli (Sugar sugar sugar)
+Hala ka mina a ku humeki
+Hafha kha nne a hu tuwei
+Hala ka mina a ku humeki
+Hafha kha nne a hu tuwei
+Huna chukela (Sugar sugar sugar)
+Huna chukela (Sugar sugar sugar)
+Hafha huna mutoli (Sugar sugar sugar)
+Huna mutoli
+Su'sugela
+Pasopa sok'gunyela
+Makhadzi Venda west
+Makoya Van best
+Su'sugela maan
+Pasopa sok'gunyela
+Makhadzi Venda west
+Makoya Van best
+Loko va famba la ka mina
+Va famba va hlela va vuya(Sugar sugar sugar)
+Kuna chukela
+La ka mina kuna chukela
+Kuna chulela
+La ka mina kuna chukela
+Kuna chukela
+La ka mina kuna chukela
+Kuna chukela
+La ka mina kuna chukela
+Loko va famba ka mina
+Va famba va hlela va vuya
+Hala ka mina a ku humeki
+Hafha kha nne a hu tuwei
+Hala ka mina a ku humeki
+Hafha kha nne a hu tuwei
+Kuna chukela
+La ka mina kuna chukela
+Kuna chukela
+La ka mina kuna chukela
+Kuna chukela
+La ka mina kuna chukela
+Kuna chukela
+La ka mina kuna chukela
+Sugar
+Sugar, sugar
+Sugar
+Sugar, sugar
+Sugar
+Sugar, sugar
+Sugar
+Sugar, sugar`,
+    artistImg: "makhadzi.jpg",
+    img: "sugar.jpeg",
+    source: "sugar.mp3",
+    ft: "ft Mampintsha",
+  },
+  {
+    name: "Experience",
+    artist: "Ludovico Einaudi",
+    lyrics: `
             Unavailable`,
-            artistImg: 'ludovico.jpeg',
-            img: '1.jpeg',
-            source: 'experience.mp3',
-            ft: ''
-        
-    },
-    {
+    artistImg: "ludovico.jpeg",
+    img: "exp.jpg",
+    source: "experience.mp3",
+    ft: "",
+  },
+  {
     name: "Beggin'",
     artist: "Madcon",
-    img: 'begin.jpeg',
+    img: "begin.jpeg",
     ft: ``,
-    source: 'beggin.mp3',
-    artistImg: 'madcon.jpeg',
+    source: "beggin.mp3",
+    artistImg: "madcon.jpeg",
     lyrics: `Oh
     Put your loving hand out, baby
     I'm beggin'
@@ -93,30 +914,30 @@ const musicArray = [
     Beggin', beggin' you
     Put your loving hand out, baby
     Beggin', beggin' you
-    Put your loving hand out, darling`
-},
-// {
-//     name: 'Fearless',
-//     artist: 'Lost Sky',
-//     lyrics: `
-//     We all know that it's not fear
-//     It's not fear
-//     It's so fearless
-//     We all know that it's not fear
-//     It's not fear
-//     It's so fearless
-//     We all know that it's not fear
-//     It's not fear
-//     It's so fearless
-//     It's so fearless`,
-//     artistImg: 'Lost_Sky.jpg',
-//     img: 'fearless.jpeg',
-//     source: 'fearless.mp3',
-//     ft: ''
-// },
-{
-    name: 'Like Toy Soldiers',
-    artist: 'Eminem',
+    Put your loving hand out, darling`,
+  },
+  // {
+  //     name: 'Fearless',
+  //     artist: 'Lost Sky',
+  //     lyrics: `
+  //     We all know that it's not fear
+  //     It's not fear
+  //     It's so fearless
+  //     We all know that it's not fear
+  //     It's not fear
+  //     It's so fearless
+  //     We all know that it's not fear
+  //     It's not fear
+  //     It's so fearless
+  //     It's so fearless`,
+  //     artistImg: 'Lost_Sky.jpg',
+  //     img: 'fearless.jpeg',
+  //     source: 'fearless.mp3',
+  //     ft: ''
+  // },
+  {
+    name: "Like Toy Soldiers",
+    artist: "Eminem",
     lyrics: `
     Step by step, heart to heart
     Left, right, left, we all fall down...
@@ -204,14 +1025,14 @@ const musicArray = [
     Bit by bit, torn apart
     We never win, but the battle wages on
     For toy soldiers`,
-    artistImg: 'eminem.jpeg',
-    img: 'encore.jpeg',
-    source: 'toysoldiers.mp3',
-    ft: ''
-},
-{
-    name: 'I Surrender',
-    artist: 'Hillsong Worship',
+    artistImg: "eminem.jpeg",
+    img: "encore.jpeg",
+    source: "toysoldiers.mp3",
+    ft: "",
+  },
+  {
+    name: "I Surrender",
+    artist: "Hillsong Worship",
     lyrics: `
     Here I am
     Down on my knees again
@@ -272,14 +1093,14 @@ const musicArray = [
     I surrender
     I wanna know You more
     I wanna know You more`,
-    artistImg: 'hillsong.jpeg',
-    img: 'i_surrender.jpeg',
-    source: 'surrender.mp3',
-    ft: ''
-},
-{
+    artistImg: "hillsong.jpeg",
+    img: "I_Surrender.jpeg",
+    source: "surrender.mp3",
+    ft: "",
+  },
+  {
     name: `Hold on, We're going home`,
-    artist: 'Drake',
+    artist: "Drake",
     lyrics: `
     I got my eyes on you
     You're everything that I see
@@ -335,18 +1156,17 @@ const musicArray = [
     It's hard to do these things alone (things alone)
     Just hold on we're going home
     (Goin' home)`,
-    artistImg: 'drake.jpeg',
-    img: 'holdon.jpeg',
-    source: 'holdon.mp3',
-    ft: ''
-},
-{
-    
+    artistImg: "drake.jpeg",
+    img: "holdon.jpeg",
+    source: "holdon.mp3",
+    ft: "",
+  },
+  {
     name: "Landline",
-    artist: 'Binki',
-    img: 'landline.png',
-    ft: '',
-    source: 'landline.mp3',
+    artist: "Binki",
+    img: "landline.png",
+    ft: "",
+    source: "landline.mp3",
     lyrics: `So I just wait by the door, don't know what I'm headin' for
     And if it's me and the beat, I'm keepin' one on the floor
     You're like a landline always keep my hands tied
@@ -395,16 +1215,15 @@ const musicArray = [
     I wanna be the only one you need
     I wanna be the only one you need
     I wanna be the only one, only one`,
-    artistImg: 'Binki.jpg'
-
-}, 
-{
+    artistImg: "Binki.jpg",
+  },
+  {
     name: "Hate Bein' Sober",
     artist: "Chief Keef",
-    img: 'finallyrich.jpeg',
+    img: "finallyrich.jpeg",
     ft: ` ft. 50 Cent & Wiz Khalifa`,
-    source: 'sober.mp3',
-    artistImg: 'chiefkeef.jpg',
+    source: "sober.mp3",
+    artistImg: "chiefkeef.jpg",
     lyrics: `Young Chop on the beat
     I can't spell sober
     I'm a smoker, Fredo a drinker
@@ -494,24 +1313,24 @@ const musicArray = [
     'Cause we can't spell sober
     Ya know us, we smoke strong bruh
     Watch me roll up
-    'Cause I can't spell sober`
-},
-{
+    'Cause I can't spell sober`,
+  },
+  {
     name: "Zoom (Remix)",
     artist: "Young Thug",
-    img: 'thugger.jpg',
+    img: "thugger.jpg",
     ft: ` ft. Lil Uzi Vert`,
-    source: 'zoom.mp3',
-    artistImg: 'thugger.jpeg',
-    lyrics: `[ Sorry, lyrics unavailable :( ]`
-},
-{
+    source: "zoom.mp3",
+    artistImg: "thugger.jpeg",
+    lyrics: `[ Sorry, lyrics unavailable :( ]`,
+  },
+  {
     name: "Little Talks",
     artist: "Of Monsters and Men",
-    img: 'littletalks.jpeg',
+    img: "littletalks.jpeg",
     ft: ``,
-    source: 'littletalks.mp3',
-    artistImg: 'omam.jpg',
+    source: "littletalks.mp3",
+    artistImg: "omam.jpg",
     lyrics: `I don't like walking around this old and empty house
     So hold my hand, I'll walk with you my dear
     The stairs creak as you sleep
@@ -560,15 +1379,15 @@ const musicArray = [
     Though the truth may vary
     This ship will carry our bodies safe to shore
     Though the truth may vary
-    This ship will carry our bodies safe to shore`
-},
-{
+    This ship will carry our bodies safe to shore`,
+  },
+  {
     name: "Spiral Stairs",
     artist: "Yot Club",
-    img: 'spiral.jpeg',
+    img: "spiral.jpeg",
     ft: ``,
-    source: 'spiral-stairs.mp3',
-    artistImg: 'yot-club.jpg',
+    source: "spiral-stairs.mp3",
+    artistImg: "yot-club.jpg",
     lyrics: `They sent things that we all love
     All is said, all it's good to know
     Some things are spilling there a step above
@@ -584,15 +1403,15 @@ const musicArray = [
     Yeah, 'cause it's already been done before
     So, what's the point? Let's just have fun with it
     Yeah, it's already been done before
-    So, what's the point? Let's just have fun`
-},
-{
+    So, what's the point? Let's just have fun`,
+  },
+  {
     name: "The Night Begins To Shine",
     artist: "B.E.R",
-    img: 'nbts.jpg',
+    img: "nbts.jpg",
     ft: ``,
-    source: 'nbts.mp3',
-    artistImg: 'ber.webp',
+    source: "nbts.mp3",
+    artistImg: "ber.webp",
     lyrics: `I saw you dance
     From the corner
     I caught your name
@@ -644,14 +1463,14 @@ const musicArray = [
     Night begins to shine
     The night begins to shine (the night begins to shine)
     Night begins to shine
-    The night begins to shine (the night begins to shine)`
-},
-{
+    The night begins to shine (the night begins to shine)`,
+  },
+  {
     name: "Beautiful",
-    artist: 'Eminem',
-    ft: '',
-    img: 'relapse.jpeg',
-    source: 'beautiful.mp3',
+    artist: "Eminem",
+    ft: "",
+    img: "relapse.jpeg",
+    source: "beautiful.mp3",
     artistImg: "eminem.jpeg",
     lyrics: `Lately, I've been hard to reach
     I've been too long on my own
@@ -789,14 +1608,13 @@ const musicArray = [
     Be proud of who you are
     Even if it sounds corny
     Don't ever let no one tell you, you ain't beautiful (so)`,
-
-},
-{
+  },
+  {
     name: "Hot",
-    artist: 'Young Thug',
-    ft: 'ft. Gunna',
-    img: 'smf.jpeg',
-    source: 'hot.mp3',
+    artist: "Young Thug",
+    ft: "ft. Gunna",
+    img: "smf.jpeg",
+    source: "hot.mp3",
     lyrics: `Hot, hot, hot, hot
     Hot, hot, hot, hot
     Hot, hot, hot, hot
@@ -866,15 +1684,14 @@ const musicArray = [
     Hot, hot, hot, hot
     Hot, hot, hot, damn
     Hot, hot, hot, hot`,
-    artistImg: 'thugger.jpeg'
-
-},
-{
+    artistImg: "thugger.jpeg",
+  },
+  {
     name: "Jusfayu",
-    artist: 'Kamauu',
-    ft: 'ft. No Wyld',
-    img: 'jusfayu.jpeg',
-    source: 'jusfayu.mp3',
+    artist: "Kamauu",
+    ft: "ft. No Wyld",
+    img: "jusfayu.jpeg",
+    source: "jusfayu.mp3",
     lyrics: `Good Lord
     What you don't say, what you don't
     I did it just for you
@@ -966,15 +1783,14 @@ const musicArray = [
     I did it just for you
     I did it just for you
     And you just don't care (did it just for you)`,
-    artistImg: 'kamauu.jpeg'
-
-},
-{
+    artistImg: "kamauu.jpeg",
+  },
+  {
     name: "Drop The World",
-    artist: 'Lil Wayne',
-    ft: 'ft. Eminem',
-    img: 'droptheworld.jpeg',
-    source: 'dtw.mp3',
+    artist: "Lil Wayne",
+    ft: "ft. Eminem",
+    img: "droptheworld.jpeg",
+    source: "dtw.mp3",
     lyrics: `I got ice in my veins, blood in my eyes
     Hate in my heart, love in my mind
     I seen nights full of pain, days of the same
@@ -1048,15 +1864,14 @@ const musicArray = [
     Yeah, and I could die now, rebirth, motherfucker
     Hop up in my spaceship and leave Earth, motherfucker
     I'm gone, motherfucker, I'm gone, I know`,
-    artistImg: 'lilwayne.jpeg'
-
-},
-{
+    artistImg: "lilwayne.jpeg",
+  },
+  {
     name: "Stronger Than I Was",
-    artist: 'Eminem',
-    ft: '',
-    img: 'mmlp2.jpeg',
-    source: 'stronger-than-i-was.mp3',
+    artist: "Eminem",
+    ft: "",
+    img: "mmlp2.jpeg",
+    source: "stronger-than-i-was.mp3",
     lyrics: `You used to say that I'd never be
     Nothing without you and I'd believe
     I'm shot in the lungs, I gasp, I can't breathe
@@ -1138,15 +1953,14 @@ const musicArray = [
     And if I stumble, I won't crumble, I'll get back up and uhh
     But I'mma still be humble when I scream "Fuck you"
     Cause I'm stronger than I was`,
-    artistImg: 'eminem.jpeg'
-
-},
-{
+    artistImg: "eminem.jpeg",
+  },
+  {
     name: "Never Gonna Give You Up",
-    artist: 'Rick Astley',
-    ft: '',
-    img: 'ngup.jpg',
-    source: 'nggyu.mp3',
+    artist: "Rick Astley",
+    ft: "",
+    img: "ngup.jpg",
+    source: "nggyu.mp3",
     lyrics: `We're no strangers to love
     You know the rules and so do I (do I)
     A full commitment's what I'm thinking of
@@ -1201,15 +2015,14 @@ const musicArray = [
     Never gonna make you cry
     Never gonna say goodbye
     Never gonna tell a lie and hurt you`,
-    artistImg: 'rickastley.jpeg'
-
-},
-{
+    artistImg: "rickastley.jpeg",
+  },
+  {
     name: "Kim",
-    artist: 'Eminem',
-    ft: '',
-    img: 'mmlp.jpeg',
-    source: 'kim.mp3',
+    artist: "Eminem",
+    ft: "",
+    img: "mmlp.jpeg",
+    source: "kim.mp3",
     lyrics: `Aww, look at daddy's baby girl
     That's daddy's baby, little sleepy head
     Yesterday I changed your diaper, wiped you and powdered you
@@ -1286,15 +2099,14 @@ const musicArray = [
     I don't wanna go on, living in this world without you
     So long, bitch you did me so wrong
     I don't wanna go on, living in this world without you`,
-    artistImg: 'eminem.jpeg'
-
-},
-{
+    artistImg: "eminem.jpeg",
+  },
+  {
     name: "Harambe",
-    artist: 'Young Thug',
-    img: 'jeffery.jpeg',
-    ft: '',
-    source: 'harambe.mp3',
+    artist: "Young Thug",
+    img: "jeffery.jpeg",
+    ft: "",
+    source: "harambe.mp3",
     lyrics: `Mafia!
     Yeah, peep game, bitch, you know what I'm sayin'?
     Level up! Yeah
@@ -1370,15 +2182,14 @@ const musicArray = [
     Don't make your nigga act crazy over you, girl
     Ayy, 'cause you know I will
     And I'm on a perky pill`,
-    artistImg: 'thugger.jpeg',
-
-},
-{
+    artistImg: "thugger.jpeg",
+  },
+  {
     name: "Holocaust",
-    artist: 'CEZA',
-    img: 'ceza.jpeg',
-    ft: '',
-    source: 'holocaust.mp3',
+    artist: "CEZA",
+    img: "ceza.jpeg",
+    ft: "",
+    source: "holocaust.mp3",
     lyrics: `Koyduğum nokta belki son
     Ben bunu bilemem aynı bomb
     Gibi gelir sana belki de aynı ton
@@ -1459,15 +2270,14 @@ const musicArray = [
     Ma ma ma ma ma ma ma ma ma ma ma microphone show
     Ma ma ma ma ma ma ma ma ma ma mi mi mi mi mi mi ma ma ma ma mi mi mi mi
     Microphone show, mikrofon show (ha)`,
-    artistImg: 'ceza.png'
-
-},
-{
+    artistImg: "ceza.png",
+  },
+  {
     name: "Gettin' Money",
-    artist: 'Burna Boy',
-    img: 'cayo.jpg',
-    ft: '',
-    source: 'cayo.mp3',
+    artist: "Burna Boy",
+    img: "cayo.jpg",
+    ft: "",
+    source: "cayo.mp3",
     lyrics: `Calling from Naija ...... HELLO!?
     Gettin' money sha
     E no funny
@@ -1512,14 +2322,14 @@ const musicArray = [
     This I, this Naija
     I swear down on noco ti ca mi mi ulli pa
     `,
-    artistImg: 'burnaboy.jpeg'
-},
-{
+    artistImg: "burnaboy.jpeg",
+  },
+  {
     name: "Hold On",
-    artist: 'Gareth Dunlop',
-    img: 'hold-on.jpg',
-    ft: '& Shel',
-    source: 'hold-on.mp3',
+    artist: "Gareth Dunlop",
+    img: "hold-on.jpg",
+    ft: "& Shel",
+    source: "hold-on.mp3",
     lyrics: `I've been listenin' to the silence
     Hoping that the time would move you
     I put my faith in your promise
@@ -1563,15 +2373,14 @@ const musicArray = [
     Hold just a little longer
     Hold on
     `,
-    artistImg: 'garethdunlop.jpeg'
-
-},
-{
+    artistImg: "garethdunlop.jpeg",
+  },
+  {
     name: "Wyclef Jean",
-    artist: 'Young Thug',
-    img: 'jeffery.jpeg',
-    ft: '',
-    source: 'wyclef.mp3',
+    artist: "Young Thug",
+    img: "jeffery.jpeg",
+    ft: "",
+    source: "wyclef.mp3",
     lyrics: `Thugger
     TM
     This Actavis by the way I promise, on God
@@ -1655,15 +2464,14 @@ const musicArray = [
     I know some hoes with good head, fuck a tutor
     So many hundreds I done added, I'm going to lose 'em
     Put me in the Jaggy or the Wraith and now I'm coolin'`,
-    artistImg: 'thugger.jpeg'
-
-},
-{
+    artistImg: "thugger.jpeg",
+  },
+  {
     name: "Stepdad",
-    artist: 'Eminem',
-    img: 'em.jpeg',
-    ft: '',
-    source: 'stepdad.mp3',
+    artist: "Eminem",
+    img: "em.jpeg",
+    ft: "",
+    source: "stepdad.mp3",
     lyrics: `Ayo
     (This song's about)
     My, my stepdad
@@ -1744,15 +2552,14 @@ const musicArray = [
     'Cause I, I, hate
     My, my stepdad (stepdad)
     So tonight I'm sayin', bye-bye stepdad (stepdad)`,
-    artistImg: 'eminem.jpeg'
-
-},
-{
+    artistImg: "eminem.jpeg",
+  },
+  {
     name: "Can You Feel My Heart",
-    artist: 'Bring Me The Horizon',
-    img: 'chad.jpg',
-    ft: '',
-    source: 'chad.mp3',
+    artist: "Bring Me The Horizon",
+    img: "chad.jpg",
+    ft: "",
+    source: "chad.mp3",
     lyrics: `Can you hear the silence?
     Can you see the dark?
     Can you fix the broken?
@@ -1785,15 +2592,14 @@ const musicArray = [
     Can you see the dark?
     Can you fix the broken?
     Can you feel, can you feel my heart?`,
-    artistImg: 'bmth.jpg'
-
-},
-{
+    artistImg: "bmth.jpg",
+  },
+  {
     name: "Kuzola",
-    artist: 'Pongo',
-    img: 'kuzola.jpeg',
-    ft: '',
-    source: 'kuzola.mp3',
+    artist: "Pongo",
+    img: "kuzola.jpeg",
+    ft: "",
+    source: "kuzola.mp3",
     lyrics: `Yele-le-le-leee
     Yele-le-le-leee, yele-le-le-leee
     Meu amor me deixou
@@ -1877,15 +2683,14 @@ const musicArray = [
     Ta me doer amendukussolé
     Ai uiwée amendukussolé
     Ta me doer amendukussolé`,
-    artistImg: 'pongo.jpeg'
-
-},
-{
+    artistImg: "pongo.jpeg",
+  },
+  {
     name: "Not Afraid",
-    artist: 'Eminem',
-    ft: '',
-    img: 'recovery.jpeg',
-    source: 'not-afraid.mp3',
+    artist: "Eminem",
+    ft: "",
+    img: "recovery.jpeg",
+    source: "not-afraid.mp3",
     lyrics: `I'm not afraid (I'm not afraid)
     Yeah
     To take a stand (to take a stand)
@@ -1978,15 +2783,14 @@ const musicArray = [
     Whatever weather, cold or warm
     Just lettin' you know that you're not alone
     Holla if you feel like you've been down the same road`,
-    artistImg: 'eminem.jpeg'
-
-},
-{
+    artistImg: "eminem.jpeg",
+  },
+  {
     name: "Leather So Soft",
-    artist: 'Lil Wayne',
-    ft: 'ft. Birdman',
-    img: 'like-father-like-son.jpeg',
-    source: 'leatherss.mp3',
+    artist: "Lil Wayne",
+    ft: "ft. Birdman",
+    img: "like-father-like-son.jpeg",
+    source: "leatherss.mp3",
     lyrics: `My leather so soft, my top so soft
     I probably have it off, these niggas so soft
     And I go so hard
@@ -2075,15 +2879,14 @@ const musicArray = [
     And I go so hard, yeah
     Bitch I go so hard
     Yeah`,
-    artistImg: 'lilwayne.jpeg'
-
-},
-{
+    artistImg: "lilwayne.jpeg",
+  },
+  {
     name: "Vibe Hai",
-    artist: 'Divine',
+    artist: "Divine",
     ft: "ft. Aavrutti, D’Evil, Shah Rule",
-    img: 'vibe.jpeg',
-    source: 'vibe.mp3',
+    img: "vibe.jpeg",
+    source: "vibe.mp3",
     lyrics: `हाँ, vibe है, vibe है
     Gully Gang, boy
     चल, चल, चल, चल You know I got that vibe
@@ -2192,15 +2995,14 @@ const musicArray = [
     छोकरे सब hard
     इसलिए तो hype है, hype है, hype है
     चलो, vibe खोटी नहीं करने का, चलो`,
-    artistImg: 'divine.jpeg'
-
-},
-{
+    artistImg: "divine.jpeg",
+  },
+  {
     name: "Stan",
-    artist: 'Eminem',
+    artist: "Eminem",
     ft: "",
-    img: 'mmlp.jpeg',
-    source: 'stan.mp3',
+    img: "mmlp.jpeg",
+    source: "stan.mp3",
     lyrics: `My tea's gone cold, I'm wondering why I
     Got out of bed at all
     The morning rain clouds up my window
@@ -2337,15 +3139,14 @@ const musicArray = [
     And in the car they found a tape, but they didn't say who it was to
     Come to think about, his name was, it was you
     Damn!`,
-    artistImg: 'eminem.jpeg'
-
-},
-{
+    artistImg: "eminem.jpeg",
+  },
+  {
     name: "Now or Never",
-    artist: 'DJ Switch',
+    artist: "DJ Switch",
     ft: "ft. Various Artist",
-    img: 'non.jpeg',
-    source: 'non.mp3',
+    img: "non.jpeg",
+    source: "non.mp3",
     lyrics: `Man, these rappers so typical
     I drop a smash record
     All these rappers so miniscule
@@ -2463,15 +3264,14 @@ const musicArray = [
     Now or never
     Man what happened to rap Say, say what happened to rap
     Hip hop used to drop bars and now we just damned`,
-    artistImg: 'djswitch.jpeg'
-
-},
-{
+    artistImg: "djswitch.jpeg",
+  },
+  {
     name: "Nail In The Coffin",
-    artist: 'Eminem',
-    img: 'nail.jpg',
+    artist: "Eminem",
+    img: "nail.jpg",
     ft: "",
-    source: 'nail.mp3',
+    source: "nail.mp3",
     lyrics: `This motherfucker, man, just won't shut up, will you?
     Talkin' about I owe him
     Bitch, you owe me
@@ -2576,14 +3376,12 @@ const musicArray = [
     Oh, and for those that don't know
     Don't get it twisted, y'all
     The Source has a white owner`,
-    artistImg: 'eminem.jpeg'
-
-},
-{
-        name: 'Can I Call You Tonight?',
-        artist: 'Dayglow',
-        lyrics: `
-        I feel close
+    artistImg: "eminem.jpeg",
+  },
+  {
+    name: "Can I Call You Tonight?",
+    artist: "Dayglow",
+    lyrics: `I feel close
         Well, maybe I'm not, heaven knows
         It's a spotlight stuck on the ceiling
         Why are these the things that I'm feeling?
@@ -2633,23 +3431,23 @@ const musicArray = [
         Just how I feel
         Could you tell me what's real anymore?
         'Cause I wouldn't know`,
-        artistImg: 'dayglow.jpg',
-        img: 'cicyt.jpeg',
-        source: 'cicyt.mp3'
-    },
-// {
-//     name: 'Frag Out',
-//     artist: 'DJ Assass1n',
-//     lyrics: `
-//     [Instrumental]
-//     Frag out!`,
-//     artistImg: 'djass1n.jpg',
-//     img: 'fragout.jpeg',
-//     source: 'fo.mp3'
-// },
-{
-    name: 'Kids',
-    artist: 'MGMT',
+    artistImg: "dayglow.jpg",
+    img: "cicyt.jpeg",
+    source: "cicyt.mp3",
+  },
+  // {
+  //     name: 'Frag Out',
+  //     artist: 'DJ Assass1n',
+  //     lyrics: `
+  //     [Instrumental]
+  //     Frag out!`,
+  //     artistImg: 'djass1n.jpg',
+  //     img: 'fragout.jpeg',
+  //     source: 'fo.mp3'
+  // },
+  {
+    name: "Kids",
+    artist: "MGMT",
     lyrics: `
     You were a child, crawling on your knees toward it
     Making momma so proud
@@ -2694,11 +3492,11 @@ const musicArray = [
     Control yourself
     Take only what you need from it
     A family of trees`,
-    artistImg: 'mgmt.jpg',
-    img: 'kids.jpg',
-    source: 'kids.mp3'
-}
-].sort((a, b) => a.name === b.name ? 0 : a.name < b.name ? -1 : 1);
+    artistImg: "mgmt.jpg",
+    img: "kids.jpg",
+    source: "kids.mp3",
+  },
+].sort((a, b) => (a.name === b.name ? 0 : a.name < b.name ? -1 : 1));
 
 //Little talks
 

@@ -1,0 +1,359 @@
+@font-face {
+    font-family: "Main";
+    src: url(../fonts/NeueMontreal-Bold.otf);
+}
+
+@font-face {
+    font-family: "Second";
+    src: url(../fonts/intan.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(0,146,255,1);
+    
+}
+
+header {
+    position: sticky;
+    top: 0;
+    padding: 8px 0;
+    transition:  ease-in-out .3s;
+    z-index: 999;
+}
+
+header.active {
+    background-color: #fff;
+    transition:  ease-in-out .3s;
+    box-shadow: 6px 9px 12px -11px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 6px 9px 12px -11px rgba(0,0,0,0.19);
+    -moz-box-shadow: 6px 9px 12px -11px rgba(0,0,0,0.19);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav .nav-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav-left ul li a {
+    position: relative;
+}
+
+.nav-left ul li a::before{
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    width: 100%;
+    height: 2px;
+    border-radius: 100px;
+    bottom: -2px;
+    opacity: 0;
+    transition: ease-in-out .2s;
+}
+
+header.active nav .nav-left ul li a::before {
+    background-color: #000;
+}
+
+.nav-left ul li a:hover::before {
+    transition: ease-in-out .2s;
+    opacity: 1;
+}
+
+.nav-left .logo {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #eaeaea2d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.nav-left .logo svg {
+    width: 40px;
+    height: 40px;
+}
+
+header.active nav .nav-left .logo svg .path {
+    transition: ease-in-out .3s;
+    fill: #131313;
+}
+
+
+header.active nav .nav-left .logo {
+    background-color: #0000001a;
+}
+
+header.active nav .nav-right input {
+    color: #000;
+}
+
+.nav-right input {
+    width: 300px;
+    padding: 8px 1.25rem;
+    height: 45px;
+    border-radius: 6px;
+    background-color: #eaeaea28;
+    color: #fff;
+    font-family: "League Spartan", sans-serif;
+    font-size: 1rem;
+}
+
+.nav-right input::placeholder {
+    font-size: 1rem;
+    color: #fff;
+    opacity: .5;
+    font-family: "League Spartan", sans-serif;
+}
+
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 30;
+    background-color: #1313136b;
+    backdrop-filter: blur(3em);
+    -webkit-backdrop-filter: blur(3em);
+    top: 0;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.nav-left ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Main", "League Spartan", sans-serif;
+}
+
+header.active nav .nav-left ul li a {
+    color: #000;
+    transition: ease-in-out .3s;
+}
+
+header.active nav .nav-right input {
+    background-color: #eee;
+    transition: ease-in-out .3s;
+}
+
+
+header.active nav .nav-right input::placeholder {
+    color: #6d6d6d;
+}
+
+.hero {
+    width: 100%;
+    height: 90dvh;
+    background: rgb(60,94,134);
+    background: linear-gradient(0deg, rgba(60,94,134,1) 0%, rgba(50,118,168,1) 45%, rgba(0,146,255,1) 98%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.hero .hero-text {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.hero-text .text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-container h1 {
+    font-size: 3.5rem;
+    font-family: "Main", "Second", sans-serif;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    font-family: "League Spartan", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.hero-img {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img .img-container {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 11px -14px 28px 1px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 11px -14px 28px 1px rgba(0,0,0,0.24);
+    -moz-box-shadow: 11px -14px 28px 1px rgba(0,0,0,0.24);}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-2 {
+    width: 100%;
+    height: 50vh;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2-container {
+    width: 65%;
+    height: 90%;
+    background-color: #000;
+    border-radius: 30px;
+    display: flex;
+    padding: 50px;
+    
+}
+
+.section2-container .left h1, .section2-container .left button{
+    position: absolute;
+    font-family: "Main", "Second", sans-serif;
+}
+
+.section2-container .left {
+    width: 70%;
+}
+
+.section2-container .left h1 {
+    top: 0;
+    color: #fff;
+    font-size: 2.75rem;
+}
+
+.section2-container .left button {
+    bottom: 0;
+    width: 100px;
+    height: 45px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.section2-container .right {
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.img2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.section3 {
+    height: 60vh;
+    width: 100%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-area {
+    width: 70%;
+}
+
+.featured-artists {
+    font-family: "Second";
+    font-size: 2rem;
+    color: #131313;
+    text-align: start;
+}
+
+#container {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 10px 10px 37px -15px rgba(0,0,0,0.38);
+    -webkit-box-shadow: 10px 10px 37px -15px rgba(0,0,0,0.38);
+    -moz-box-shadow: 10px 10px 37px -15px rgba(0,0,0,0.38);
+    padding: 8px;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.card-upper {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.card-upper img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: ease-in-out .3s;
+}
+
+.card-lower {
+    width: 100%;
+    height: 20%;
+    font-family: "Main", "Second", "League Spartan", sans-serif;
+    text-transform: uppercase;
+    margin-top: 8px;
+    font-size: 1.15rem;
+}

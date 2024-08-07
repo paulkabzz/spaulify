@@ -12,7 +12,7 @@ searchIpnut.oninput = () => {
     const regex = new RegExp(searchTerm.split('').join('.*'), 'i');
 
     // Filter the array according to the search input
-    const filteredData = dataArray.filter(data => {
+    const filteredData = musicArray.filter(data => {
         return regex.test(data.artist.toLowerCase()) || regex.test(data.name.toLocaleLowerCase());
         
         
@@ -59,10 +59,10 @@ searchIpnut.oninput = () => {
         if (searchIpnut.value === "" || searchIpnut.value === null || searchIpnut.value.length < 1) results.innerHTML = "";
 
         li.addEventListener('click', () => {
-            loadMusic(dataArray.indexOf(dataItem));
+            loadMusic(musicArray.indexOf(dataItem));
             playMusic();
             mainAudio.play();
-            musicIndex = dataArray.indexOf(dataItem);
+            musicIndex = musicArray.indexOf(dataItem);
             results.innerHTML = "";
             searchIpnut.value = "";
         });
