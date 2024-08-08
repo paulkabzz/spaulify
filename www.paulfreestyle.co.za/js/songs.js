@@ -200,7 +200,7 @@ I love you, baby
     img: "sslp.jpeg",
     source: "97-bonnie-clyde.mp3",
     ft: "",
-  },
+  }, 
   {
     name: "Cheap Thrills",
     artist: "Sia",
