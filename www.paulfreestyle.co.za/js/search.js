@@ -1,70 +1,57 @@
-const searchIpnut = document.getElementById('search-input');
+document.getElementById('form').onsubmit = e => e.preventDefault();
+
+const searchInput = document.getElementById('search-input');
 const results = document.getElementById('results');
-const form = document.getElementById('form');
 
-form.onsubmit = e => e.preventDefault();
-
-searchIpnut.oninput = () => {
-    const searchTerm = searchIpnut.value.trim().toLowerCase();
+const searchMusic = () => {
+    const searchTerm = searchInput.value.trim().toLowerCase();
     results.innerHTML = "";
 
-    // Create a regular expression from the search term
+    if (!searchTerm) return;
+
     const regex = new RegExp(searchTerm.split('').join('.*'), 'i');
 
-    // Filter the array according to the search input
-    const filteredData = musicArray.filter(data => {
-        return regex.test(data.artist.toLowerCase()) || regex.test(data.name.toLocaleLowerCase());
-        
-        
-    });
+    const filteredData = musicArray
+        .filter(({ artist, name }) => regex.test(artist.toLowerCase()) || regex.test(name.toLowerCase()))
+        .sort((a, b) => {
+            const score = ({ artist, name }) => 
+                (regex.test(artist.toLowerCase()) ? 2 : 0) + (regex.test(name.toLowerCase()) ? 1 : 0);
+            return score(b) - score(a);
+        })
+        .slice(0, 9);
 
-    // Sort the data according to the song name property in ascending order
-    filteredData.sort((a, b) => {
-        let aScore = 0,
-            bScore = 0;
-        if (regex.test(a.artist.toLowerCase())) aScore = 2;
-        if (regex.test(b.artist.toLowerCase())) bScore = 2;
-        if (regex.test(a.name.toLowerCase())) aScore = 1;
-        if (regex.test(b.name.toLowerCase())) bScore = 1;
-
-        return bScore - aScore;
-    });
-
-    //Black Noir
-
-    // Return the ten most matching items
-    filteredData.slice(0, 10).forEach((dataItem) => {
-        let li = document.createElement('li');
-        let span = document.createElement('span');
-        let img = document.createElement('img');
-        let toolTip = document.createElement('span');
-            toolTip.classList.add('tooltiptext');
-
-        img.classList.add('list-image');
-        img.src = ALBUMS_DIR + dataItem.img;
-
-        span.textContent = `${dataItem.artist} - ${dataItem.name}`;
+    const fragment = document.createDocumentFragment();
+    filteredData.forEach((dataItem) => {
+        const li = document.createElement('li');
         li.classList.add('searchresult');
 
+        const img = document.createElement('img');
+        img.classList.add('list-image');
+        img.src = `${ALBUMS_DIR}${dataItem.img}`;
+
+        const span = document.createElement('span');
+        span.textContent = `${dataItem.artist} - ${dataItem.name}`;
+
+        const toolTip = document.createElement('span');
+        toolTip.classList.add('tooltiptext');
         toolTip.textContent = span.textContent;
 
+        li.append(img, span, toolTip);
         li.title = span.textContent;
-
-        results.append(li);
-        li.append(img);
-        li.append(span);
-        li.append(toolTip);
-
-
-        if (searchIpnut.value === "" || searchIpnut.value === null || searchIpnut.value.length < 1) results.innerHTML = "";
+        fragment.appendChild(li);
 
         li.addEventListener('click', () => {
-            loadMusic(musicArray.indexOf(dataItem));
+            const index = musicArray.indexOf(dataItem);
+            loadMusic(index);
             playMusic();
             mainAudio.play();
-            musicIndex = musicArray.indexOf(dataItem);
+            musicIndex = index;
             results.innerHTML = "";
-            searchIpnut.value = "";
+            searchInput.value = "";
         });
     });
+
+    results.appendChild(fragment);
 };
+
+searchInput.addEventListener('input', searchMusic);

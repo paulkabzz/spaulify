@@ -197,7 +197,7 @@ body {
 .custom-lyrics {
     font-size: 18px;
     color: #000000;
-  }
+}
 
 .overlay {
     width: 100%;
@@ -246,7 +246,6 @@ body {
     gap: 5px;
 }
 
-
 .name {
     font-family: "Main", "League Spartan", sans-serif;
     font-size: 3.5rem;
@@ -270,7 +269,6 @@ body {
     align-items: flex-start;
     flex-direction: column;
 }
-
 
 .bottom-header {
     width: 100%;
@@ -296,7 +294,6 @@ button {
     font-size: 2.75rem;
     color: rgb(255, 255, 255);
     margin-left: 100px;
-    
 }
 
 .header-left button > * {
@@ -332,7 +329,6 @@ button {
 .other-right {
     margin-left: 40px;
 }
-
 
 .lyric-header {
     font-size: 1.5rem;

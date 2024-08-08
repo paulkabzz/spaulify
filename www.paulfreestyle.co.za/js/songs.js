@@ -3941,12 +3941,3 @@ Sugar, sugar`,
     source: "kids.mp3",
   },
 ].sort((a, b) => (a.name === b.name ? 0 : a.name < b.name ? -1 : 1));
-
-//Little talks
-
-/*const musicArray = [{
-    
-}]*/
-// approaching nirvana
-// ../assets/songs/
-// ../assets/images/

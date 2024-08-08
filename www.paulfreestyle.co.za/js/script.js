@@ -275,7 +275,6 @@ progressArea.onclick = e => {
 
     mainAudio.currentTime = (clikedOffsetX / progressWidth) * songDuration;
     playMusic();
-
 };
 
 //When the song ends, proceed to the next
