@@ -48,6 +48,7 @@ const searchMusic = () => {
             musicIndex = index;
             results.innerHTML = "";
             searchInput.value = "";
+            updateQueue();
         });
     });
 

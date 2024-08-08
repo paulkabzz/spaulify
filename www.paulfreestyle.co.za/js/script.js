@@ -20,6 +20,7 @@ const wrapper = document.querySelector('.wrapper'),
     headerBtn = document.querySelector('.header-btn');
 let ft = document.querySelector('.feature');
 
+// const likeButton = document.getElementById('like-button');
 const SONGS_DIR = '../assets/songs/',
       ARTISTS_DIR = '../assets/images/artists/',
       ALBUMS_DIR = '../assets/images/album/';
@@ -30,6 +31,8 @@ let musicIndex,
     isRepeat = false,
     isShuffle = false,
     playedIndices = [];
+
+let likedSongs = JSON.parse(localStorage.getItem('likedSongs')) || []; // Load liked songs from localStorage
 
 window.onload = () => {
     // get the index of the song based on the location.hash
@@ -55,6 +58,7 @@ window.onload = () => {
     }
       
     loadMusic(musicIndex);
+    updateQueue();
 };
       
 //Load the song at the ith index
@@ -62,6 +66,8 @@ function loadMusic (i) {
     if (!musicArray[i]) {
       console.error(`There's no song at index: ${i}`)
     }
+
+    updateLikeButton(musicArray[i].name);
 
     document.title = musicArray[i].name + ' - ' + musicArray[i].artist;
     musicName.forEach(name => name.textContent = musicArray[i].name);
@@ -123,7 +129,40 @@ function loadMusic (i) {
       window.onscroll = () => updateHeaderStyle(dominantColor);
       
     });
+
+    // Update the queue after loading the song
+    updateQueue();
 };
+
+// Update the like button based on whether the song is liked
+function updateLikeButton(songName) {
+    const likeButton = document.querySelector('#like-button');
+    if (!likeButton) return;
+    
+    if (likedSongs.includes(songName.toLowerCase())) {
+        likeButton.classList.add('liked');
+        document.querySelector('.like-img').src = "../assets/images/ui/liked.png";
+    } else {
+        likeButton.classList.remove('liked');
+        document.querySelector('.like-img').src = "../assets/images/ui/like.png";    }
+}
+
+// Toggle the like status of a song
+function toggleLike(songName) {
+    const songNameLower = songName.toLowerCase();
+    if (likedSongs.includes(songNameLower)) {
+        likedSongs = likedSongs.filter(song => song !== songNameLower);
+    } else {
+        likedSongs.push(songNameLower);
+    }
+    localStorage.setItem('likedSongs', JSON.stringify(likedSongs));
+    updateLikeButton(songName);
+}
+
+document.querySelector('#like-button').onclick = () => {
+    toggleLike(musicArray[musicIndex].name);
+};
+
 
 window.addEventListener('unload', () => {
     const currentTime = mainAudio.currentTime;
@@ -152,6 +191,75 @@ function pauseMusic () {
     smallPlayButton.innerHTML = '<i class="fa-solid fa-solid fa-play"></i>';
     mainAudio.pause();
 };
+
+function updateQueue() {
+    const queueList = document.querySelector('.queue-list');
+    queueList.innerHTML = ''; // Clear the existing list
+
+    const currentSongContainer = document.querySelector('.current-song');
+    currentSongContainer.innerHTML = ''; // Clear the existing content
+
+    const currentSong = musicArray[musicIndex];
+    const currentImage = document.createElement('img');
+    const currentContainer = document.createElement('div');
+    currentContainer.classList.add('song-details-container');
+    const currentSongName = document.createElement('p');
+    currentSongName.style.fontSize = '14px';
+    const currentArtist = document.createElement('p');
+    currentArtist.style.fontSize = '12px';
+    currentArtist.style.color = '#aaa';
+
+    currentImage.src = `${ALBUMS_DIR}${currentSong.img}`;
+
+    currentSongName.textContent = currentSong.name;
+    currentArtist.textContent = currentSong.artist;
+
+    currentContainer.appendChild(currentSongName);
+    currentContainer.appendChild(currentArtist);
+
+    currentImage.classList.add('que-item-image');
+    currentSongContainer.appendChild(currentContainer);
+    currentSongContainer.appendChild(currentImage);
+
+    // Calculate the next 10 songs in the queue
+    for (let i = 1; i <= musicArray.length; i++) {
+        let nextIndex = (musicIndex + i) % musicArray.length;
+        const song = musicArray[nextIndex];
+
+        // Create a list item for each song in the queue
+        const listItem = document.createElement('li');
+        const image = document.createElement('img');
+        const container = document.createElement('div');
+        container.classList.add('song-details-container');
+        const songName = document.createElement('p');
+        songName.style.fontSize = '14px';
+
+        const artist = document.createElement('p');
+        artist.style.fontSize = '12px';
+        artist.style.color = '#aaa';
+        songName.textContent = song.name;
+        artist.textContent = song.artist;
+
+        container.appendChild(songName);
+        container.appendChild(artist);
+
+        image.src = `${ALBUMS_DIR}${song.img}`;
+        image.classList.add('que-item-image');
+        listItem.classList.add('queue-item');
+        listItem.appendChild(container);
+        listItem.appendChild(image);
+
+        // Add click event listener to play the clicked song
+        listItem.addEventListener('click', () => {
+            musicIndex = nextIndex;
+            loadMusic(musicIndex);
+            playMusic();
+        });
+
+        queueList.appendChild(listItem);
+    }
+}
+
 
 function prevSong () {
     if (isRepeat) {

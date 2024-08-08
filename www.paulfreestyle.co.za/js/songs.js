@@ -9,6 +9,7 @@ const musicArray = [
   //     source: '',
   //     ft: ''
   // },'=
+  // Ms Jackson
   {
     name: "Memory Reboot",
     artist: "Narvent",
@@ -17,6 +18,1524 @@ const musicArray = [
     img: "7.jpg",
     source: "memory-reboot.mp3",
     ft: "& VØJ",
+  },
+  {
+    name: "That's My Nigga Fo' Real",
+    artist: "Young Zee",
+    lyrics: `… Ugh, zee
+… I got wakin' haze, my customers' hoes sleep with me
+We have small beef, I still sell 'em O's for three fifty
+They known when big beef, I'll pop a hunnid times
+Be like roadkill, I leave niggas brains on one and nine
+And my down bitches, they be ready to kill
+I be like chill, they be like
+… That's my nigga fo' real (ah yeah, uh-huh-huh I'm from the Bricks, yeah, be like)
+That's my nigga fo' real (yeah, Young Zee) (smack)
+(All my niggas from the hood, they be like)
+That's my nigga fo' real (yeah, B-Boy you my nigga, yeah, talk to 'em)
+… Yo, I don't give a fuck if we don't sell a record
+We still gon' get this money in the Bricks (yeah, yeah)
+Spill it Zee
+… I'm like Santa Claus, I deliver niggas grams a-raw
+Straight from Panama, fiends eat it up like Hannibal
+And my dimes, disappear like magic wands
+I sell 'em to the crack of dawn, and destroy every track I'm on
+Plus I have a clan packed in the back of vans
+More raw than the Taliban, murk you for a half a gram (what?)
+I get B-Boy to drop yo truck in the river
+Fuck some dough, we be like (that's my nigga)
+… That's my nigga fo' real
+That's my nigga fo' real
+That's my nigga fo' real
+That's my nigga fo' real
+… Scarecrow (what?) I'm tryin' to walk before I crawl
+I want it all, ever since I came outta my mommas walls
+I'm tryin' to make so much dough when I write a song
+I can write 'em all, while y'all click on the corner sellin' final calls (chyea)
+Niggas mad at us, gladiators like Maximus
+We Fabolous, while you fall off like Canibus's managers
+My man Dee U, keep the nina peelin'
+(Zee, point 'em out and watch me serve 'em like Serena Williams)
+… That's my nigga fo' real
+That's my nigga fo' real
+That's my nigga fo' real
+That's my nigga fo' real
+… Zee need Buddha, E-user, beef pre Lugers
+Spittin' from our PT cruisers
+My tank don't drop, I still got dough to make
+Got little niggas on roller skates holdin' my coke and weight
+Blow paper, ho chaser, dough raiser, Joe Frasier
+Sixteen celly's and four pagers
+Go hype up your squad that they might fuck with ours
+I just light up cigars, go buy bikes, trucks and cars
+Got axe and nitty in Atlanta deep
+Ran the street, ten grand a week
+I give 'em one word, they'll put your man to sleep
+And I love my Jersey live bitches
+They leave a nigga face with thirty-five stitches
+They'll help me tie cinder blocks and push your kids
+So deep in the ocean, they'll see where octopuses live (chyea)
+This label deal is for Raz, Pace, and Chill
+I know mad heads, but still, they're my niggas
+… That's my nigga fo' real
+That's my nigga fo' real
+That's my nigga fo' real
+That's my nigga fo' real
+… Yeah
+what, Bricks`,
+    artistImg: "young-zee.jpeg",
+    img: "8mile.jpeg",
+    source: "my-nigga-fo-real.mp3",
+    ft: "",
+  },
+  {
+    name: `97 Bonnie & Clyde`,
+    artist: "Eminem",
+    lyrics: `(Just the two of us, just the two of us)
+Baby, your dada loves you
+And I'ma always be here for you
+(Just the two of us, just the two of us)
+No matter what happens
+You're all I got in this world
+(Just the two of us, just the two of us)
+I would never give you up for nothin'
+(Just the two of us, just the two of us)
+Nobody in this world is ever gonna keep you from me
+I love you
+
+C'mon Hai-Hai, we goin' to the beach
+Grab a couple of toys and let Dada strap you in the car seat
+Oh, where's Mama? She's takin' a little nap in the trunk
+Oh, that smell? Dada must've runned over a skunk
+Now, I know what you're thinkin', it's kind of late to go swimmin'
+But you know your Mama, she's one of those type of women
+That do crazy things, and if she don't get her way, she'll throw a fit
+Don't play with Dada's toy knife, honey, let go of it (No)
+And don't look so upset, why you actin' bashful?
+Don't you wanna help Dada build a sandcastle? (Yeah)
+And Mama said she wants to show you how far she can float
+And don't worry about that little boo-boo on her throat
+It's just a little scratch, it don't hurt
+Her was eatin' dinner while you were sweepin'
+And spilled ketchup on her shirt
+Mama's messy, ain't she? We'll let her wash off in the water
+And me and you can play by ourselves, can't we?
+
+Just the two of us, just the two of us
+And when we ride
+Just the two of us, just the two of us
+Just you and I
+Just the two of us, just the two of us
+And when we ride
+Just the two of us, just the two of us
+Just you and I (See, honey)
+
+There's a place called Heaven and a place called Hell
+A place called prison and a place called jail
+And Dada's probably on his way to all of 'em except one
+'Cause Mama's got a new husband and a stepson
+And you don't want a brother, do ya? (Nah)
+Maybe when you're old enough
+To understand a little better, I'll explain it to ya
+But for now, we'll just say Mama was real, real bad
+Was bein' mean to Dad and made him real, real mad
+But I still feel sad that I put her on time out
+Sit back in your chair, honey, quit tryna climb out
+I told you it's okay, Hai-Hai, want a ba-ba?
+Take a night-night? Na-na-boo, goo-goo-ga-ga?
+Her make poo-poo ca-ca? Dada change your didee
+Clean the baby up so her can take a nighty-nighty
+Your dad'll wake her up as soon as we get to the water
+'97 Bonnie and Clyde, me and my daughter
+
+Just the two of us, just the two of us
+And when we ride
+Just the two of us, just the two of us
+Just you and I
+Just the two of us, just the two of us
+And when we ride
+Just the two of us, just the two of us
+Just you and I
+
+Wake up, sweepyhead, we're here, before we pway
+We're gonna take Mama for a wittle walk along the pier
+Baby, don't cry, honey, don't get the wrong idea
+Mama's too sweepy to hear you scweamin' in her ear (Mama)
+That's why you can't get her to wake, but don't worry
+Dada made a nice bed for Mommy at the bottom of the lake
+Here, you wanna help Dada tie a rope around this rock? (Yeah)
+We'll tie it to her footsie then we'll roll her off the dock
+Ready now, here we go, on the count of free
+One, two, free, whee
+There goes Mama, spashin' in the water
+No more fightin' with Dad, no more restraining order
+No more step-dada, no more new brother
+Blow her kisses bye-bye, tell Mama you love her (Mommy)
+Now we'll go play in the sand, build a castle and junk
+But first, just help Dad with two more things out the trunk
+
+Just the two of us, just the two of us
+And when we ride
+Just the two of us, just the two of us
+Just you and I
+Just the two of us, just the two of us
+And when we ride
+Just the two of us, just the two of us
+Just you and I
+
+(Just the two of us, just the two of us)
+Just me and you, baby, is all we need in this world
+(Just the two of us, just the two of us)
+Just me and you
+Your dada will always be here for you
+Your dada's always gonna love you, remember that
+If you ever need me, I'ma always be here for you
+You ever need anything, just ask
+Dada will be right there
+Your dada loves you
+I love you, baby
+
+`,
+    artistImg: "eminem.jpeg",
+    img: "sslp.jpeg",
+    source: "97-bonnie-clyde.mp3",
+    ft: "",
+  },
+  {
+    name: "Cheap Thrills",
+    artist: "Sia",
+    lyrics: `Up with it, girl
+Rock with it, girl (Sia)
+Show dem it, girl (Bada bang, bang)
+Bounce with it, girl
+Dance with it, girl
+Get with it, girl (Bada bang, bang)
+
+Come on, come on, turn the radio on
+It's Friday night and I won't be long
+Gotta do my hair, put my make-up on
+It's Friday night and I won't be long
+
+'Til I hit the dance floor (Bada bang)
+Hit the dance floor (Bada bang)
+I got all I need
+No, I ain't got cash, I ain't got cash
+But I got you, baby
+(Just you and me)
+
+Baby, I don't need dollar bills to have fun tonight
+(I love cheap thrills)
+Baby, I don't need dollar bills to have fun tonight
+(I love cheap thrills)
+I don't need no money
+You're worth more dan diamond, more dan gold
+As long as I can feel the beat
+Mek di beat jus tek control
+I don't need no money
+You're worth more dan diamond, more dan gold
+As long as I keep dancing
+Free up yourself, get outta control
+
+Come on, come on, turn the radio on
+It's Saturday and I won't be long
+Gotta paint my nails, put my high heels on
+It's Saturday and I won't be long
+
+'Til I hit the dance floor (Bada bang)
+Hit the dance floor (Bada bang)
+I got all I need (Sia)
+No, I ain't got cash, I ain't got cash
+But I got you, baby
+(Just you and me)
+
+Baby, I don't need dollar bills to have fun tonight
+(I love cheap thrills)
+Baby, I don't need dollar bills to have fun tonight
+(I love cheap thrills)
+I don't need no money
+You're worth more dan diamond, more dan gold
+As long as I can feel the beat
+Mek di beat jus tek control
+I don't need no money
+You're worth more dan diamond, more dan gold
+As long as I keep dancing
+Free up yourself, get outta control
+
+Me and you, girl, you and me
+Drop it to di floor and mek mi see yuh energy
+(I love cheap thrills)
+Becah mi nah play no hide and seek
+Wan' fi see di ting you have weh mek mi feel weak, girl (Free)
+(I love cheap thrills)
+'Cause anytime yuh wine and kotch it
+Di selector pull it up an' put it 'pon repeat, girl (Ha)
+(I love cheap thrills)
+Mi nah touch a dollar 'na mi pocket
+'Cause nothin' in this world ain't more dan what you worth
+(I love cheap thrills)
+
+I don't need no money
+You're worth more dan diamond, more dan gold
+As long as I can feel the beat
+Mek di beat jus tek control
+No, I don't need no money
+You're worth more dan diamond, more dan gold
+As long as I keep dancing
+Free up yourself, get outta control
+Oh, oh, oh
+
+Baby, I don't need dollar bills to have fun tonight
+(I love cheap thrills)
+Baby, I don't need dollar bills to have fun tonight (Oh)
+(I love cheap thrills)
+I don't need no money
+You're worth more dan diamond, more dan gold
+As long as I can feel the beat
+Mek di beat jus tek control
+I don't need no money
+You're worth more dan diamond, more dan gold
+As long as I keep dancing
+Free up yourself, get outta control
+
+La, la, la, la, la, la
+(I love cheap thrills)
+La, la, la, la, la, la
+(I love cheap thrills)
+La, la, la, la, la, la
+(I love cheap thrills)
+La, la, la, la, la, la
+(I love cheap thrills)
+
+`,
+    artistImg: "sia.jpeg",
+    img: "cheap-thrills.jpeg",
+    source: "cheap-thrills.mp3",
+    ft: "ft. Sean Paul",
+  },
+  {
+    name: "Spend Some Time",
+    artist: "Eminem",
+    lyrics: `If there's any bitches in this room
+Then there's somethin' I gotta say
+For all the fools who fell for the first girl who comes their way
+I've been down that road
+And now I'm back, sittin' on square one
+Tryin' to pick myself up where I started from
+
+I never woulda thought that I'd see you out of control
+Even though my penis was deep down in your hole
+You should know, between us, we was like mates of soul
+Nothin' could intervene us, especially no hoes
+You was more so the chalant type I chose
+'Til more shows, haunted you nights, I suppose
+That's how it go: with time spent, emotion grows
+In the beginning friends, we decided to roll
+So who's responsible when you get excited, explode
+And Obie's grinnin', then you invite that Obie's cold
+But bitches they gon' talk, niggas they gon' hate
+We established this way before we became mates
+So what's required is that you chill with all that fire
+Get your desire when I retire and—
+
+Spend some time with me, say that you'll be mine (Ha-ha)
+I never thought I'd find someone to be mine
+Lord knows I was right, ‘cause you just crossed the line
+Spend some time with me, say that you'll be mine
+
+I used to say I never met a girl like you before
+Still ain't got a fuckin' clue as to who you truly are
+Almost went as far as introducin' you to my daughters
+'Til you went as far as goin' and snoopin' through my drawers
+Now I just feel stupid for the loop that you threw me for
+Can't believe I almost flew the coop for some stupid whore
+You used to say all you wanted was for me to be yours
+All I ever wanted from you was a few booty calls
+If you recall, I used to treat you like a groupie broad
+When we fucked, I refused to even take my jewelry off
+But it threw me off the first time I called and you blew me off
+It was a shock, it struck me as odd, but it turned me on
+You started gettin' moody on me, pretty soon we'd argue
+And the ruder you got, the more beautiful you got to me
+And who'da even knew that? Who would'a even thought possibly
+Cupid could shoot another one of them Goddamn darts at me?
+It's true that I got shot in the heart
+But when someone seems too good to be true, they usually are
+But see, when you're in it, it's too hard to see
+'Til you pull up and see some other dude's car parked and reach
+Up under the seat as your heart starts to beat
+Before you make a decision that's life-altering
+And just as you halt and you turn and you start to leave
+You hear them words echoing, almost haunting, that taunting ring
+
+Spend some time with me, say that you'll be mine (Ha-ha)
+I never thought I'd find someone to be mine
+Lord knows I was right, ‘cause you just crossed the line
+Spend some time with me, say that you'll be mine (Ha-ha)
+
+Ha, ha, yeah right, bitch
+Spend some time on my dick
+
+In most cases, Stat's attitude is, "Fuck a bitch!"
+My only motive is to get head and fuck a bitch
+But you was different, thought we shared a covenant
+Even held your hand in pub-a-lic
+We sufferin' because of this
+Shawty on some whole 'nother other shit
+Tryin' to play slick, thinkin' I'ma trick off grip
+I'll admit, I was caught in the mix, down to commit
+Feedin' you the best of me, I should've fed you piss
+We started off closer than close
+But who could've predicted to know
+Your trifling ways would'a stopped our growth?
+And the final result, back in that same boat
+I asked myself: "Do I love these hoes?" — Nope!
+
+(Yeah) Em introduced us: "50, this is Tanya, Tanya, this is 50"
+Then slid off and left her to kick it with me
+I complimented her, I said, "You have very nice lips."
+With my imagination, I could see her suckin' my dick
+We played the phone game, a week later, shit changed fast
+Had her comin' over in a cab to give me some ass
+Downtown Manhattan, on the balcony, stare at the skyline
+Penthouse full of imported shit, you know how I grind
+She got to talkin', talkin' like an opportunist too
+Why talk, when suckin' my dick is the real career move?
+Said she's an aspiring actress, she do videos for practice
+Yeah, yeah, know how many times I done heard that shit? (Ha-ha!)
+
+Spend some time with me, say that you'll be mine
+I never thought I'd find someone to be mine
+Lord knows I was right, ‘cause you just crossed the line
+Spend some time with me, say that you'll be mine
+`,
+    artistImg: "eminem.jpeg",
+    img: "encore.jpeg",
+    source: "spend-some-time.mp3",
+    ft: "ft. 50 Cent, Obie Trice, Stat Quo",
+  },
+  {
+    name: "Run This Town",
+    artist: "Jay-Z",
+    lyrics: `Feel it comin' in the air (Yeah)
+Hear the screams from everywhere (Yeah)
+I'm addicted to the thrill (I'm ready)
+It's a dangerous love affair (What's up? Come on)
+Can't be scared when it goes down
+Got a problem, tell me now (What's up?)
+Only thing that's on my mind (What's up?)
+Is who's gon' run this town tonight (Ah, what's up?)
+Is who's gon' run this town tonight (Yeah, what's up? Yeah)
+We gon' run this town
+
+We are, yeah, I said it, we are
+This is Roc Nation, pledge your allegiance
+Get your fatigues on, all black everything
+Black cards, black cars, all black everything
+And our girls are blackbirds ridin' with they Dillingers
+I get more in depth if you boys really real enough
+This is La Familia, I'll explain later
+But for now, let me get back to this paper
+I'm a couple bands down and I'm tryin' to get back
+I gave Doug a grip and lost a flip for five stacks
+Yeah, I'm talkin' 5 comma, 6 zeros, dot zero, here Doug
+Back to runnin' circles round niggas, now we squared up
+Hold up
+
+Life's a game, but it's not fair (Yeah)
+I break the rules, so I don't care (Uh-huh)
+So I keep doin' my own thang
+Walkin' tall against the rain (What's up?)
+Victory's within the mile
+Almost there, don't give up now (What's up?)
+Only thing that's on my mind (What's up?)
+Is who's gon' run this town tonight (Uh, yeah)
+Hey, hey, hey, hey (What's up?)
+Who's gon' run this town tonight?
+
+We are, yeah, I said it: we are
+You can call me Caesar in a dark Caesar
+Please follow the leader, so Eric B we are
+Microphone fiend, this the return of the god
+Peace, God, ah ah, it ain't no nobody fresher
+I'm in Maison, ah, Martin Margiela
+On the table, screamin', "Fuck the other side! They jealous!"
+We got a banquette full of broads, they got a table full of fellas
+Yeah, and they ain't spendin' no cake
+They should throw their hand in 'cause they ain't got no spades
+Yeah, my whole team got dough
+So my banquette is lookin' like Millionaires' Row
+
+Life's a game, but it's not fair
+I break the rules, so I don't care
+So I keep doin' my own thang
+Walkin' tall against the rain
+Victory's within the mile
+Almost there, don’t give up now
+Only thing that's on my mind
+Is who's gon' run this town tonight
+Hey, hey, hey, hey
+Who's gon' run this town tonight?
+
+It's crazy how you can go from bein' Joe Blow
+To everybody on your dick; no homo
+I bought my whole family whips; no Volvos
+Next time I’m in church: please, no photos
+Police escorts, everybody passports
+This the life that everybody ask for
+This the fast life, we are on a crash course
+What you think I rap for, to push a fuckin' Rav 4?
+But I know that if I stay stunting
+All these girls only gon' want one thing
+I can spend my whole life Good Will Hunting
+Only good gon' come is this good when I'm cumming
+She got a ass that'll swallow up a G-string
+And up top, ungh, two bee stings
+And I'm beasting off the Riesling
+And my nigga just made it out the precinct
+We give a damn about the drama that your dude bring
+I'm just tryin' to change the color on your mood ring
+Reebok, baby, you need to try some new things
+Have you ever had shoes without shoe strings?
+"What's that, Ye?" "Baby, these heels"
+"Is that a May— what?!" "Baby, these wheels"
+You trippin' when you ain't sippin', have a refill
+You feelin' like you runnin', huh? Now you know how we feel (What’s up?)
+
+Hey, hey (Yeah, yeah)
+Hey, hey (What’s up?)
+Hey, hey
+Hey, we gon' run this town tonight
+What’s up?
+`,
+    artistImg: "jay-z.jpeg",
+    img: "run-this-town.jpeg",
+    source: "run-this-town.mp3",
+    ft: "& Rihanna and Kanye West ",
+  },
+  {
+    name: "Roger That",
+    artist: "Young Money",
+    lyrics: `I'm in the collard green 6, cornbread in the guts
+Got the Halloween kicks, trick-or-treating the clutch
+C'mon, nigga, is you tricking or what? (What)
+Flow t-, flow-flow-flow tighter than a dick in the butt
+Just hopped off the plane, came back from Vancouv'
+Little white T, some boobs, and bamboo
+White girls tell me, "Hey Nicki, your camp rules
+Is that why you get more head than shampoos?"
+As-salamlu alaykum, no oink for me
+And I never let a D-boy boink for free
+'Cause it's Barbie, bitch, you can join the wave
+I done penny nickel dimed, I done coined the phrase, ha
+You couldn't beat me there if you had a Lear
+Indian-style, courtside with a Cavalier
+V.I.P. rosé, you can have a beer
+'Cause, honey, when you getting money you don't have a care
+Now R-Roger that, R-R-Roger that
+R-Roger that, R-R-R-Roger that
+R-Roger that, R-R-Roger that
+R-R-R-R-R (Roger)
+Ha, young black Ricos, kill for the C-notes
+But me though, I'm Jackson, bitch, uh, Tito
+She wanna play games but this is not bingo
+Monopoly, I'm past GO, gon' ahead and deep-throat
+Four chick foursomes, skin color's mocha
+Sally and Sonia, put the pussies on my totem
+Pole vault stroke 'em, uh, strike ya like bowling, uh
+Now open like you yawning, it's six in the morning
+(Uh) sleeping on me, probably in a coffin
+I'm hotter than the end of fucking August, I'm awesome
+I'm awesome, repeat it to ya grandma and uncles
+M-mothers, Tyga's no dad but I'm the motherfucker
+Motherfuckers, this the last supper
+Look, no hands, I'm a bread cuffer
+I don't dare love her, I'm a dare devil
+I don't fear nothing, motherfucker, Young Money
+Now Roger that, Roger that
+Ro-Roger that, Roger that
+Fuck around and never get Roger back, ha-ha
+I'm goin' in
+Fresh off the jet, sharper than Gillette
+The blunt still wet, so pass it like Brett
+We sip side of mug, we call it upset
+Smoke more than four quarters, we call it sudden death
+I'm a beast, you a pet
+AK long neck, Keith Sweat, haha
+Weezy, motherfucker, Capo in this bitch with me
+Money talks and have a convo in this bitch with me
+I'm mountain-high, Colorado in this bitch with me
+Flow crazy, 7:30, you just 6:50
+Twenty bullets from the chopper, take the roof off
+Laughing to the bank, I'm a goofball
+Hahaha, It's YM
+And we at your neck like a violin
+It's our world, we make it spin
+And y'all the prey, aAmen
+Now Roger that, Roger that
+Where Roger at? I heard Rog' a rat
+Fuc-fuck around and never get Roger back
+Haha`,
+    artistImg: "young-money.jpeg",
+    img: "roger-that.jpeg",
+    source: "roger-that.mp3",
+    ft: "",
+  },
+  {
+    name: "I Can Transform Ya",
+    artist: "Chris Brown",
+    lyrics: `Go hey lil' mama
+I can transform ya
+No, I can't dance but I can dance on ya
+Swizz on the beats, Chris move ya feet
+And baby I can transform ya, him to a me
+I can change you life, make it so new
+Make you never want to go back to the old you
+Cîroc and lime, give it lil' time
+And she can transform like Optimus Prime
+Need a ride ,I can Range you up
+Money, I can change you up
+You can ride your own, no longer be the passenger
+Swag low, I build you up
+Knees weak, I'll stand you up
+Red lips, red dress, like 'em like a fire truck
+What you need, you can have that
+My black card, they don't decline that
+See potential in ya
+Let me mold that
+I can transform, I can transform ya
+I can transform ya
+I can transform ya
+Anything ya want, I can get it for ya
+You're my baby girl, so you know I get it for ya
+I can trans, I can trans, I can transform ya
+Shoes, you got it (got it)
+Bags, you got it (got it)
+Cars, you got it (got it)
+Money, still got it (got it)
+I can transform ya, I can transform ya
+Anything you want I can (I can) get it for ya
+See it in the video, you can have it really though
+Iced out everything, freezing like an Eskimo
+Wanna fly, we can go, anywhere you wanna go
+Jimmy Choo's in Italy, Louis V in Tokyo
+Somethin' like Pinocchio
+If you lie down, I'm a grow
+Wanna see me do it big
+I can show you how it goes
+Take you from an amateur to being professional
+(I can have you swag surfin')
+What you need, you can have that
+My black card, they don't decline that
+See potential in ya
+Let me mold that
+I can transform, I can transform ya (bounce)
+I can transform ya
+I can transform ya
+Anything ya want, I can get it for ya
+You're my baby girl, so you know I get it for ya
+I can trans, I can trans, I can transform ya
+Shoes, you got it (got it)
+Bags, you got it (got it)
+Cars, you got it (got it)
+Money, still got it (got it)
+I can transform ya, I can transform ya
+Anything you want I can (I can) get it for ya
+Okay (Chris)
+I can transform ya, like a Transformer
+I can turn you from a human to a Carter
+Take you off the bench, t-turn ya to a starter
+Then take you home and put you on a charger
+Th-then my cars transforms to a charter
+And we can fly to wherever you ever thought of
+Haha, I take you to wherever it's warmer
+Then I gotta rip off your dress like a warm up
+Haha, but I'm just gettin' warmed up
+So tell your man he better get his voltron up
+I transform her to a Ducati and then I transform me to a Bugatti
+'Cause her form puts me in a trance
+I transform smaller and she puts me in her pants
+Swizz on the Beat, Chris move ya feet
+Weezy transform a good girl to a freak
+I can transform ya
+I can transform ya
+Anything ya want, I can get it for ya
+You're my baby girl, so you know I get it for ya
+I can trans, I can trans, I can transform ya
+Shoes, you got it (got it)
+Bags, you got it (got it)
+Cars, you got it (got it)
+Money, still got it (got it)
+I can transform ya, I can transform ya
+Anything you want I can (I can) get it for ya (Chris)`,
+    artistImg: "chris-brown.jpeg",
+    img: "transform-ya.jpeg",
+    source: "transform-ya.mp3",
+    ft: "ft. Lil Wayne, Swizz Beatz",
+  },
+  {
+    name: "Come Closer",
+    artist: "Wizkid",
+    lyrics: `Go outside, big time forward, heh
+Starboy dey here suh
+Came into the game, no one replace me
+Me love my Hennessy straight with no chaser
+All of my guys know me all about me paper
+Me got me girls all around me, me no chaser, yah
+Starboy, call me number one
+When me tune drop, the girls, they bounce along
+Me no let nothing come between me and me paper
+So when me come inna di place, me undertaker
+Yeah, yeah, yeah, yeah
+Yeah, yeah, yeah, yeah
+Baby, come closer
+Yeah, yeah, yeah, yeah
+Yeah, yeah, yeah, yeah
+Baby, come closer
+Me, me number one inna me city
+Me steady repping, representing for me city, yo
+African-born, me rep my ting, yo
+Me come clean like me come inna me video
+Me, me come through like a soldier
+She give me tease and she pleasing my roja
+She got the keys to my Porsche and my Rover
+We in Miami living La Vida Loca, ayy
+Girl, you got that ting, I know
+You got the body, I know
+You make me sing, I know
+You make me sing, high note, ay
+Girl, you got that ting, I know
+You got the body, I know
+You make me sing, high note
+You make me sing, high note, ay
+Yeah, yeah, yeah, yeah
+Yeah, yeah, yeah, yeah
+Baby, come closer
+Yeah, yeah, yeah, yeah
+Yeah, yeah, yeah, yeah
+Baby, come closer
+Too mix up in drama to go outside
+Too mix up in drama to free my mind
+Jealous people around me, I need to change my life
+I just turn colder every time I try
+What would I do without you, my chargie?
+I don't feel that way with anybody
+Tell me your secrets, I'm not messy
+Steady it for me, girl, hold steady
+I wanna put you in my life
+Your hair smell like the tropics, your body look nice
+One fuck cyaan hold me, we gotta go twice
+I'm here for you, just tell me what you like
+I wanna put you in my life
+Yeah, yeah, yeah, yeah
+Yeah, yeah, yeah, yeah
+Baby, come closer
+Yeah, yeah, yeah, yeah
+Yeah, yeah, yeah, yeah
+Baby, come closer`,
+    artistImg: "wizkid.jpeg",
+    img: "come-closer.jpeg",
+    source: "come-closer.mp3",
+    ft: "ft. Drake",
+  },
+  {
+    name: "One Dance",
+    artist: "Drake",
+    lyrics: `Baby, I like your style
+Grips on your waist
+Front way, back way
+You know that I don't play
+Streets not safe
+But I never run away
+Even when I'm away
+OT, OT, there's never much love when we go OT
+I pray to make it back in one piece
+I pray, I pray
+That's why I need a one dance
+Got a Hennessy in my hand
+One more time 'fore I go
+Higher powers taking a hold on me
+I need a one dance
+Got a Hennessy in my hand
+One more time 'fore I go
+Higher powers taking a hold on me
+Baby, I like your style
+Strength and guidance
+All that I'm wishin' for my friends
+Nobody makes it from my ends
+I had to bust up the silence
+You know you gotta stick by me
+Soon as you see the text, reply me
+I don't wanna spend time fighting
+We've got no time
+And that's why I need a one dance
+Got a Hennessy in my hand
+One more time 'fore I go
+Higher powers taking a hold on me
+I need a one dance
+Got a Hennessy in my hand
+One more time 'fore I go
+Higher powers taking a hold on me
+Got a pretty girl and she love me long time
+Wine it, wine it, and she love me long time
+Ooh yeah, just steady and wine up
+Back up, back up, back up and wine up
+Back up, back up and wine it
+Girl, just back up, back up, back up and wine down
+Ooh yeah, just steady and wine up
+Back, up, back up and wine it, girl
+Ooh, tell me
+I need to know, where do you wanna go?
+'Cause if you're down, I'll take it slow
+Make you lose control
+Where, where, where
+Where, where, where, where (ooh yeah, very long time)
+(Back, up, back up and wine it, girl)
+'Cause if you're down (back up, back up and)
+'Cause if you're down (back up, back up and)
+'Cause if you're down (back up, back up and)
+I need a one dance
+Got a Hennessy in my hand
+One more time 'fore I go
+Higher powers taking a hold on me
+I need a one dance
+Got a Hennessy in my hand
+One more time 'fore I go
+Higher powers taking a hold on me`,
+    artistImg: "drake.jpeg",
+    img: "views.jpeg",
+    source: "one-dance.mp3",
+    ft: "ft. Wizkid, Kyla Reid",
+  },
+  {
+    name: "Replay",
+    artist: "Iyaz",
+    lyrics: `Shawty's like a melody in my head
+That I can't keep out
+Got me singin' like
+Na na na na everyday
+It's like my iPod's stuck on replay
+Replay-ay-ay-ay
+Shawty's like a melody in my head
+That I can't keep out
+Got me singin' like
+Na na na na everyday
+It's like my iPod's stuck on replay
+Replay
+Remember the first time we met
+You was at the mall wit yo friend
+I was scared to approach ya
+But then you came closer
+Hopin' you would give me a chance
+Who would have ever knew
+That we would ever be more than friends
+We're real worldwide, breakin' all the rules
+She like a song played again and again
+That girl
+Like somethin' off a poster
+That girl
+Is a dime they say
+That girl
+Is the gun to my holster
+She's runnin' through my mind all day
+Shawty's like a melody in my head
+That I can't keep out
+Got me singin' like
+Na na na na everyday
+It's like my iPod's stuck on replay
+Replay-ay-ay-ay
+Shawty's like a melody in my head
+That I can't keep out
+Got me singin' like
+Na na na na everyday
+It's like my iPod's stuck on replay
+Replay-ay-ay-ay
+See you been all around the globe
+Not once did you leave my mind
+We talk on the phone, from night til the morn
+Girl you really changed my life
+Doin' things I never do
+I'm in the kitchin cookin' things she likes
+We're real worldwide, breakin' all the rules
+Someday I wanna make you my wife
+That girl
+Like somethin' off a poster
+That girl
+Is a dime they say
+That girl
+Is the gun to my holster
+She's runnin' through my mind all day
+Shawty's like a melody in my head
+That I can't keep out
+Got me singin' like
+Na na na na everyday
+It's like my iPod's stuck on replay
+Replay-ay-ay-ay
+Shawty's like a melody in my head
+That I can't keep out
+Got me singin' like [ay!]
+Na na na na everyday
+It's like my iPod's stuck on replay
+Replay-ay-ay-ay
+I can be your melody
+A girl that could write you a symphony
+The one that could fill your fantasies
+So come baby girl let's sing with me
+Ay!
+I can be your melody
+A girl that could write you a symphony
+The one that could fill your fantasies
+So come baby girl let's sing with me
+Na na na na na na na
+Na na na na na na
+Shawty got me singin'
+Na na na na na na na
+Na na na na na na
+Now she got me singin'
+Shawty's like a melody in my head
+That I can't keep out
+Got me singin' like
+Na na na na everyday
+It's like my iPod's stuck on replay
+Replay-ay-ay-ay
+Shawty's like a melody in my head
+That I can't keep out
+Got me singin' like
+Na na na na everyday
+It's like my iPod's stuck on replay
+Replay-ay-ay-ay`,
+    artistImg: "iyaz.jpeg",
+    img: "replay.jpeg",
+    source: "replay.mp3",
+    ft: "",
+  },
+  {
+    name: "Pumped Up Kicks",
+    artist: "Foster The People",
+    lyrics: `Robert's got a quick hand
+He'll look around the room, but won't tell you his plan
+He's got a rolled cigarette
+Hanging out his mouth, he's a cowboy kid, yeah
+He found a six-shooter gun
+In his dad's closet, and with a box of fun things
+I don't even know what
+But he's coming for you, yeah, he's coming for you
+All the other kids with the pumped up kicks
+You better run, better run outrun my gun
+All the other kids with the pumped up kicks
+You better run, better run faster than my bullet
+All the other kids with the pumped up kicks
+You better run, better run outrun my gun
+All the other kids with the pumped up kicks
+You better run, better run faster than my bullet
+Daddy works a long day
+He'd be coming home late, yeah, he's coming home late
+And he's bringing me a surprise
+'Cause dinner's in the kitchen, and it's packed in ice
+I've waited for a long time
+Yeah, the sleight of my hand is now a quick pull trigger
+I reason with my cigarette
+Then say, "Your hair's on fire, you must have lost your wits, yeah"
+All the other kids with the pumped up kicks
+You better run, better run outrun my gun
+All the other kids with the pumped up kicks
+You better run, better run faster than my bullet
+All the other kids with the pumped up kicks
+You better run, better run outrun my gun
+All the other kids with the pumped up kicks
+You better run, better run faster than my bullet
+Run, run, run, run
+R-r-r-run, run, run, run
+R-r-r-run, run, run, run
+R-r-r-run
+Run, run
+Run, run, run
+All the other kids with the pumped up kicks
+You better run, better run outrun my gun
+All the other kids with the pumped up kicks
+You better run, better run faster than my bullet
+All the other kids with the pumped up kicks
+You better run, better run outrun my gun
+All the other kids with the pumped up kicks
+You better run, better run faster than my bullet
+All the other kids with the pumped up kicks
+You better run, better run outrun my gun
+All the other kids with the pumped up kicks
+You better run, better run faster than my bullet`,
+    artistImg: "foster-the-people.jpeg",
+    img: "pumped-up-kicks.jpeg",
+    source: "pumped-up-kicks.mp3",
+    ft: "",
+  },
+  {
+    name: "You're Somebody Else",
+    artist: "Flora Cash",
+    lyrics: `I saw the part of you
+That only when you're older, you will see too
+You will see too
+I held the better cards
+But every stroke of luck has gotta bleed through
+It's gotta bleed through
+You held the balance of the time
+That only blindly I could read you
+But I could read you
+It's like you told me
+Go forward slowly
+It's not a race to the end
+Well, you look like yourself
+But you're somebody else
+Only it ain't on the surface
+Well, you talk like yourself
+No, I hear someone else though
+Now you're making me nervous
+You were the better part
+Of every bit of beating heart that I had
+Whatever I had
+I finally sat alone
+Pitch black flesh and bone
+Couldn't believe that you were gone
+Well, you look like yourself
+But you're somebody else
+Only it ain't on the surface
+Well, you talk like yourself
+No, I hear someone else though
+Now you're making me nervous
+Well, you look like yourself
+But you're somebody else
+Only it ain't on the surface (on the surface)
+Well, you talk like yourself
+No, I hear someone else though
+Now you're making me nervous (nervous)
+Where are we?
+Well, you look like yourself
+But you're somebody else
+Only it ain't on the surface
+Well, you talk like yourself
+No, I hear someone else though
+Now you're making me nervous
+Well, you look like yourself
+But you're somebody else
+Only it ain't on the surface (on the surface)
+Well, you talk like yourself
+No, I hear someone else though
+Now you're making me nervous (nervous)
+I saw the part of you
+That only when you're older, you will see too
+You will see too`,
+    artistImg: "flora-cash.jpeg",
+    img: "somebody-else.jpeg",
+    source: "somebody-else.mp3",
+    ft: "",
+  },
+  {
+    name: "Just Dance",
+    artist: "Lady Gaga",
+    lyrics: `RedOne, Konvict
+GaGa, oh, eh
+I've had a little bit too much, much (oh, oh, oh)
+All of the people start to rush (start to rush by)
+A dizzy twister dance, can't find my drink or man
+Where are my keys? I lost my phone, phone (oh, oh, oh)
+What's goin' on on the floor?
+I love this record, baby, but I can't see straight anymore (woo!)
+Keep it cool, what's the name of this club?
+I can't remember but it's alright, a-alright
+Just dance, gonna be okay, da da doo-doo-mmm
+Just dance, spin that record, babe, da da doo-doo-mmm
+Just dance, gonna be okay, d-d-d-dance
+Dance, dance, just, j-j-just dance
+Wish I could shut my playboy mouth (oh, oh, oh)
+How'd I turn my shirt inside out? (Inside out, right)
+Control your poison, babe, roses have thorns, they say
+And we're all gettin' hosed tonight (oh, oh, oh)
+What's goin' on on the floor?
+I love this record, baby, but I can't see straight anymore
+Keep it cool, what's the name of this club?
+I can't remember but it's alright, a-alright (woo!)
+Just dance, gonna be okay, da da doo-doo-mmm
+Just dance, spin that record, babe, da da doo-doo-mmm
+Just dance, gonna be okay, d-d-d-dance
+Dance, dance, just, j-j-just
+When I come through on the dance floor checkin' out that catalog (hey)
+Can't believe my eyes, so many women without a flaw (hey)
+And I ain't gon' give it up, steady tryna pick it up like a call (hey)
+I'ma hit it, I'ma beat it and flex and do it until tomorr' yeah
+Shawty I can see that you got so much energy
+The way you're twirlin' up them hips 'round and 'round
+And now there's no reason at all why you can't leave here with me
+In the meantime stay and let me watch you break it down
+And dance, gonna be okay (oh) da da doo-doo-mmm
+Just dance (ooh yeah), spin that record babe, da da doo-doo-mmm
+Just dance (ooh yeah), gonna be okay, da da doo-doo-mmm
+Just dance (ooh yeah), spin that record babe, da da doo-doo-mmm
+Just dance (oh), gonna be okay, d-d-d-dance (gonna be okay)
+Dance, dance (yeah)
+Just, j-j-just dance (oh)
+Woo! let's go!
+Half psychotic, sick, hypnotic
+Got my blueprint, it's symphonic
+Half psychotic, sick, hypnotic
+Got my blueprint electronic
+Half psychotic, sick, hypnotic
+Got my blueprint, it's symphonic
+Half psychotic, sick, hypnotic
+Got my blueprint electronic
+Go!
+Use your muscle, carve it out, work it, hustle
+I got it, just stay close enough to get it on
+Don't slow!
+Drive it, clean it, lights out, bleed it, spend the lasto
+I got it
+In your pocko
+I got it
+Just dance, gonna be okay, da da doo-doo-mmm
+Just dance, spin that record babe, da da doo-doo-mmm
+Just dance (baby), gonna be okay, da da doo-doo-mmm
+Just dance, spin that record babe, da da doo-doo-mmm (baby, yeah)
+Just dance, gonna be okay, d-d-d-dance (spin that record, baby, yeah)
+Dance, dance, just, j-j-just dance`,
+    artistImg: "lady-gaga.jpeg",
+    img: "just-dance.jpeg",
+    source: "just-dance.mp3",
+    ft: "ft. Colby O'Donis",
+  },
+  {
+    name: "Cool Kids",
+    artist: "Echosmith",
+    lyrics: `She sees them walking in a straight line
+That's not really her style
+And they all got the same heartbeat
+But hers is falling behind
+Nothing in this world could ever bring them down
+Yeah, they're invincible
+And she's just in the background
+And she says
+I wish that I could be like the cool kids
+'Cause all the cool kids, they seem to fit in
+I wish that I could be like the cool kids
+Like the cool kids
+He sees them talking with a big smile
+But they haven't got a clue
+Yeah, they're living the good life
+Can't see what he is going through
+They're driving fast cars
+But they don't know where they're going
+In the fast lane, living life without knowing
+And he says
+I wish that I could be like the cool kids
+'Cause all the cool kids, they seem to fit in
+I wish that I could be like the cool kids
+Like the cool kids
+I wish that I could be like the cool kids
+'Cause all the cool kids, they seem to get it
+I wish that I could be like the cool kids
+Like the cool kids
+And they said
+I wish that I could be like the cool kids
+'Cause all the cool kids, they seem to fit in
+I wish that I could be like the cool kids
+Like the cool kids
+I wish that I could be like the cool kids
+'Cause all the cool kids, they seem to fit in
+I wish that I could be like the cool kids
+Like the cool kids
+I wish that I could be like the cool kids
+'Cause all the cool kids, they seem to get it
+I wish that I could be like the cool kids
+Like the cool kids`,
+    artistImg: "echosmith.jpeg",
+    img: "cool-kids.jpeg",
+    source: "cool-kids.mp3",
+    ft: "",
+  },
+  {
+    name: "Man Down",
+    artist: "Rihanna",
+    lyrics: `Sak pasé
+I didn't mean to end his life, I know it wasn't right
+I can't even sleep at night, can't get it off my mind
+I need to get out of sight, 'fore I end up behind bars
+What started out as a simple altercation
+Turned into a real sticky situation
+Me just thinking on the time that I'm facing
+Makes me wanna cry
+'Cause I didn't mean to hurt him (him)
+Coulda been somebody's son
+And I took his heart when (when)
+I pulled out that gun
+Rum-pum-pum-pum
+Rum-pum-pum-pum
+Rum-pum-pum-pum
+Man down
+Rum-pum-pum-pum
+Rum-pum-pum-pum
+Rum-pum-pum-pum
+Man down
+Oh, mama, mama, mama
+I just shot a man down
+In central station
+In front of a big ol' crowd
+Oh, why? Oh, why?
+Oh, mama, mama, mama
+I just shot a man down
+In central station
+Little 22, I call her Peggy Sue
+When she fits right down in my shoes
+Whatchu expect me to do?
+If you're playing me for a fool
+I will lose my cool, and reach for my firearm
+I didn't mean to lay him down
+But it's too late to turn back now
+Don't know what I was thinking
+Now he's no longer living
+So I'm 'bout to leave town, ayy-uh
+'Cause I didn't mean to hurt him (him)
+Coulda been somebody's son
+And I took his heart when (when)
+I pulled out that gun
+Rum-pum-pum-pum
+Rum-pum-pum-pum
+Rum-pum-pum-pum
+Man down
+Rum-pum-pum-pum
+Rum-pum-pum-pum
+Rum-pum-pum-pum
+Man down
+Oh, mama, mama, mama
+I just shot a man down
+In central station
+In front of a big ol' crowd
+Oh, why? Oh, why?
+Oh, mama, mama, mama
+I just shot a man down (well, hear me now)
+In central station
+Said, I'd never thought I'd do it
+Never thought I'd do it, never thought I'd do it
+Oh gosh, what ever happened to me?
+Ever happened to me, ever happened to me?
+Why did I pull di trigger, pull di trigger, pull di trigger? Boom
+And end a nigga, end a nigga life so soon
+When me pull di trigger, pull di trigger, pull it pon you
+Somebody tell me what I'm gonna, what I'm gonna do? Ayy
+Rum-pum-pum-pum
+Rum-pum-pum-pum
+Rum-pum-pum-pum
+Me say one man down, ah wah me say?
+Rum-pum-pum-pum
+Rum-pum-pum-pum
+Rum-pum-pum-pum
+When me went downtown
+'Cause now I'm a criminal, criminal, criminal
+Oh Lord ah mercy, now I am a criminal, man down
+Tell di judge please gimme minimal
+Run out a town, none ah dem can see me now, see me now
+Oh, mama, mama, mama
+I just shot a man down
+In central station
+In front of a big ol' crowd
+Oh, why? Oh, why?
+Oh, mama, mama, mama
+I just shot a man down
+In central station`,
+    artistImg: "rihanna.jpeg",
+    img: "loud.jpeg",
+    source: "man-down.mp3",
+    ft: "",
+  },
+  {
+    name: "Ghetto",
+    artist: "Akon",
+    lyrics: `Ghetto, ghetto
+Ghetto, ghetto livin'
+
+These streets remind me of quicksand
+When you're on it, you'll keep goin' down
+And there's no one to hold on to
+And there's no one to pull you out
+You keep on fallin', no one can hear you callin'
+So you end up self-destructin'
+On the corner with the toolie on the waist line
+Just got up out the thing doin' state time
+Teeth marks on my back from the K-9
+Dark memories of when there was no sunshine
+‘Cause they said that I wouldn't make it
+I remember like yesterday
+Holdin' on to what God gave me
+
+‘Cause that's the life
+When you're livin' in the (ghetto)
+And eatin' in the (ghetto)
+Oh, sleepin' in the (ghetto)
+Ghetto, that's the life
+When you're livin' in the (ghetto)
+And eatin' in the (ghetto)
+Oh, sleepin' in the (ghetto, ghetto)
+
+No need to cherish luxuries
+‘Cause everything come and go
+Even the life that you have is borrowed
+‘Cause you're not promised tomorrow
+So live your life as if every day is gon' be your last
+Once you've moved forward
+You can't go back just to remove your past
+‘Cause you gotta be willin' to pray
+Yes, there gotta be, there gotta be a better way
+Yes, you gotta be willin' to pray
+‘Cause there gotta be, there gotta be a better day
+Whoever said that the struggle would stop today?
+A lot a niggas dead or locked away
+Teenage women growin' up with AIDS
+
+‘Cause that's the life
+When you're livin' in the (ghetto)
+Oh, eatin' in the (ghetto)
+Oh, sleepin' in the (ghetto)
+Ghetto, that's the life
+When you're livin' in the (ghetto)
+Oh, eatin' in the (ghetto)
+Oh, sleepin' in the (ghetto, ghetto)
+
+Gun shots every night in the (ghetto)
+Crooked cops on sight in the (ghetto)
+Everyday is a fight in the (ghetto)
+Oh oh oh oh oh (ghetto livin')
+Got kids to feed in the (ghetto)
+Sellin' coke and weed in the (ghetto)
+Everyday somebody bleed in the (ghetto)
+Oh oh oh oh oh (ghetto livin')
+
+‘Cause that's the life
+When you're livin' in the (ghetto)
+Oh, eatin' in the (ghetto)
+Oh, sleepin' in the (ghetto)
+Ghetto, that's the life
+When you're livin' in the (ghetto)
+Oh, eatin' in the (ghetto)
+Oh, sleepin' in the (ghetto, ghetto)
+
+`,
+    artistImg: "akon.jpeg",
+    img: "ghetto.jpeg",
+    source: "ghetto.mp3",
+    ft: "",
+  },
+  {
+    name: "Right Here",
+    artist: "Brandy",
+    lyrics: `When you feel your heart's guarded
+And you see the break started
+And when the clouds have all departed
+You'll be right here with me
+B-Rock, uh, Darkchild
+We back
+You'll be right here with me
+You'll be right here with me
+When your life is going too fast
+Off the train tracks, I can slow it down
+Just when you think you're 'bout to turn back
+Scared you might crash, I'll be your ground (Whoa)
+When you feel your heart's guarded
+And you see the break started
+And when the clouds have all departed
+You'll be right here with me
+When your tears have dried from cryin'
+And the world has turned silent
+And when the clouds have all departed
+You'll be right here with me
+I'll be right here with you, you'll be right here with me
+I'll be right here with you, you'll be right here with me, yeah
+And when you're trapped and there's just no key
+And you can't breathe, I'll breathe for you
+The fire's got you down on both knees
+And the walls are closing in, but I'll be breaking through
+And when you feel alone, I'ma be your home
+When others come and go, you know I got you
+And when you feel your heart's guarded
+And you see the break started
+And when the clouds have all departed
+You'll be right here with me (You'll see the sun)
+When your tears have dried from cryin'
+And the world has turned silent
+And when the clouds have all departed
+You'll be right here with me
+I will be here right beside you
+Every step you take, yeah
+I will be your strength, your shelter
+Shield you from the rain
+Oh, when you feel
+When you feel your heart's guarded
+And you see the break started
+And when the clouds have all departed
+You'll be right here with me (Right here)
+When your tears have dried from cryin' (We ain't never goin' nowhere)
+And the world has turned silent (Gonna tell the world we're here)
+And when the clouds have all departed (No, ne-ne-never depart, oh)
+You'll be right here with me
+And when you feel your heart's guarded
+And you see the break started
+And when the clouds have all departed
+You'll be right here with me (Right here with me)
+When your tears have dried from cryin'
+And the world has turned silent
+And when the clouds have all departed
+You'll be right here with me
+I'll be right here with you, you'll be right here with me
+I'll be right here with you, you'll be right here with me
+I'll be right here with you, you'll be right here with me
+I'll be right here with you, you'll be right here with me, yeah`,
+    artistImg: "brandy.jpeg",
+    img: "human.jpeg",
+    source: "right-here.mp3",
+    ft: "",
+  },
+  {
+    name: "Take Care",
+    artist: "Drake",
+    lyrics: `I know you've been hurt by someone else
+I can tell by the way you carry yourself
+If you let me, here's what I'll do
+I'll take care of you (I'll take, I'll take)
+I've loved and I've lost
+I've asked about you and they told me things
+But my mind didn't change and I still feel the same
+What's a life with no fun? Please, don't be so ashamed
+I've had mine, you've had yours, we both know, we know
+They won't get you like I will, my only wish is I die real
+'Cause that truth hurts and those lies heal
+And you can't sleep thinking that he lies still
+So you cry still, tears all on the pillowcase
+Big girls all get a little taste, ah
+Pushing me away so I give her space, ah
+Dealing with a heart that I didn't break
+I'll be there for you, I will care for you
+I keep thinking you just don't know
+Tryna run from that, say you done with that
+On your face, girl, it just don't show
+When you're ready, just say you're ready
+When all the baggage just ain't as heavy
+And the party's over, just don't forget me
+We'll change the pace and we'll just go slow
+You won't ever have to worry, you won't ever have to hide
+And you've seen all my mistakes, so look me in my eyes
+'Cause if you let me, here's what I'll do
+I'll take care of you (I'll take, I'll take)
+I've loved and I've lost
+Yeah
+It's my birthday, I'll get high if I want to
+Can't deny that I want you, but I'll lie if I have to
+'Cause you don't say you love me
+To your friends when they ask you
+Even though we both know that you do, you do
+One time, been in love one time
+You and all your girls in the club one time
+All so convinced that you're following your heart
+'Cause your mind don't control what it does sometimes
+We all have our nights, though, don't be so ashamed
+I've had mine, you've had yours, we both know, we know
+You hate being alone, well you ain't the only one
+You hate the fact that you bought the dream
+And they sold you one
+And you love your friends, but somebody should've told you some'
+To save you, instead, they say
+Don't tell me, I don't care
+If you hurt, I don't tell you
+You don't care, it feels true
+Don't tell me, I don't care
+If you hurt, I don't tell you
+You don't care, it feels true
+I know you've been hurt by someone else
+I can tell by the way you carry yourself
+If you let me, here's what I'll do
+I'll take care of you (I'll take, I'll take)
+I've loved and I've lost`,
+    artistImg: "drake.jpeg",
+    img: "take-care.jpeg",
+    source: "take-care.mp3",
+    ft: "ft. Rihanna",
+  },
+  {
+    name: "Rehab",
+    artist: "Rihanna",
+    lyrics: `Baby baby
+When we first met
+I never felt something so strong
+You were like my lover and my best friend
+All wrapped in one with a ribbon on it
+And all of a sudden you went and left
+I didn't know how to follow
+It's like a shock that spun me around
+And now my heart's dead
+I feel so empty and hollow
+And I'll never give myself to another the way I gave it to you
+You don't even recognize the ways you hurt me, do you?
+It's gonna take a miracle to bring me back
+And you're the one to blame
+And now I feel like... oh!
+You're the reason why I'm thinking
+I don't wanna smoke on these cigarettes no more
+I guess that's what I get for wishful thinking
+Should've never let you enter my door
+Next time you wanna go on and leave
+I should just let you go on and do it
+'Cause now I'm using like I bleed
+It's like I checked into rehab
+And baby, you're my disease
+It's like I checked into rehab
+And baby, you're my disease
+I gotta check into rehab
+'Cause baby you're my disease
+I gotta check into rehab
+'Cause baby you're my disease
+Damn, ain't it crazy when you're loveswept?
+You'd do anything for the one you love
+'Cause anytime that you needed me I'd be there
+It's like you were my favorite drug
+The only problem is that you was using me
+In a different way than I was using you
+But now that I know it's not meant to be
+I gotta go, I gotta wean myself off of you
+And I'll never give myself to another the way I gave it to you
+You don't even recognize the ways you hurt me, do you?
+It's gonna take a miracle to bring me back
+And you're the one to blame
+'Cause now I feel like... oh!
+You're the reason why I'm thinking
+I don't wanna smoke on these cigarettes no more
+I guess that's what I get for wishful thinking
+Should've never let you enter my door
+Next time you wanna go on and leave
+I should just let you go on and do it
+'Cause now I'm using like I bleed
+It's like I checked into rehab
+And baby, you're my disease
+It's like I checked into rehab
+And baby, you're my disease
+I gotta check into rehab
+'Cause baby you're my disease
+I gotta check into rehab
+'Cause baby you're my disease
+Now ladies gimme that...
+Oh, oh, oh, oh, oh, ohh; oh, oh, oh
+Now gimme that...
+Oh, oh, oh, oh, oh, ohh; oh, oh, oh
+Oh! You're the reason why I'm thinking
+I don't wanna smoke on these cigarettes no more
+I guess that's what I get for wishful thinking
+Should've never let you enter my door
+Next time you wanna go on and leave
+I should just let you go on and do it
+'Cause now I'm using like I bleed
+It's like I checked into rehab
+And baby, you're my disease
+It's like I checked into rehab
+And baby, you're my disease
+I gotta check into rehab
+'Cause baby you're my disease
+I gotta check into rehab
+'Cause baby you're my disease`,
+    artistImg: "rihanna.jpeg",
+    img: "rehab.jpeg",
+    source: "rehab.mp3",
+    ft: "ft. Justine Timberlake",
   },
   {
     name: "Outta COntrol",
@@ -1538,7 +3057,7 @@ Sugar, sugar`,
     I wanna know You more
     I wanna know You more`,
     artistImg: "hillsong.jpeg",
-    img: "I_Surrender.jpeg",
+    img: "i_surrender.jpeg",
     source: "surrender.mp3",
     ft: "",
   },

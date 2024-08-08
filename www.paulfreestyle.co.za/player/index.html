@@ -137,6 +137,18 @@
     <section class="main">
       <nav class="nav">
         <ul id="results"></ul>
+        <!-- QUEUE -->
+        <div class="queue-container">
+          <div>
+            <h3 class="que-header" style="color: white;">
+              Now Playing
+            </h3>
+            <p class="current-song" style="color: white;"></p>
+          </div>
+
+          <h3 class="que-header" style="color: white;">Up Next</h3>
+          <ul class="queue-list" style="color: white;"></ul>
+      </div>
       </nav>
       <main>
         <section class="bottom-layer">
@@ -178,6 +190,9 @@
           <header class="bottom-header">
             <button class="play-pause btnC" id="play-pause">
               <i class="fa-solid fa-circle-play"></i>
+            </button>
+            <button id="like-button" style="display:flex;">
+              <img src="../assets/images/ui/like.png" alt="" style="width: 55px; cursor:pointer;" class="like-img">
             </button>
           </header>
           <section class="other">
