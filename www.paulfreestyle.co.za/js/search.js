@@ -30,7 +30,7 @@ const searchMusic = () => {
         img.src = `${ALBUMS_DIR}${dataItem.img}`;
 
         const span = document.createElement('span');
-        span.textContent = `${dataItem.artist} - ${dataItem.name}`;
+        span.textContent = `${dataItem.name} - ${dataItem.artist}`;
 
         const toolTip = document.createElement('span');
         toolTip.classList.add('tooltiptext');
