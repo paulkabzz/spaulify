@@ -387,5 +387,10 @@ progressArea.onclick = e => {
 
 //When the song ends, proceed to the next
 mainAudio.onended = () => {
-    nextSong();
+    if (isRepeat === false) {
+        nextSong()
+    } else {
+        mainAudio.currentTime = 0;
+        mainAudio.play();
+    };
 };
