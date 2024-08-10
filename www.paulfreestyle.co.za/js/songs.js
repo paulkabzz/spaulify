@@ -1,15 +1,4 @@
 const musicArray = [
-  // {
-  //     name: 'Chad',
-  //     artist: 'Giga Chad',
-  //     lyrics: `
-  //     Unavailable`,
-  //     artistImg: 'chad.jpg',
-  //     img: 'chad.jpg',
-  //     source: '',
-  //     ft: ''
-  // },'=
-  // Ms Jackson
   {
     name: "Memory Reboot",
     artist: "Narvent",
@@ -18,6 +7,278 @@ const musicArray = [
     img: "7.jpg",
     source: "memory-reboot.mp3",
     ft: "& VØJ",
+  },
+  {
+    name: "All Falls Down",
+    artist: "Kanye West",
+    lyrics: `Oh, when it all (yeah)
+It all falls down (this the real one, baby)
+I'm tellin' you all (uh)
+It all falls down (Chi-Town, stand up)
+Oh, when it all (Southside, Southside)
+It all falls down (we gon' set this party off right)
+I'm tellin' you all (Westside, Westside)
+It all falls down, oh, when it all (we gon' set this party off right)
+Man, I promise, she's so self-conscious
+She has no idea what she doin' in college
+That major that she majored in don't make no money
+But she won't drop out, her parents'll look at her funny
+Now, tell me that ain't insecurr
+The concept of school seems so securr
+Sophomore, three yurrs, ain't picked a carurr
+She like, "Fuck it, I'll just stay down hurr and do hair"
+'Cause that's enough money to buy her a few pairs
+Of new Airs, 'cause her baby daddy don't really care
+She's so precious with the peer pressure
+Couldn't afford a car, so she named her daughter Alexis
+She had hair so long that it looked like weave
+Then she cut it all off, now she look like Eve
+And she be dealin' with some issues that you can't believe
+Single black female addicted to retail, and well
+Oh, when it all, it all falls down (uh)
+And when it falls down, who you gon' call now?
+I'm tellin' you all (c'mon, c'mon)
+It all falls down
+And when it falls down, oh, when it all (and when it all falls down)
+Man, I promise, I'm so self-conscious
+That's why you always see me with at least one of my watches
+Rollies and Pashas done drove me crazy
+I can't even pronounce nothin', pass that Ver-say-see
+Then I spent four hundred bucks on this
+Just to be like, "Nigga, you ain't up on this"
+And I can't even go to the grocery store
+Without some Ones that's clean and a shirt with a team
+It seem we livin' the American Dream
+But the people highest up got the lowest self-esteem
+The prettiest people do the ugliest things
+For the road to riches and diamond rings
+We shine because they hate us, floss 'cause they degrade us
+We tryna buy back our 40 acres
+And for that paper, look how low we'll stoop
+Even if you in a Benz, you still a nigga in a coupe
+Oh, when it all (c'mon, c'mon)
+It all falls down (and when it falls down, who you gon' call now?)
+I'm tellin' you all (come on, come on)
+It all falls down, oh, when it all (and when it all falls down)
+I say, "Fuck the police, " that's how I treat 'em
+We buy our way out of jail, but we can't buy freedom
+We'll buy a lot of clothes, but we don't really need 'em
+Things we buy to cover up what's inside
+'Cause they made us hate ourself and love they wealth
+That's why shorty's hollerin', "Where the ballers at?"
+Drug dealer buy Jordan, crackhead buy crack
+And the white man get paid off of all of that
+But I ain't even gon' act holier than thou
+'Cause fuck it, I went to Jacob with twenty-five thou
+Before I had a house and I'd do it again
+'Cause I wanna be on 106 & Park, pushin' a Benz
+I want to act ballerific like it's all terrific
+I got a couple past-due bills, I won't get specific
+I got a problem with spendin' before I get it
+We all self-conscious, I'm just the first to admit it
+Oh, when it all (yeah, c'mon, c'mon)
+It all falls down (and when it falls down, who you gon' call now?)
+I'm tellin' you all (c'mon, c'mon)
+It all falls down (and when it falls down)
+Oh, when it all (Southside, Southside)
+It all falls down (we gon' set this party off right)
+I'm tellin' you all (Westside, Westside)
+It all falls down (we gon' set this party off right)
+Oh, when it all (Chi-Town, Chi-Town)
+It all falls down (We gon' show 'em how we get down)
+I'm tellin' you all (Now, Syleena, you just like a safe belt)
+It all falls down (you saved my life, c'mon)
+Oh, when it all, it all falls down
+I'm tellin' you all, it all falls down
+I's can't keep workin' like this
+This grave shift is like a slave ship
+`,
+    artistImg: "kanye-west.jpeg",
+    img: "all-falls-down.jpeg",
+    source: "all-falls-down.mp3",
+    ft: "ft. Syleena Johnson",
+  },
+  {
+    name: "Do For Love",
+    artist: "2pac",
+    lyrics: `I shoulda seen you was trouble right from the start
+Taught me so many lessons
+How not to mess with broken hearts, so many questions
+When this began we was the perfect match, perhaps
+We had some problems but we workin' at it, and now
+The arguments are gettin' loud, I wanna stay
+But I can't help from walkin' out, let's throw it away
+Just take my hand and understand, if you could see
+I never planned to be a man it just wasn't me
+But now I'm searchin' for commitment, in other arms
+I wanna shelter you from harm, don't be alarmed
+Your attitude was the cause, you got me stressin'
+Soon as I open up the door with your jealous questions
+Like, where can I be? You're killin' me with your jealousy
+Now my ambition's to be free
+I can't breathe, 'cause soon as I leave, it's like a trap
+I hear you callin' me to come back, I'm a sucka for love
+What you won't do, do for love (that's right)
+You tried everything, but you don't give up
+What you won't do, do for love (sucka for love)
+You tried everything, but you don't give up (no, baby)
+Just when I thought I broke away and I'm feelin' happy
+You try to trap me say you pregnant and guess who the daddy
+Don't wanna fall for it, but in this case what could I do? So now I'm back
+To makin' promises to you, tryna keep it true
+What if I'm wrong, a trick to keep me on and on
+Tryin' to be strong and in the process, keep you goin'
+I'm bout to lose my composure, I'm gettin' close
+To packin' up and leavin' notes, and gettin' ghost (ooh-oh)
+Tell me who knows, a peaceful place where I can go
+To clear my head I'm feelin' low, losin' control
+My heart is sayin' leave, oh what a tangled web we weave
+When we conspire to conceive, and now
+You gettin' calls at the house, guess you cheatin'
+That's all I need to hear 'cause I'm leavin', I'm out the do'
+Never no more will you see me, this is the end
+'Cause now I know you've been cheatin', I'm a sucka for love
+What you won't do, do for love (sucka for love)
+You tried everything, but you don't give up (don't give up)
+What you won't do, do for love (oh yeah, sucka for love)
+You tried everything, but you don't give up (no, baby)
+Now he left you with scars, tears on your pillow and you still stay
+As you sit and pray, hopin' the beatings'll go away
+It wasn't always a hit and run relationship
+It use to be love, happiness and companionship
+Remember when I treated you good
+I moved you up to hills, out the ills of the ghetto hood
+Me and you a happy home, when it was on
+I had a love to call my own (own)
+I shoulda seen you was trouble but I was lost, trapped in your eyes
+Preoccupied with gettin' tossed, no need to lie
+You had a man and I knew it, you told me
+Don't worry 'bout it we can do it now I'm under pressure (yeah)
+Make a decision cause I'm waitin', when I'm alone
+I'm on the phone havin' secret conversations, huh
+I wanna take your misery, replace it with happiness
+But I need your faith in me, I'm a sucka for love
+What you won't do, do for love (what you won't do for love)
+You tried everything, but you don't give up (every little thing)
+What you won't do, do for love (you don won't do for love, my pretty baby)
+You tried everything, but you don't give up (no)
+What you won't do, do for love (I'm sucka for love)
+You tried everything, but you don't give up (oh-ooh, oh)
+What you won't do, do for love (sucka for love)
+You tried everything (sucka for love), but you don't give up (oh)
+What you won't do, do for love (do)
+You tried everything (every little thing, babe), but you don't give up (no)
+What you won't do, do for love
+You tried everything, but you don't give up (do for love)
+Yeah baby, yeah
+(Do for love)`,
+    artistImg: "2pac.jpeg",
+    img: "do-for-love.jpeg",
+    source: "do-for-love.mp3",
+    ft: "",
+  },
+  {
+    name: "Bad Meets Evil",
+    artist: "Eminem",
+    lyrics: `I reckon you ain't familiar with these here parts
+You know, there's a story behind that there saloon
+20 years ago, two outlaws took this whole town over
+Sheriffs couldn't stop 'em
+Quickest damn gun-slingers I've ever seen
+Got murdered in cold-blood
+That old saloon there was their little home away from home
+They say the ghosts of Bad and Evil still live in that tavern
+And on a quiet night, you can still hear
+The footsteps of Slim Shady and Royce Da 5'9"
+
+I don't speak, I float in the air, wrapped in a sheet
+I'm not a real person, I'm a ghost trapped in a beat
+I translate when my voice is read through a seismograph
+And the noise is spread
+Picked up and transmitted through Royce's head (Uhh)
+Trap him in his room, possess him and hoist his bed
+'Til the evilness flows through his blood like poisonous lead
+Told him each one of his boys is dead (Ohh)
+I asked him to come to the dark side
+He made a choice and said (Yo)
+Who hard? Yo, I done heard worse
+We can get in two cars and accelerate at each other
+To see which one'll swerve first
+Two blind bandits panic, whose mental capacity
+Holds that of a globe on top of nine other planets
+Kissed the cheek of the Devil, intelligence level
+Is hellier than treble peakin' on speakers in the ghetto
+Dismissal, I'm not a fair man, disgraced the race of an atheist
+Interceptin' missiles with my bare hands like a patriot
+One track sliced without swords, I buried the Christ corpse
+In my past life, when the black knight mounted the white horse
+And stay over-worked, it's like the Nazis and the Nation
+Collaboratin', attemptin' to take over the Earth
+
+'Cause this is what happens when Bad meets Evil
+We hit the trees 'til we look like Vietnamese people
+He's Evil, and I'm Bad like Steve Seagal
+Above the law 'cause I don't agree with police either
+Shit, me neither
+
+We ain't eager to be legal
+So please leave me with the keys to your Jeep Eagle
+I breathe ether in three lethal amounts
+While I stab myself in the knee with a diseased needle (Ahh)
+Releasin' rage on anybody in squeezin' range
+Cold enough to make the seasons change into freezin' rain
+(He's insane) No I'm not, I just want to shoot up
+And I'm pissed off, 'cause I can't find a decent vein
+The disaster with dreads, I'm bad enough to commit suicide
+And survive long enough to kill my soul after I'm dead
+When in danger, it's funny, actually my flavor's similar to a waiter
+'Cause I serve any stranger with money
+I spray a hundred, man, until they joint chains
+While slippin' bullets at point-blank range like they was punches
+Piss on a flag and burn it, murder you then come to your funeral
+Service lobby and strangle your body to confirm it
+Whippin' human ass, throwin' blows, crackin' jaws
+With my fists wrapped in gauze, dipped in glue and glass
+I'm blazin' emcees, at the same time amazin' emcees
+Somehow, emcees ain't that eyebrow-raisin' to me
+From all of angles of us, flash a MAC loud enough
+To cast a avalanche and bust 'til volcanoes erupt
+
+Hello? (Billy?)
+Ayo, what’s up? (We're comin' to get you)
+Stop, they know it's us
+
+I used to be a loudmouth, remember me? (Uh-uh)
+I'm the one who burned your house down (Oh)
+Well, I'm out now (Shit)
+And this time, I'm comin' back to blow your house up
+And I ain't gon' leave you with a window to jump out of
+Give me two fat tabs and three shrooms
+And you won't see me, like fat people in steam rooms
+And when I go to hell and I'm gettin' ready to leave
+I'ma put air in a bag and charge people to breathe
+
+'Cause this is what happens when Bad meets Evil
+And we hit the trees 'til we look like Vietnamese people
+He's Evil, and I'm Bad like Steve Seagal
+Against peaceful, see you in Hell for the sequel
+(We'll be waiting) See you in Hell (Uh-huh)
+Wall Street (Yup), Royce Da 5'9", Slim Shady (Uh)
+See you in Hell for the sequel (Bye-bye)
+Bad Meets Evil, what? (Until next time)
+
+And so, that's the story of when Bad meets Evil
+Two of the most wanted individuals in the county
+Made Jesse James and Billy the Kid look like law-abiding citizens
+It's too bad they had to go out the way they did
+Got shot in the back comin' out of that old saloon
+But their spirits still live on 'til this day
+Shh, wait, did y'all hear that?
+`,
+    artistImg: "eminem.jpeg",
+    img: "sslp.jpeg",
+    source: "bad-meets-evil.mp3",
+    ft: "ft. Royce Da 5'9\"",
   },
   {
     name: "Ambitionz Az a Ridah",
@@ -321,7 +582,7 @@ I love you, baby
     img: "sslp.jpeg",
     source: "97-bonnie-clyde.mp3",
     ft: "",
-  }, 
+  },
   {
     name: "Cheap Thrills",
     artist: "Sia",
@@ -1661,8 +1922,7 @@ I gotta check into rehab
   {
     name: "Outta COntrol",
     artist: "50 Cent",
-    lyrics: 
-    `
+    lyrics: `
     It's the Infamous Mobb, M-O-B-B (Ha, ha)
 We can't be touched nigga, can't you see (G-Unit)
 You do you, man, cause me, I'm 'gon do my thing, you know I do my thing
@@ -2149,8 +2409,7 @@ I would find a way`,
   {
     name: "Rock Bottom",
     artist: "Eminem",
-    lyrics: 
-`
+    lyrics: `
 Ayo, this song is dedicated
 To all the happy people
 All the happy people who have real nice lives
@@ -3000,25 +3259,6 @@ Sugar, sugar`,
     Beggin', beggin' you
     Put your loving hand out, darling`,
   },
-  // {
-  //     name: 'Fearless',
-  //     artist: 'Lost Sky',
-  //     lyrics: `
-  //     We all know that it's not fear
-  //     It's not fear
-  //     It's so fearless
-  //     We all know that it's not fear
-  //     It's not fear
-  //     It's so fearless
-  //     We all know that it's not fear
-  //     It's not fear
-  //     It's so fearless
-  //     It's so fearless`,
-  //     artistImg: 'Lost_Sky.jpg',
-  //     img: 'fearless.jpeg',
-  //     source: 'fearless.mp3',
-  //     ft: ''
-  // },
   {
     name: "Like Toy Soldiers",
     artist: "Eminem",
@@ -5519,16 +5759,6 @@ Sugar, sugar`,
     img: "cicyt.jpeg",
     source: "cicyt.mp3",
   },
-  // {
-  //     name: 'Frag Out',
-  //     artist: 'DJ Assass1n',
-  //     lyrics: `
-  //     [Instrumental]
-  //     Frag out!`,
-  //     artistImg: 'djass1n.jpg',
-  //     img: 'fragout.jpeg',
-  //     source: 'fo.mp3'
-  // },
   {
     name: "Kids",
     artist: "MGMT",

@@ -76,6 +76,8 @@ function loadMusic (i) {
     musicImg.forEach(img => img.src = `${ALBUMS_DIR}${musicArray[i].img}`);
     ft.textContent = musicArray[i].ft;
 
+    document.getElementById('player-image').src = `${ALBUMS_DIR}${musicArray[i].img}`;
+
     //Add a <br /> tag at every line break
     lyrics.innerHTML = musicArray[i].lyrics.split('\n').join('<br /><br />');
 
