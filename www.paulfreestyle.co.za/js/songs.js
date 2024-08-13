@@ -9,6 +9,42 @@ const musicArray = [
     ft: "& VØJ",
   },
   {
+    name: "Final Days",
+    artist: "Michael Kiwanuka",
+    lyrics: `Lying on the ground
+Feeling like a dyin' man
+No reality
+Fading memories
+Following the crowd
+Coulda been a stronger man
+Plead insanity
+I will die in these
+Final days on the planet
+Here we are, on the ground
+Every day, automatic
+Here we are, goin' 'round and 'round and 'round
+Cryin' on the phone
+Tryin' to make you understand
+Livin' honestly
+Is so hard for me
+Such a heavy load
+You know I really need a friend
+You should walk with me
+We belong in these
+Final days on the planet
+Here we are, on the ground
+Every day, automatic
+Here we are, goin' 'round
+Final days on the planet
+Failing arms, breaking down
+Every day, automatic
+Here we are, goin' 'round and 'round and 'round`,
+    artistImg: "michael-kiwanuka.jpeg",
+    img: "kiwanuka.jpeg",
+    source: "final-days.mp3",
+    ft: "",
+  },
+  {
     name: "All Falls Down",
     artist: "Kanye West",
     lyrics: `Oh, when it all (yeah)
@@ -5811,3 +5847,27 @@ Sugar, sugar`,
     source: "kids.mp3",
   },
 ].sort((a, b) => (a.name === b.name ? 0 : a.name < b.name ? -1 : 1));
+
+/*const imagesToCache = [];
+
+// Preload artist images
+musicArray.forEach((song) => {
+  imagesToCache.push(`${ARTISTS_DIR}${song.artistImg}`);
+  imagesToCache.push(`${ALBUMS_DIR}${song.img}`);
+});
+
+imagesToCache.push("../assets/images/ui/liked.png");
+imagesToCache.push("../assets/images/ui/like.png");
+imagesToCache.push("../assets/images/ui/repeated.png");
+imagesToCache.push("../assets/images/ui/not-repeat.png");
+imagesToCache.push("../assets/images/ui/shuffle.png");
+imagesToCache.push("../assets/images/ui/not-shuffle.png");
+
+// Function to preload images
+function preloadImages(urls) {
+  urls.forEach((url) => {
+    const img = new Image();
+    img.src = url;
+  });
+}
+*/

@@ -73,7 +73,6 @@
     />
     <script src="../js/script.js" type="text/javascript" defer></script>
     <script src="../js/songs.js" defer></script>
-    <script src="../js/data.js" defer></script>
     <script src="../js/search.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.min.js"></script>
     <link rel="stylesheet" href="../assets/stylesheets/global.css" />
@@ -98,7 +97,7 @@
           /Mobi|Android/i.test(navigator.userAgent) ||
           window.innerWidth < 480
         ) {
-          // If desktop, redirect to desktop.html
+          // If mobile, redirect to the mobile page.
           window.location.href = "../mobile/";
         }
       };
@@ -140,15 +139,13 @@
         <!-- QUEUE -->
         <div class="queue-container">
           <div>
-            <h3 class="que-header" style="color: white;">
-              Now Playing
-            </h3>
-            <p class="current-song" style="color: white;"></p>
+            <h3 class="que-header" style="color: white">Now Playing</h3>
+            <p class="current-song" style="color: white"></p>
           </div>
 
-          <h3 class="que-header" style="color: white;">Up Next</h3>
-          <ul class="queue-list" style="color: white;"></ul>
-      </div>
+          <h3 class="que-header" style="color: white">Up Next</h3>
+          <ul class="queue-list" style="color: white"></ul>
+        </div>
       </nav>
       <main>
         <section class="bottom-layer">
@@ -191,8 +188,13 @@
             <button class="play-pause btnC" id="play-pause">
               <i class="fa-solid fa-circle-play"></i>
             </button>
-            <button id="like-button" style="display:flex;">
-              <img src="../assets/images/ui/like.png" alt="" style="width: 55px; cursor:pointer;" class="like-img">
+            <button id="like-button" style="display: flex">
+              <img
+                src="../assets/images/ui/like.png"
+                alt=""
+                style="width: 55px; cursor: pointer"
+                class="like-img"
+              />
             </button>
           </header>
           <section class="other">
@@ -227,7 +229,7 @@
         <div class="player-left">
           <div class="song-details">
             <div class="player-image-container">
-              <img src="" id="player-image" alt="">
+              <img src="" id="player-image" alt="" />
             </div>
             <div>
               <p class="name player-name">Gigachad</p>
